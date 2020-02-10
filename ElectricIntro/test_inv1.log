@@ -1,0 +1,37 @@
+Circuit: *** SPICE deck for cell test_inv1{sch} from library White_inverters
+
+Vgd: both pins shorted together -- ignoring.
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Direct Newton iteration for .op point succeeded.
+
+tphl=4.97162e-011 FROM 5.71307e-010 TO 6.21023e-010
+tplh=7.19563e-011 FROM 3.89684e-011 TO 1.10925e-010
+tpavg: (tphl+tplh)/2=6.08362e-011
+trise=1.144e-010 FROM 6.79602e-011 TO 1.8236e-010
+tfall=7.76287e-011 FROM 5.87069e-010 TO 6.64698e-010
+
+
+Date: Mon Feb 10 09:56:19 2020
+Total elapsed time: 0.076 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2254
+traniter = 2240
+tranpoints = 1073
+accept = 1066
+rejected = 7
+matrix size = 7
+fillins = 0
+solver = Normal
+Matrix Compiler1: 268 bytes object code size  0.1/0.1/[0.0]
+Matrix Compiler2: off  [0.1]/0.1/0.1
+

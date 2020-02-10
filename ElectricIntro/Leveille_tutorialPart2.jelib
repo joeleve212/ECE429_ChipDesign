@@ -1,0 +1,25 @@
+# header information:
+HLeveille_tutorialPart2|9.07
+
+# Views:
+Vschematic|sch
+
+# Technologies:
+Tmocmos|ScaleFORmocmos()D300.0|mocmosAnalog()BT|mocmosNumberOfMetalLayers()I3
+
+# Cell basicCircuit;1{sch}
+CbasicCircuit;1{sch}||schematic|1581365227392|1581377568988|
+NAnd|and@1||-29|27||||
+Ngeneric:Facet-Center|art@0||0|0||||AV
+NBuffer|buf@0||-44|28||||
+NWire_Pin|pin@21||-23|27||||
+NWire_Pin|pin@22||-44|23||||
+NWire_Pin|pin@23||-40|29||||
+NWire_Pin|pin@24||-44|25||||
+Awire|net@21|||G1800|and@1|y|-25.5|27|pin@21||-23|27
+Awire|net@23|||FN1737|buf@0|y|-42|28|and@1|a|-33|27
+Awire|net@24|||0|and@1|a|-33|29|pin@23||-40|29
+Awire|net@25|||900|buf@0|c|-44|27|pin@24||-44|25
+Awire|net@26|||900|pin@24||-44|25|pin@22||-44|23
+Awire|net@27|||0|and@1|a|-33|25|pin@24||-44|25
+X

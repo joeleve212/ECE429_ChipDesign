@@ -1,0 +1,15 @@
+# header information:
+HLeveille_tutorialPart2|9.07
+
+# Views:
+Vschematic|sch
+
+# Technologies:
+Tmocmos|ScaleFORmocmos()D300.0|mocmosAnalog()BT|mocmosNumberOfMetalLayers()I3
+
+# Cell basicCircuit;1{sch}
+CbasicCircuit;1{sch}||schematic|1581365227392|1581365648947|
+NAnd|and@0||-21|27||||
+Ngeneric:Facet-Center|art@0||0|0||||AV
+NBuffer|buf@0||-43|27||||
+X
