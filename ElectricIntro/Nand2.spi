@@ -1,7 +1,7 @@
 *** SPICE deck for cell Nand2{lay} from library Leveille_myGates-2020-02-10
 *** Created on Mon Feb 10, 2020 17:40:39
-*** Last revised on Thu Feb 13, 2020 15:10:46
-*** Written on Thu Feb 13, 2020 15:11:04 by Electric VLSI Design System, version 9.07
+*** Last revised on Thu Feb 13, 2020 15:20:51
+*** Written on Thu Feb 13, 2020 16:06:29 by Electric VLSI Design System, version 9.07
 *** Layout tech: mocmos, foundry MOSIS
 *** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
 ***    P-Active:	areacap=0.9FF/um^2,	edgecap=0.0FF/um,	res=2.5ohms/sq
@@ -24,7 +24,7 @@
 ***    Metal-6:	areacap=0.0423FF/um^2,	edgecap=0.1273FF/um,	res=0.036ohms/sq
 ***    Hi-Res:	areacap=0.0FF/um^2,	edgecap=0.0FF/um,	res=1.0ohms/sq
 
-*** SUBCIRCUIT Leveille_myGates-2020-02-10__Inv FROM CELL Inv{lay}
+*** SUBCIRCUIT Leveille_myGates-2020-02-10__Inv FROM CELL Leveille_myGates-2020-02-10:Inv{lay}
 .SUBCKT Leveille_myGates-2020-02-10__Inv gnd in out vdd
 Mnmos@0 out in#2nmos@0_poly-right gnd gnd N L=0.6U W=1.8U AS=3.195P AD=5.108P PS=7.5U PD=9.3U
 Mpmos@0 out in#0pmos@0_poly-left vdd vdd P L=0.6U W=3.6U AS=7.02P AD=5.108P PS=11.1U PD=9.3U
@@ -48,20 +48,20 @@ R5 in#1pin@6_polysilicon-1##1 in#2nmos@0_poly-right 8.267
 R6 in in#1pin@6_polysilicon-1 7.44
 .ENDS Leveille_myGates-2020-02-10__Inv
 
-*** TOP LEVEL CELL: Nand2{lay}
+*** TOP LEVEL CELL: Leveille_myGates-2020-02-10:Nand2{lay}
 XInv@0 Inv@0_gnd Inv@0_in Inv@0_out Inv@0_Vdd Leveille_myGates-2020-02-10__Inv
 Mnmos@2 net@36 a#0nmos@2_poly-left net@6 gnd N L=0.6U W=3.6U AS=4.32P AD=5.58P PS=6U PD=7.9U
 Mnmos@3 net@6 b#0nmos@3_poly-left gnd gnd N L=0.6U W=3.6U AS=8.1P AD=4.32P PS=11.7U PD=6U
 Mpmos@0 net@36#2pmos@0_diff-bottom a#2pmos@0_poly-left vdd vdd P L=0.6U W=3.6U AS=7.02P AD=5.58P PS=11.1U PD=7.9U
 Mpmos@1 vdd b#2pmos@1_poly-left net@36#2pmos@0_diff-bottom vdd P L=0.6U W=3.6U AS=5.58P AD=7.02P PS=7.9U PD=11.1U
 ** Extracted Parasitic Capacitors ***
-C0 a 0 0.803fF
-C1 b 0 0.901fF
-C2 net@36#6pin@21_metal-2 0 4.385fF
+C0 a 0 0.756fF
+C1 b 0 0.855fF
+C2 net@36#6pin@21_metal-2 0 3.816fF
 C3 a#0nmos@2_poly-left 0 0.157fF
 C4 b#0nmos@3_poly-left 0 0.157fF
-C5 a#2pmos@0_poly-left 0 0.151fF
-C6 b#2pmos@1_poly-left 0 0.151fF
+C5 a#2pmos@0_poly-left 0 0.105fF
+C6 b#2pmos@1_poly-left 0 0.105fF
 ** Extracted Parasitic Resistors ***
 R0 a#0nmos@2_poly-left a#0nmos@2_poly-left##0 9.3
 C7 a#0nmos@2_poly-left##0 0 0.157fF
@@ -72,29 +72,21 @@ C9 a#0nmos@2_poly-left##2 0 0.157fF
 R3 a#0nmos@2_poly-left##2 a#0nmos@2_poly-left##3 9.3
 C10 a#0nmos@2_poly-left##3 0 0.157fF
 R4 a#0nmos@2_poly-left##3 a 9.3
-R5 a a##0 9.3
-C11 a##0 0 0.151fF
-R6 a##0 a##1 9.3
-C12 a##1 0 0.151fF
-R7 a##1 a##2 9.3
-C13 a##2 0 0.151fF
-R8 a##2 a#2pmos@0_poly-left 9.3
-R9 b#0nmos@3_poly-left b#0nmos@3_poly-left##0 9.3
-C14 b#0nmos@3_poly-left##0 0 0.157fF
-R10 b#0nmos@3_poly-left##0 b#0nmos@3_poly-left##1 9.3
-C15 b#0nmos@3_poly-left##1 0 0.157fF
-R11 b#0nmos@3_poly-left##1 b#0nmos@3_poly-left##2 9.3
-C16 b#0nmos@3_poly-left##2 0 0.157fF
-R12 b#0nmos@3_poly-left##2 b#0nmos@3_poly-left##3 9.3
-C17 b#0nmos@3_poly-left##3 0 0.157fF
-R13 b#0nmos@3_poly-left##3 b 9.3
-R14 b b##0 9.3
-C18 b##0 0 0.151fF
-R15 b##0 b##1 9.3
-C19 b##1 0 0.151fF
-R16 b##1 b##2 9.3
-C20 b##2 0 0.151fF
-R17 b##2 b#2pmos@1_poly-left 9.3
-R18 net@36#2pmos@0_diff-bottom net@36#6pin@21_metal-2 0
-R19 net@36 net@36#6pin@21_metal-2 0
+R5 a a##0 7.75
+C11 a##0 0 0.105fF
+R6 a##0 a#2pmos@0_poly-left 7.75
+R7 b#0nmos@3_poly-left b#0nmos@3_poly-left##0 9.3
+C12 b#0nmos@3_poly-left##0 0 0.157fF
+R8 b#0nmos@3_poly-left##0 b#0nmos@3_poly-left##1 9.3
+C13 b#0nmos@3_poly-left##1 0 0.157fF
+R9 b#0nmos@3_poly-left##1 b#0nmos@3_poly-left##2 9.3
+C14 b#0nmos@3_poly-left##2 0 0.157fF
+R10 b#0nmos@3_poly-left##2 b#0nmos@3_poly-left##3 9.3
+C15 b#0nmos@3_poly-left##3 0 0.157fF
+R11 b#0nmos@3_poly-left##3 b 9.3
+R12 b b##0 7.75
+C16 b##0 0 0.105fF
+R13 b##0 b#2pmos@1_poly-left 7.75
+R14 net@36#2pmos@0_diff-bottom net@36#6pin@21_metal-2 0
+R15 net@36 net@36#6pin@21_metal-2 0
 .END

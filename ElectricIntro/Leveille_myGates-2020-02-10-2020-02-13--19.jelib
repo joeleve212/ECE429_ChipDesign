@@ -9,7 +9,7 @@ Vschematic|sch
 Tmocmos|ScaleFORmocmos()D300.0|mocmosAnalog()BT|mocmosNumberOfMetalLayers()I3
 
 # Cell And2;1{lay}
-CAnd2;1{lay}||mocmos|1581519985253|1581632362418||DRC_last_good_drc_area_date()G1581632363797|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1581632363797
+CAnd2;1{lay}||mocmos|1581519985253|1581632362418||DRC_last_good_drc_area_date()G1581632359981
 IInv;1{lay}|Inv@0||-8|8|||D5G4;
 INand2;1{lay}|Nand2@0||-6|-12|||D5G4;
 Ngeneric:Facet-Center|art@0||0|0||||AV

@@ -1,0 +1,13 @@
+*** SPICE deck for cell Inv{sch} from library Leveille_myGates-2020-02-10
+*** Created on Wed Feb 12, 2020 09:37:29
+*** Last revised on Thu Feb 13, 2020 15:49:05
+*** Written on Thu Feb 13, 2020 15:49:12 by Electric VLSI Design System, version 9.07
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+
+.global gnd vdd
+
+*** TOP LEVEL CELL: Inv{sch}
+Mnmos@0 nmos@0_d x net@8 gnd NMOS L=0.6U W=1.8U
+Mpmos@0 pmos@0_d x net@0 vdd PMOS L=0.6U W=3.6U
+.END

@@ -9,30 +9,12 @@ Vschematic|sch
 Tmocmos|ScaleFORmocmos()D300.0|mocmosAnalog()BT|mocmosNumberOfMetalLayers()I3
 
 # Cell And2;1{lay}
-CAnd2;1{lay}||mocmos|1581519985253|1581632362418||DRC_last_good_drc_area_date()G1581632363797|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1581632363797
-IInv;1{lay}|Inv@0||-8|8|||D5G4;
-INand2;1{lay}|Nand2@0||-6|-12|||D5G4;
+CAnd2;1{lay}||mocmos|1581519985253|1581631837941|
+IInv;1{lay}|Inv@0||17|8|||D5G4;
+INand2;1{lay}|Nand2@0||-10|-14|||D5G4;
 Ngeneric:Facet-Center|art@0||0|0||||AV
-NMetal-1-Metal-2-Con|contact@3||-36|9||||
-NMetal-1-Pin|pin@1||-13|37||||
-NMetal-1-Pin|pin@2||-13|-29||||
-NMetal-1-Pin|pin@3||21|0||||
-NMetal-1-Pin|pin@9||-82|9||||
-NMetal-2-Pin|pin@12||-36|44||||
-NMetal-2-Pin|pin@13||-36|41||||
-AMetal-1|net@1|||S1800|Nand2@0|Vdd|-48|37|pin@1||-13|37
-AMetal-1|net@2|||S2700|Inv@0|Vdd|-13|31|pin@1||-13|37
-AMetal-1|net@3|||S1800|Nand2@0|gnd|-37|-29|pin@2||-13|-29
-AMetal-1|net@4|||S900|Inv@0|gnd|-13|-24|pin@2||-13|-29
-AMetal-1|net@5||1|S1800|Nand2@0|y|-48|1|Inv@0|in|-14|1
-AMetal-1|net@6||1|S1800|Inv@0|out|12|0|pin@3||21|0
-AMetal-1|net@16|||S1800|pin@9||-82|9|Nand2@0|a|-58|9
-AMetal-2|net@20|||S900|pin@12||-36|44|pin@13||-36|41
-AMetal-2|net@21|||S900|pin@13||-36|41|contact@3||-36|9
-AMetal-1|net@22|||S1800|Nand2@0|b|-37|9|contact@3||-36|9
-Ea||D5G2;|pin@9||I
-Eb||D5G2;|pin@12||I
-Eout||D5G2;|pin@3||O
+NMetal-1-Pin|pin@0||-52|45||||
+AMetal-1|net@0|||S2700|Nand2@0|Vdd|-52|35|pin@0||-52|45
 X
 
 # Cell And2;1{sch}
@@ -113,7 +95,7 @@ Ey||D5G2;|Y|y|O
 X
 
 # Cell Nand2;1{lay}
-CNand2;1{lay}||mocmos|1581378039959|1581631947472||DRC_last_good_drc_area_date()G1581631955273|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1581631955273
+CNand2;1{lay}||mocmos|1581378039959|1581631947472||DRC_last_good_drc_area_date()G1581628470806|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1581628470806
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-P-Active-Con|contact@4||-52|34||7||
 NMetal-1-N-Active-Con|contact@6||-53|-2||7||

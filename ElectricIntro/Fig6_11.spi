@@ -1,0 +1,20 @@
+*** SPICE deck for cell Fig6_11{sch} from library CMOSedu_Ch6_1u
+*** Created on Thu May 31, 2007 16:50:47
+*** Last revised on Sat Oct 09, 2010 17:23:59
+*** Written on Thu Feb 13, 2020 16:08:06 by Electric VLSI Design System, version 9.07
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+
+.global gnd
+
+*** TOP LEVEL CELL: CMOSedu_Ch6_1u:Fig6_11{sch}
+MM1 VD VG gnd gnd N_1u L=0.6U W=6U
+
+* Spice Code nodes in cell cell 'CMOSedu_Ch6_1u:Fig6_11{sch}'
+VGS VG 0 DC 0
+VDS VD 0 DC 0
+VGND GND 0 DC 0
+*.options post
+.include cmosedu_models.txt
+.dc VDS 0 5 1m VGS 0 5 1
+.END

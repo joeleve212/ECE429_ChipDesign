@@ -1,0 +1,11 @@
+Circuit: *** SPICE deck for cell Inv{sch} from library Leveille_myGates-2020-02-10
+
+Error on line 9 : mnmos@0 nmos@0_d x net@8 gnd nmos l=0.6u w=1.8u
+	 Unable to find definition of model "w"
+	
+	* Error:  No unlabeled parameter permitted for MOSFET's
+Error on line 10 : mpmos@0 pmos@0_d x net@0 vdd pmos l=0.6u w=3.6u
+	 Unable to find definition of model "w"
+	
+	* Error:  No unlabeled parameter permitted for MOSFET's
+Fatal Error: No analysis request found.

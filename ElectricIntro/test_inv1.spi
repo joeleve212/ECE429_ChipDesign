@@ -1,7 +1,7 @@
 *** SPICE deck for cell test_inv1{sch} from library White_inverters
 *** Created on Tue Feb 04, 2014 11:19:28
 *** Last revised on Sun Feb 02, 2020 23:52:52
-*** Written on Mon Feb 10, 2020 09:56:18 by Electric VLSI Design System, version 9.07
+*** Written on Thu Feb 13, 2020 15:59:05 by Electric VLSI Design System, version 9.07
 *** Layout tech: mocmos, foundry MOSIS
 *** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
 
