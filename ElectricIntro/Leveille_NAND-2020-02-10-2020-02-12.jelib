@@ -1,5 +1,5 @@
 # header information:
-HLeveille_NAND|9.07
+HLeveille_NAND-2020-02-10|9.07
 
 # Views:
 Vlayout|lay
@@ -8,20 +8,35 @@ Vschematic|sch
 # Technologies:
 Tmocmos|ScaleFORmocmos()D300.0|mocmosAnalog()BT|mocmosNumberOfMetalLayers()I3
 
+# Cell And2;1{lay}
+CAnd2;1{lay}||mocmos|1581519985253|1581519985253|
+Ngeneric:Facet-Center|art@0||0|0||||AV
+X
+
+# Cell And2;1{sch}
+CAnd2;1{sch}||schematic|1581519999184|1581519999184|
+Ngeneric:Facet-Center|art@0||0|0||||AV
+X
+
+# Cell Inv;1{lay}
+CInv;1{lay}||mocmos|1581521802987|1581521802987|
+Ngeneric:Facet-Center|art@0||0|0||||AV
+X
+
 # Cell Nand2;1{lay}
 CNand2;1{lay}||mocmos|1581378039959|1581378039959|
 Ngeneric:Facet-Center|art@0||0|0||||AV
 X
 
 # Cell Nand2;1{sch}
-CNand2;1{sch}||schematic|1581378028137|1581379002648|
+CNand2;1{sch}||schematic|1581378028137|1581378727734|
 NOff-Page|A|D5G1;|-22|0||||
 NOff-Page|B|D5G1;|-22|-7||||
 NOff-Page|Y|D5G1;|-1|4||||
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NGround|gnd@0||-7|-13||||
-NTransistor|nmos@0||-9|-7|||R||ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S12
-NTransistor|nmos@1||-9|0|||R||ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S12
+NTransistor|nmos@0||-9|-7|||R||ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S2
+NTransistor|nmos@1||-9|0|||R||ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S2
 NWire_Pin|pin@0||-7|-5||||
 NWire_Pin|pin@1||-7|2||||
 NWire_Pin|pin@2||-7|4||||
@@ -30,8 +45,8 @@ NWire_Pin|pin@4||-11|-7||||
 NWire_Pin|pin@6||-13|4||||
 NWire_Pin|pin@7||-17|8||||
 NWire_Pin|pin@8||-17|0||||
-NTransistor|pmos@0||-9|8|||R|2|ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S12
-NTransistor|pmos@1||-15|8|||R|2|ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S12
+NTransistor|pmos@0||-9|8|||R|2|ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S2
+NTransistor|pmos@1||-15|8|||R|2|ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S2
 NPower|pwr@0||-10|13||||
 Awire|net@0|||900|nmos@1|s|-7|-2|pin@0||-7|-5
 Awire|net@1|||900|nmos@0|s|-7|-9|gnd@0||-7|-11

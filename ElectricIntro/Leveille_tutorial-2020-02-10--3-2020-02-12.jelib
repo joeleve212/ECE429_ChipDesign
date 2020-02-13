@@ -3,9 +3,27 @@ HLeveille_tutorial-2020-02-10--3|9.07
 
 # Views:
 Vlayout|lay
+Vschematic|sch
 
 # Technologies:
 Tmocmos|ScaleFORmocmos()D300.0|mocmosAnalog()BT|mocmosNumberOfMetalLayers()I3
+
+# Cell Inv;1{lay}
+CInv;1{lay}||mocmos|1581521802987|1581521802987|
+Ngeneric:Facet-Center|art@0||0|0||||AV
+X
+
+# Cell Inv;2{sch}
+CInv;2{sch}||schematic|1581521849027|1581521880379|
+Ngeneric:Facet-Center|art@0||0|0||||AV
+NTransistor|nmos@0||-13|-2|||R||ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S2
+NTransistor|pmos@0||-14|9|||R|2|ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S2
+X
+
+# Cell Inv;1{sch}
+CInv;1{sch}||schematic|1581521828424|1581521828424|
+Ngeneric:Facet-Center|art@0||0|0||||AV
+X
 
 # Cell higher;1{lay}
 Chigher;1{lay}||mocmos|1581362010874|1581363859969|
