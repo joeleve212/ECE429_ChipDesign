@@ -142,7 +142,7 @@ Eout||D5G2;X-2;|conn@1|y|O
 X
 
 # Cell test_inv1;1{sch}
-Ctest_inv1;1{sch}||schematic|1391534368939|1581651801118|
+Ctest_inv1;1{sch}||schematic|1391534368939|1581651501224|
 Ispiceparts:Pulse;1{ic}|Pulse@1||-39|-12|||D5G4;|ATTR_DCVoltage(D5G0.5;NPX5;Y-2;)S0|ATTR_DelayTime(D5G0.5;NPX5;Y0.5;)S0ns|ATTR_FallTime(D5G0.5;NPX5;Y-0.5;)S10p|ATTR_InitialVoltage(D5G0.5;NPX5;Y1.5;)I0|ATTR_Period(D5G0.5;NPX5;Y-1.5;)S1n|ATTR_PulseVoltage(D5G0.5;NPX5;Y1;)S5|ATTR_PulseWidth(D5G0.5;NPX5;Y-1;)S0.5n|ATTR_RiseTime(D5G0.5;NPX5;)S10p
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NGround|gnd@0||-39|-19||||

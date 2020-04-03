@@ -1,0 +1,18 @@
+*** SPICE deck for cell baseInv{sch} from library Leveille_hw5
+*** Created on Wed Feb 19, 2020 11:41:26
+*** Last revised on Wed Feb 19, 2020 12:35:58
+*** Written on Thu Feb 20, 2020 19:05:24 by Electric VLSI Design System, version 9.07
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+
+.global gnd vdd
+
+*** TOP LEVEL CELL: baseInv{sch}
+Mnmos@0 y Vin gnd gnd N L=0.6U W=1.8U
+Mpmos@0 vdd Vin y vdd P L=0.6U W=3.6U
+
+* Spice Code nodes in cell cell 'baseInv{sch}'
+Vdd vdd 0 5
+Vgd gnd 0 0
+.include c5.txt
+.END

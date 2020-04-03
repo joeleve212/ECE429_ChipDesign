@@ -1,0 +1,2844 @@
+<node key="ProjectSettings">
+    <node key="bicmos">
+        <node key="Thickness">
+            <e key="P_Base_Active" double="2.0"/>
+            <e key="Ohmic_Substrate" double="9.0"/>
+            <e key="N_Well" double="9.0"/>
+            <e key="Poly2" double="0.5"/>
+            <e key="Transistor" double="0.0"/>
+            <e key="Pad_Frame" double="1.0"/>
+            <e key="Poly1_Cut" double="0.5"/>
+            <e key="M2" double="0.5"/>
+            <e key="N_Select" double="5.0"/>
+            <e key="P_Select" double="5.0"/>
+            <e key="Via" double="0.5"/>
+            <e key="Active" double="2.0"/>
+            <e key="Poly1" double="0.5"/>
+            <e key="Poly2_Cut" double="0.5"/>
+            <e key="M1" double="0.5"/>
+            <e key="BCCD" double="5.0"/>
+            <e key="Ohmic_Well" double="0.0"/>
+            <e key="Passivation" double="1.0"/>
+            <e key="Active_Cut" double="2.0"/>
+        </node>
+        <node key="Resistance">
+            <e key="Poly1_Cut" double="0.0"/>
+            <e key="M1" double="0.0"/>
+            <e key="Via" double="0.0"/>
+            <e key="Pad_Frame" double="0.0"/>
+            <e key="Active_Cut" double="0.0"/>
+            <e key="P_Base_Active" double="0.0"/>
+            <e key="BCCD" double="0.0"/>
+            <e key="Poly2" double="0.0"/>
+            <e key="P_Select" double="0.0"/>
+            <e key="M2" double="0.0"/>
+            <e key="Transistor" double="0.0"/>
+            <e key="Ohmic_Well" double="0.0"/>
+            <e key="Ohmic_Substrate" double="0.0"/>
+            <e key="N_Select" double="0.0"/>
+            <e key="Active" double="0.0"/>
+            <e key="Poly1" double="0.0"/>
+            <e key="Poly2_Cut" double="0.0"/>
+            <e key="Passivation" double="0.0"/>
+            <e key="N_Well" double="0.0"/>
+        </node>
+        <node key="Capacitance">
+            <e key="P_Base_Active" double="0.0"/>
+            <e key="Passivation" double="0.0"/>
+            <e key="M2" double="0.0"/>
+            <e key="Transistor" double="0.0"/>
+            <e key="Poly1_Cut" double="0.0"/>
+            <e key="Poly2_Cut" double="0.0"/>
+            <e key="N_Select" double="0.0"/>
+            <e key="Active_Cut" double="0.0"/>
+            <e key="Ohmic_Substrate" double="0.0"/>
+            <e key="Via" double="0.0"/>
+            <e key="Active" double="0.0"/>
+            <e key="Ohmic_Well" double="0.0"/>
+            <e key="Pad_Frame" double="0.0"/>
+            <e key="Poly2" double="0.0"/>
+            <e key="BCCD" double="0.0"/>
+            <e key="N_Well" double="0.0"/>
+            <e key="Poly1" double="0.0"/>
+            <e key="M1" double="0.0"/>
+            <e key="P_Select" double="0.0"/>
+        </node>
+        <node key="LogicalEffort">
+            <e key="WireRatio" double="0.16"/>
+            <e key="GateCapacitance" double="0.4"/>
+            <e key="DiffAlpha" double="0.7"/>
+        </node>
+        <node key="Skill">
+            <e key="Active_Cut" string=""/>
+            <e key="Active" string=""/>
+            <e key="Via" string=""/>
+            <e key="Ohmic_Well" string=""/>
+            <e key="Pad_Frame" string=""/>
+            <e key="Ohmic_Substrate" string=""/>
+            <e key="P_Base_Active" string=""/>
+            <e key="Poly1_Cut" string=""/>
+            <e key="Poly1" string=""/>
+            <e key="Passivation" string=""/>
+            <e key="P_Select" string=""/>
+            <e key="N_Select" string=""/>
+            <e key="Transistor" string=""/>
+            <e key="M2" string=""/>
+            <e key="BCCD" string=""/>
+            <e key="M1" string=""/>
+            <e key="Poly2" string=""/>
+            <e key="Poly2_Cut" string=""/>
+            <e key="N_Well" string=""/>
+        </node>
+        <node key="DXF">
+            <e key="Transistor" string=""/>
+            <e key="M2" string=""/>
+            <e key="Active_Cut" string=""/>
+            <e key="Ohmic_Substrate" string=""/>
+            <e key="Passivation" string=""/>
+            <e key="Poly1" string=""/>
+            <e key="P_Select" string=""/>
+            <e key="M1" string=""/>
+            <e key="Via" string=""/>
+            <e key="Poly2" string=""/>
+            <e key="N_Well" string=""/>
+            <e key="Pad_Frame" string=""/>
+            <e key="Poly1_Cut" string=""/>
+            <e key="N_Select" string=""/>
+            <e key="Poly2_Cut" string=""/>
+            <e key="BCCD" string=""/>
+            <e key="Active" string=""/>
+            <e key="P_Base_Active" string=""/>
+            <e key="Ohmic_Well" string=""/>
+        </node>
+        <node key="Distance">
+            <e key="Poly1_Cut" double="9.5"/>
+            <e key="Poly2" double="10.0"/>
+            <e key="Poly2_Cut" double="10.5"/>
+            <e key="Poly1" double="9.0"/>
+            <e key="N_Well" double="0.0"/>
+            <e key="Active_Cut" double="9.0"/>
+            <e key="Ohmic_Well" double="0.0"/>
+            <e key="Transistor" double="0.0"/>
+            <e key="M2" double="12.0"/>
+            <e key="Ohmic_Substrate" double="0.0"/>
+            <e key="P_Base_Active" double="7.0"/>
+            <e key="Passivation" double="13.0"/>
+            <e key="BCCD" double="4.0"/>
+            <e key="Pad_Frame" double="13.0"/>
+            <e key="Via" double="11.0"/>
+            <e key="P_Select" double="4.0"/>
+            <e key="N_Select" double="4.0"/>
+            <e key="M1" double="11.0"/>
+            <e key="Active" double="7.0"/>
+        </node>
+        <node key="EdgeCapacitance">
+            <e key="Poly1" double="0.0"/>
+            <e key="M1" double="0.0"/>
+            <e key="N_Select" double="0.0"/>
+            <e key="Active" double="0.0"/>
+            <e key="Poly2_Cut" double="0.0"/>
+            <e key="Poly1_Cut" double="0.0"/>
+            <e key="BCCD" double="0.0"/>
+            <e key="Passivation" double="0.0"/>
+            <e key="Active_Cut" double="0.0"/>
+            <e key="Ohmic_Well" double="0.0"/>
+            <e key="M2" double="0.0"/>
+            <e key="Poly2" double="0.0"/>
+            <e key="Transistor" double="0.0"/>
+            <e key="Pad_Frame" double="0.0"/>
+            <e key="Via" double="0.0"/>
+            <e key="P_Select" double="0.0"/>
+            <e key="Ohmic_Substrate" double="0.0"/>
+            <e key="P_Base_Active" double="0.0"/>
+            <e key="N_Well" double="0.0"/>
+        </node>
+        <node key="CIF">
+            <e key="Poly1_Cut" string="CCP"/>
+            <e key="Poly1" string="CPG"/>
+            <e key="P_Base_Active" string="CBA"/>
+            <e key="Active" string="CAA"/>
+            <e key="Poly2_Cut" string="CCE"/>
+            <e key="Poly2" string="CEL"/>
+            <e key="Ohmic_Substrate" string="CAA"/>
+            <e key="Via" string="CVA"/>
+            <e key="P_Select" string="CSP"/>
+            <e key="BCCD" string="CCD"/>
+            <e key="M2" string="CMS"/>
+            <e key="Active_Cut" string="CCA"/>
+            <e key="Passivation" string="COG"/>
+            <e key="N_Well" string="CWN"/>
+            <e key="M1" string="CMF"/>
+            <e key="Ohmic_Well" string="CAA"/>
+            <e key="Pad_Frame" string="XP"/>
+            <e key="Transistor" string=""/>
+            <e key="N_Select" string="CSN"/>
+        </node>
+        <node key="GDS">
+            <node key="MOSIS">
+                <e key="Active" string="31"/>
+                <e key="Ohmic_Well" string="3"/>
+                <e key="BCCD" string="17"/>
+                <e key="Poly1_Cut" string="45"/>
+                <e key="Poly2_Cut" string="55"/>
+                <e key="M1" string="10"/>
+                <e key="Poly1" string="4"/>
+                <e key="Via" string=""/>
+                <e key="Pad_Frame" string="9"/>
+                <e key="Poly2" string="19"/>
+                <e key="P_Base_Active" string="33"/>
+                <e key="N_Well" string="1"/>
+                <e key="Ohmic_Substrate" string="3"/>
+                <e key="Transistor" string=""/>
+                <e key="M2" string="12"/>
+                <e key="P_Select" string="8"/>
+                <e key="Passivation" string="13"/>
+                <e key="Active_Cut" string="35"/>
+                <e key="N_Select" string="7"/>
+            </node>
+        </node>
+        <e key="MininumCapacitance" double="0.0"/>
+        <e key="Gate Inclusion" boolean="false"/>
+        <e key="Foundry" string="MOSIS"/>
+        <e key="MaxSeriesResistance" double="10.0"/>
+        <e key="Scale" double="1000.0"/>
+        <e key="GateLengthSubtraction" double="0.0"/>
+        <e key="MininumResistance" double="10.0"/>
+        <e key="NumMetalLayers" int="2"/>
+        <e key="Ground Net Inclusion" boolean="false"/>
+    </node>
+    <node key="mocmosold">
+        <node key="GDS">
+            <node key="MOSIS">
+                <e key="N-Well" string="1"/>
+                <e key="Active-Cut" string="9"/>
+                <e key="Via" string="18"/>
+                <e key="Contact-Cut" string="9"/>
+                <e key="Passivation" string="11"/>
+                <e key="P-Select" string="8"/>
+                <e key="P-Well" string="1"/>
+                <e key="D-Active" string="2"/>
+                <e key="Metal-2" string="19"/>
+                <e key="Pad-Frame" string=""/>
+                <e key="Poly-Cut" string="9"/>
+                <e key="S-Active-Well" string="2"/>
+                <e key="Polysilicon" string="12"/>
+                <e key="Transistor" string=""/>
+                <e key="N-Select" string="7"/>
+                <e key="S-Active" string="2"/>
+                <e key="Metal-1" string="10"/>
+            </node>
+        </node>
+        <node key="Skill">
+            <e key="Transistor" string=""/>
+            <e key="S-Active-Well" string=""/>
+            <e key="Active-Cut" string=""/>
+            <e key="Pad-Frame" string=""/>
+            <e key="S-Active" string=""/>
+            <e key="P-Well" string=""/>
+            <e key="Passivation" string=""/>
+            <e key="Via" string=""/>
+            <e key="Contact-Cut" string=""/>
+            <e key="N-Well" string=""/>
+            <e key="Polysilicon" string=""/>
+            <e key="N-Select" string=""/>
+            <e key="P-Select" string=""/>
+            <e key="Poly-Cut" string=""/>
+            <e key="D-Active" string=""/>
+            <e key="Metal-2" string=""/>
+            <e key="Metal-1" string=""/>
+        </node>
+        <node key="LogicalEffort">
+            <e key="WireRatio" double="0.16"/>
+            <e key="GateCapacitance" double="0.4"/>
+            <e key="DiffAlpha" double="0.7"/>
+        </node>
+        <node key="Capacitance">
+            <e key="P-Well" double="0.0"/>
+            <e key="S-Active" double="0.1"/>
+            <e key="Passivation" double="0.0"/>
+            <e key="Metal-1" double="0.03"/>
+            <e key="Via" double="0.0"/>
+            <e key="Metal-2" double="0.03"/>
+            <e key="Active-Cut" double="0.0"/>
+            <e key="Contact-Cut" double="0.0"/>
+            <e key="D-Active" double="0.1"/>
+            <e key="S-Active-Well" double="0.0"/>
+            <e key="P-Select" double="0.0"/>
+            <e key="N-Well" double="0.0"/>
+            <e key="Poly-Cut" double="0.0"/>
+            <e key="N-Select" double="0.0"/>
+            <e key="Transistor" double="0.0"/>
+            <e key="Pad-Frame" double="0.0"/>
+            <e key="Polysilicon" double="0.04"/>
+        </node>
+        <node key="Distance">
+            <e key="Poly-Cut" double="9.5"/>
+            <e key="P-Well" double="0.0"/>
+            <e key="Metal-1" double="11.0"/>
+            <e key="Contact-Cut" double="9.0"/>
+            <e key="S-Active-Well" double="7.0"/>
+            <e key="Via" double="11.0"/>
+            <e key="Transistor" double="0.0"/>
+            <e key="N-Select" double="4.0"/>
+            <e key="Pad-Frame" double="0.0"/>
+            <e key="S-Active" double="7.0"/>
+            <e key="Metal-2" double="12.0"/>
+            <e key="D-Active" double="7.0"/>
+            <e key="Passivation" double="13.0"/>
+            <e key="N-Well" double="0.0"/>
+            <e key="Active-Cut" double="9.0"/>
+            <e key="Polysilicon" double="9.0"/>
+            <e key="P-Select" double="4.0"/>
+        </node>
+        <node key="Thickness">
+            <e key="Metal-2" double="0.5"/>
+            <e key="Metal-1" double="0.5"/>
+            <e key="Contact-Cut" double="2.0"/>
+            <e key="Active-Cut" double="2.0"/>
+            <e key="P-Select" double="5.0"/>
+            <e key="Passivation" double="1.0"/>
+            <e key="P-Well" double="9.0"/>
+            <e key="Via" double="0.5"/>
+            <e key="N-Well" double="9.0"/>
+            <e key="S-Active" double="2.0"/>
+            <e key="Pad-Frame" double="0.0"/>
+            <e key="S-Active-Well" double="2.0"/>
+            <e key="Polysilicon" double="0.5"/>
+            <e key="Transistor" double="0.0"/>
+            <e key="Poly-Cut" double="2.0"/>
+            <e key="N-Select" double="5.0"/>
+            <e key="D-Active" double="2.0"/>
+        </node>
+        <e key="Ground Net Inclusion" boolean="false"/>
+        <node key="Resistance">
+            <e key="Via" double="0.0"/>
+            <e key="Passivation" double="0.0"/>
+            <e key="Pad-Frame" double="0.0"/>
+            <e key="Metal-2" double="0.03"/>
+            <e key="P-Well" double="0.0"/>
+            <e key="P-Select" double="0.0"/>
+            <e key="S-Active-Well" double="0.0"/>
+            <e key="N-Select" double="0.0"/>
+            <e key="S-Active" double="10.0"/>
+            <e key="N-Well" double="0.0"/>
+            <e key="Contact-Cut" double="0.0"/>
+            <e key="D-Active" double="10.0"/>
+            <e key="Transistor" double="0.0"/>
+            <e key="Active-Cut" double="0.0"/>
+            <e key="Polysilicon" double="50.0"/>
+            <e key="Poly-Cut" double="0.0"/>
+            <e key="Metal-1" double="0.03"/>
+        </node>
+        <node key="EdgeCapacitance">
+            <e key="Transistor" double="0.0"/>
+            <e key="N-Well" double="0.0"/>
+            <e key="Metal-2" double="0.0"/>
+            <e key="N-Select" double="0.0"/>
+            <e key="Poly-Cut" double="0.0"/>
+            <e key="P-Well" double="0.0"/>
+            <e key="Polysilicon" double="0.0"/>
+            <e key="Pad-Frame" double="0.0"/>
+            <e key="P-Select" double="0.0"/>
+            <e key="D-Active" double="0.0"/>
+            <e key="S-Active-Well" double="0.0"/>
+            <e key="Active-Cut" double="0.0"/>
+            <e key="Metal-1" double="0.0"/>
+            <e key="S-Active" double="0.0"/>
+            <e key="Contact-Cut" double="0.0"/>
+            <e key="Passivation" double="0.0"/>
+            <e key="Via" double="0.0"/>
+        </node>
+        <node key="DXF">
+            <e key="N-Well" string=""/>
+            <e key="P-Select" string=""/>
+            <e key="Poly-Cut" string=""/>
+            <e key="Via" string=""/>
+            <e key="P-Well" string=""/>
+            <e key="Contact-Cut" string=""/>
+            <e key="Passivation" string=""/>
+            <e key="Metal-2" string=""/>
+            <e key="S-Active-Well" string=""/>
+            <e key="Pad-Frame" string=""/>
+            <e key="N-Select" string=""/>
+            <e key="Transistor" string=""/>
+            <e key="D-Active" string=""/>
+            <e key="Metal-1" string=""/>
+            <e key="Polysilicon" string=""/>
+            <e key="S-Active" string=""/>
+            <e key="Active-Cut" string=""/>
+        </node>
+        <node key="CIF">
+            <e key="N-Well" string="CWG"/>
+            <e key="P-Select" string="CSG"/>
+            <e key="Polysilicon" string="CPG"/>
+            <e key="S-Active" string="CAA"/>
+            <e key="Contact-Cut" string="CC"/>
+            <e key="Metal-2" string="CMS"/>
+            <e key="Passivation" string="COG"/>
+            <e key="Pad-Frame" string="CX"/>
+            <e key="Active-Cut" string="CCA"/>
+            <e key="Poly-Cut" string="CCP"/>
+            <e key="N-Select" string="CSG"/>
+            <e key="Metal-1" string="CMF"/>
+            <e key="P-Well" string="CWG"/>
+            <e key="S-Active-Well" string="CAA"/>
+            <e key="D-Active" string="CAA"/>
+            <e key="Transistor" string=""/>
+            <e key="Via" string="CVA"/>
+        </node>
+        <e key="MaxSeriesResistance" double="10.0"/>
+        <e key="Foundry" string="MOSIS"/>
+        <e key="Gate Inclusion" boolean="false"/>
+        <e key="NumMetalLayers" int="2"/>
+        <e key="GateLengthSubtraction" double="0.0"/>
+        <e key="MininumCapacitance" double="50.0"/>
+        <e key="MininumResistance" double="50.0"/>
+        <e key="Scale" double="1000.0"/>
+    </node>
+    <node key="mocmos">
+        <node key="Distance">
+            <e key="Silicide-Block" double="0.0"/>
+            <e key="Polysilicon-1" double="13.0"/>
+            <e key="Metal-3" double="27.8"/>
+            <e key="Polysilicon-2" double="15.85"/>
+            <e key="P-Base" double="0.0"/>
+            <e key="Poly-Cut" double="14.0"/>
+            <e key="Passivation" double="49.7"/>
+            <e key="Metal-2" double="22.15"/>
+            <e key="Metal-1" double="16.5"/>
+            <e key="Metal-5" double="39.1"/>
+            <e key="Hi-Res" double="1.0"/>
+            <e key="Poly-Cap" double="13.0"/>
+            <e key="Via3" double="30.45"/>
+            <e key="Via5" double="41.75"/>
+            <e key="Thick-Active" double="6.0"/>
+            <e key="N-Well" double="0.0"/>
+            <e key="Metal-4" double="33.45"/>
+            <e key="Transistor-Poly" double="13.0"/>
+            <e key="P-Select" double="8.0"/>
+            <e key="P-Well" double="0.0"/>
+            <e key="N-Select" double="8.0"/>
+            <e key="Pad-Frame" double="54.7"/>
+            <e key="Active-Cut" double="13.0"/>
+            <e key="Via1" double="19.15"/>
+            <e key="N-Active" double="9.0"/>
+            <e key="P-Active-Well" double="9.0"/>
+            <e key="Via2" double="24.8"/>
+            <e key="Metal-6" double="44.75"/>
+            <e key="P-Active" double="9.0"/>
+            <e key="Via4" double="36.1"/>
+        </node>
+        <node key="Resistance">
+            <e key="Polysilicon-2" double="50.0"/>
+            <e key="Metal-6" double="0.036"/>
+            <e key="Hi-Res" double="1.0"/>
+            <e key="Via4" double="0.8"/>
+            <e key="P-Active-Well" double="0.0"/>
+            <e key="Metal-3" double="0.078"/>
+            <e key="N-Well" double="0.0"/>
+            <e key="Thick-Active" double="0.0"/>
+            <e key="Via3" double="0.8"/>
+            <e key="Via5" double="0.8"/>
+            <e key="Polysilicon-1" double="6.2"/>
+            <e key="N-Select" double="0.0"/>
+            <e key="Silicide-Block" double="0.0"/>
+            <e key="P-Well" double="0.0"/>
+            <e key="Metal-4" double="0.078"/>
+            <e key="Transistor-Poly" double="2.5"/>
+            <e key="P-Select" double="0.0"/>
+            <e key="Poly-Cut" double="2.2"/>
+            <e key="P-Active" double="2.5"/>
+            <e key="Metal-2" double="0.078"/>
+            <e key="Pad-Frame" double="0.0"/>
+            <e key="P-Base" double="0.0"/>
+            <e key="Via2" double="0.9"/>
+            <e key="Metal-1" double="0.078"/>
+            <e key="Via1" double="1.0"/>
+            <e key="Active-Cut" double="2.5"/>
+            <e key="N-Active" double="3.0"/>
+            <e key="Poly-Cap" double="0.0"/>
+            <e key="Passivation" double="0.0"/>
+            <e key="Metal-5" double="0.078"/>
+        </node>
+        <node key="CIF">
+            <e key="Metal-1" string="CMF"/>
+            <e key="Poly-Cap" string="CPC"/>
+            <e key="Metal-2" string="CMS"/>
+            <e key="Via3" string="CVT"/>
+            <e key="P-Base" string="CBA"/>
+            <e key="Active-Cut" string="CCC"/>
+            <e key="Thick-Active" string="CTA"/>
+            <e key="N-Active" string="CAA"/>
+            <e key="P-Select" string="CSP"/>
+            <e key="N-Well" string="CWN"/>
+            <e key="Metal-4" string="CMQ"/>
+            <e key="Passivation" string="COG"/>
+            <e key="P-Well" string="CWP"/>
+            <e key="Poly-Cut" string="CCC"/>
+            <e key="Hi-Res" string="CHR"/>
+            <e key="Metal-5" string="CMP"/>
+            <e key="N-Select" string="CSN"/>
+            <e key="P-Active-Well" string="CAA"/>
+            <e key="Transistor-Poly" string="CPG"/>
+            <e key="Silicide-Block" string="CSB"/>
+            <e key="Via5" string="CV5"/>
+            <e key="Polysilicon-1" string="CPG"/>
+            <e key="Metal-3" string="CMT"/>
+            <e key="Metal-6" string="CM6"/>
+            <e key="Via2" string="CVS"/>
+            <e key="P-Active" string="CAA"/>
+            <e key="Via4" string="CVQ"/>
+            <e key="Polysilicon-2" string="CEL"/>
+            <e key="Via1" string="CVA"/>
+            <e key="Pad-Frame" string="XP"/>
+        </node>
+        <node key="DXF">
+            <e key="Polysilicon-1" string=""/>
+            <e key="Pad-Frame" string=""/>
+            <e key="Via5" string=""/>
+            <e key="P-Well" string=""/>
+            <e key="Silicide-Block" string=""/>
+            <e key="Via4" string=""/>
+            <e key="N-Select" string=""/>
+            <e key="Active-Cut" string=""/>
+            <e key="Metal-2" string=""/>
+            <e key="P-Active-Well" string=""/>
+            <e key="P-Select" string=""/>
+            <e key="Via3" string=""/>
+            <e key="Polysilicon-2" string=""/>
+            <e key="Thick-Active" string=""/>
+            <e key="N-Active" string=""/>
+            <e key="P-Base" string=""/>
+            <e key="Via1" string=""/>
+            <e key="Hi-Res" string=""/>
+            <e key="Metal-5" string=""/>
+            <e key="Metal-1" string=""/>
+            <e key="P-Active" string=""/>
+            <e key="Metal-6" string=""/>
+            <e key="Passivation" string=""/>
+            <e key="Transistor-Poly" string=""/>
+            <e key="Poly-Cap" string=""/>
+            <e key="Poly-Cut" string=""/>
+            <e key="Metal-3" string=""/>
+            <e key="N-Well" string=""/>
+            <e key="Metal-4" string=""/>
+            <e key="Via2" string=""/>
+        </node>
+        <node key="Thickness">
+            <e key="Polysilicon-1" double="1.0"/>
+            <e key="P-Active-Well" double="4.0"/>
+            <e key="P-Base" double="0.0"/>
+            <e key="Metal-3" double="2.65"/>
+            <e key="Passivation" double="5.0"/>
+            <e key="Polysilicon-2" double="1.0"/>
+            <e key="Thick-Active" double="7.0"/>
+            <e key="P-Select" double="5.0"/>
+            <e key="Via1" double="3.0"/>
+            <e key="Metal-6" double="4.95"/>
+            <e key="Poly-Cut" double="2.5"/>
+            <e key="N-Select" double="5.0"/>
+            <e key="Via2" double="3.0"/>
+            <e key="Metal-5" double="2.65"/>
+            <e key="Hi-Res" double="1.0"/>
+            <e key="Metal-4" double="2.65"/>
+            <e key="Pad-Frame" double="0.0"/>
+            <e key="Via4" double="3.0"/>
+            <e key="Silicide-Block" double="0.0"/>
+            <e key="Poly-Cap" double="1.0"/>
+            <e key="P-Active" double="4.0"/>
+            <e key="Via3" double="3.0"/>
+            <e key="Active-Cut" double="3.5"/>
+            <e key="Transistor-Poly" double="1.0"/>
+            <e key="Metal-1" double="2.65"/>
+            <e key="N-Well" double="13.0"/>
+            <e key="P-Well" double="13.0"/>
+            <e key="Metal-2" double="2.65"/>
+            <e key="N-Active" double="4.0"/>
+            <e key="Via5" double="3.0"/>
+        </node>
+        <node key="EdgeCapacitance">
+            <e key="Via4" double="0.0"/>
+            <e key="Via5" double="0.0"/>
+            <e key="Poly-Cap" double="0.0"/>
+            <e key="Metal-3" double="0.0974"/>
+            <e key="Metal-6" double="0.1273"/>
+            <e key="Thick-Active" double="0.0"/>
+            <e key="P-Active" double="0.0"/>
+            <e key="Hi-Res" double="0.0"/>
+            <e key="Via1" double="0.0"/>
+            <e key="Silicide-Block" double="0.0"/>
+            <e key="Polysilicon-1" double="0.0608"/>
+            <e key="P-Select" double="0.0"/>
+            <e key="Via3" double="0.0"/>
+            <e key="N-Active" double="0.0"/>
+            <e key="Passivation" double="0.0"/>
+            <e key="Pad-Frame" double="0.0"/>
+            <e key="P-Active-Well" double="0.0"/>
+            <e key="Metal-5" double="0.0974"/>
+            <e key="P-Base" double="0.0"/>
+            <e key="Polysilicon-2" double="0.0"/>
+            <e key="Metal-2" double="0.0974"/>
+            <e key="Poly-Cut" double="0.0"/>
+            <e key="N-Well" double="0.0"/>
+            <e key="P-Well" double="0.0"/>
+            <e key="N-Select" double="0.0"/>
+            <e key="Metal-1" double="0.1104"/>
+            <e key="Metal-4" double="0.0974"/>
+            <e key="Via2" double="0.0"/>
+            <e key="Transistor-Poly" double="0.0"/>
+            <e key="Active-Cut" double="0.0"/>
+        </node>
+        <node key="Skill">
+            <e key="P-Select" string="pplus"/>
+            <e key="N-Select" string="nplus"/>
+            <e key="Via3" string="via3"/>
+            <e key="Metal-2" string="metal2"/>
+            <e key="P-Active" string="aa"/>
+            <e key="P-Well" string="pwell"/>
+            <e key="Poly-Cut" string="pcont"/>
+            <e key="Metal-3" string="metal3"/>
+            <e key="N-Active" string="aa"/>
+            <e key="P-Base" string=""/>
+            <e key="Transistor-Poly" string="poly"/>
+            <e key="Thick-Active" string=""/>
+            <e key="Poly-Cap" string=""/>
+            <e key="Pad-Frame" string=""/>
+            <e key="Passivation" string="glasscut"/>
+            <e key="Via4" string="via4"/>
+            <e key="Hi-Res" string="Hi-Res"/>
+            <e key="Polysilicon-1" string="poly"/>
+            <e key="Metal-1" string="metal1"/>
+            <e key="Metal-6" string="metal6"/>
+            <e key="N-Well" string="nwell"/>
+            <e key="Active-Cut" string="acont"/>
+            <e key="Via1" string="via"/>
+            <e key="Via2" string="via2"/>
+            <e key="Metal-4" string="metal4"/>
+            <e key="Via5" string="via5"/>
+            <e key="Metal-5" string="metal5"/>
+            <e key="Silicide-Block" string=""/>
+            <e key="P-Active-Well" string="aa"/>
+            <e key="Polysilicon-2" string=""/>
+        </node>
+        <node key="Capacitance">
+            <e key="Polysilicon-2" double="1.0"/>
+            <e key="Pad-Frame" double="0.0"/>
+            <e key="Poly-Cap" double="0.0"/>
+            <e key="Metal-6" double="0.0423"/>
+            <e key="Silicide-Block" double="0.0"/>
+            <e key="Metal-3" double="0.0843"/>
+            <e key="Metal-5" double="0.0843"/>
+            <e key="N-Select" double="0.0"/>
+            <e key="P-Base" double="0.0"/>
+            <e key="Via5" double="0.0"/>
+            <e key="Via1" double="0.0"/>
+            <e key="Via3" double="0.0"/>
+            <e key="Passivation" double="0.0"/>
+            <e key="N-Well" double="0.0"/>
+            <e key="Transistor-Poly" double="0.09"/>
+            <e key="Metal-4" double="0.0843"/>
+            <e key="Metal-1" double="0.1209"/>
+            <e key="P-Active-Well" double="0.0"/>
+            <e key="Thick-Active" double="0.0"/>
+            <e key="P-Select" double="0.0"/>
+            <e key="P-Active" double="0.9"/>
+            <e key="N-Active" double="0.9"/>
+            <e key="Active-Cut" double="0.0"/>
+            <e key="Via4" double="0.0"/>
+            <e key="Poly-Cut" double="0.0"/>
+            <e key="Metal-2" double="0.0843"/>
+            <e key="Polysilicon-1" double="0.1467"/>
+            <e key="P-Well" double="0.0"/>
+            <e key="Via2" double="0.0"/>
+            <e key="Hi-Res" double="0.0"/>
+        </node>
+        <node key="GDS">
+            <node key="MOSIS">
+                <e key="Via1" string="50"/>
+                <e key="P-Base" string="58"/>
+                <e key="Transistor-Poly" string="46"/>
+                <e key="Poly-Cut" string="25"/>
+                <e key="Via4" string="32"/>
+                <e key="Metal-5" string="33,64p,64t"/>
+                <e key="Thick-Active" string="60"/>
+                <e key="Polysilicon-2" string="56"/>
+                <e key="P-Well" string="41"/>
+                <e key="Metal-4" string="31,63p,63t"/>
+                <e key="Via2" string="61"/>
+                <e key="Polysilicon-1" string="46,77p,77t"/>
+                <e key="N-Active" string="43"/>
+                <e key="Metal-3" string="62,93p,93t"/>
+                <e key="Metal-1" string="49,80p,80t"/>
+                <e key="N-Select" string="45"/>
+                <e key="Poly-Cap" string="28"/>
+                <e key="Metal-6" string="37,68p,68t"/>
+                <e key="Via3" string="30"/>
+                <e key="Pad-Frame" string="26"/>
+                <e key="Active-Cut" string="25"/>
+                <e key="P-Active-Well" string="43"/>
+                <e key="Hi-Res" string="34"/>
+                <e key="Via5" string="36"/>
+                <e key="Metal-2" string="51,82p,82t"/>
+                <e key="Silicide-Block" string="29"/>
+                <e key="P-Active" string="43"/>
+                <e key="P-Select" string="44"/>
+                <e key="Passivation" string="52"/>
+                <e key="N-Well" string="42"/>
+            </node>
+        </node>
+        <e key="MininumResistance" double="4.0"/>
+        <e key="DisallowStackedVias" boolean="false"/>
+        <e key="MOCMOS Rule Set" int="1"/>
+        <e key="UseSecondPolysilicon" boolean="true"/>
+        <e key="GateLengthSubtraction" double="0.0"/>
+        <e key="NumMetalLayers" int="3"/>
+        <e key="MininumCapacitance" double="0.1"/>
+        <node key="LogicalEffort">
+            <e key="DiffAlpha" double="0.7"/>
+            <e key="GateCapacitance" double="0.167"/>
+            <e key="WireRatio" double="0.16"/>
+        </node>
+        <e key="Scale" double="300.0"/>
+        <e key="MaxSeriesResistance" double="10.0"/>
+        <e key="Ground Net Inclusion" boolean="false"/>
+        <e key="Analog" boolean="true"/>
+        <e key="Gate Inclusion" boolean="false"/>
+        <e key="Foundry" string="MOSIS"/>
+        <e key="UseAlternativeActivePolyRules" boolean="false"/>
+    </node>
+    <node key="rcmos">
+        <node key="Resistance">
+            <e key="Via" double="0.0"/>
+            <e key="Metal-2" double="0.0"/>
+            <e key="Passivation" double="0.0"/>
+            <e key="Polysilicon" double="0.0"/>
+            <e key="D-Active" double="0.0"/>
+            <e key="S-Active" double="0.0"/>
+            <e key="Poly-Cut" double="0.0"/>
+            <e key="Metal-1" double="0.0"/>
+            <e key="Contact-Cut" double="0.0"/>
+            <e key="Select" double="0.0"/>
+            <e key="Well" double="0.0"/>
+            <e key="Active-Cut" double="0.0"/>
+        </node>
+        <node key="Thickness">
+            <e key="Select" double="5.0"/>
+            <e key="Metal-1" double="2.65"/>
+            <e key="Active-Cut" double="3.5"/>
+            <e key="Well" double="13.0"/>
+            <e key="Poly-Cut" double="0.75"/>
+            <e key="D-Active" double="4.0"/>
+            <e key="Metal-2" double="2.65"/>
+            <e key="Passivation" double="5.0"/>
+            <e key="S-Active" double="4.0"/>
+            <e key="Contact-Cut" double="3.5"/>
+            <e key="Polysilicon" double="1.0"/>
+            <e key="Via" double="3.0"/>
+        </node>
+        <node key="CIF">
+            <e key="D-Active" string="CAA"/>
+            <e key="S-Active" string="CAA"/>
+            <e key="Poly-Cut" string="CCP"/>
+            <e key="Metal-2" string="CMS"/>
+            <e key="Metal-1" string="CMF"/>
+            <e key="Select" string="CSG"/>
+            <e key="Contact-Cut" string="CC"/>
+            <e key="Via" string="CVA"/>
+            <e key="Active-Cut" string="CCA"/>
+            <e key="Well" string="CWG"/>
+            <e key="Polysilicon" string="CPG"/>
+            <e key="Passivation" string="COG"/>
+        </node>
+        <node key="DXF">
+            <e key="Metal-2" string=""/>
+            <e key="Passivation" string=""/>
+            <e key="Polysilicon" string=""/>
+            <e key="S-Active" string=""/>
+            <e key="Contact-Cut" string=""/>
+            <e key="Active-Cut" string=""/>
+            <e key="Poly-Cut" string=""/>
+            <e key="Select" string=""/>
+            <e key="Via" string=""/>
+            <e key="D-Active" string=""/>
+            <e key="Metal-1" string=""/>
+            <e key="Well" string=""/>
+        </node>
+        <node key="Skill">
+            <e key="Active-Cut" string=""/>
+            <e key="Passivation" string=""/>
+            <e key="Poly-Cut" string=""/>
+            <e key="S-Active" string=""/>
+            <e key="D-Active" string=""/>
+            <e key="Metal-1" string=""/>
+            <e key="Select" string=""/>
+            <e key="Via" string=""/>
+            <e key="Well" string=""/>
+            <e key="Polysilicon" string=""/>
+            <e key="Metal-2" string=""/>
+            <e key="Contact-Cut" string=""/>
+        </node>
+        <node key="Distance">
+            <e key="Passivation" double="19.15"/>
+            <e key="Polysilicon" double="14.75"/>
+            <e key="D-Active" double="9.0"/>
+            <e key="Well" double="0.0"/>
+            <e key="Active-Cut" double="13.0"/>
+            <e key="Select" double="8.0"/>
+            <e key="Metal-1" double="16.5"/>
+            <e key="Contact-Cut" double="13.0"/>
+            <e key="Via" double="19.15"/>
+            <e key="Metal-2" double="22.15"/>
+            <e key="S-Active" double="9.0"/>
+            <e key="Poly-Cut" double="15.75"/>
+        </node>
+        <node key="Capacitance">
+            <e key="Passivation" double="0.0"/>
+            <e key="Metal-2" double="0.0"/>
+            <e key="Via" double="0.0"/>
+            <e key="Polysilicon" double="0.0"/>
+            <e key="Contact-Cut" double="0.0"/>
+            <e key="Metal-1" double="0.0"/>
+            <e key="Poly-Cut" double="0.0"/>
+            <e key="Select" double="0.0"/>
+            <e key="S-Active" double="0.0"/>
+            <e key="Active-Cut" double="0.0"/>
+            <e key="Well" double="0.0"/>
+            <e key="D-Active" double="0.0"/>
+        </node>
+        <node key="EdgeCapacitance">
+            <e key="Poly-Cut" double="0.0"/>
+            <e key="S-Active" double="0.0"/>
+            <e key="Passivation" double="0.0"/>
+            <e key="Select" double="0.0"/>
+            <e key="Via" double="0.0"/>
+            <e key="Metal-1" double="0.0"/>
+            <e key="D-Active" double="0.0"/>
+            <e key="Polysilicon" double="0.0"/>
+            <e key="Active-Cut" double="0.0"/>
+            <e key="Metal-2" double="0.0"/>
+            <e key="Contact-Cut" double="0.0"/>
+            <e key="Well" double="0.0"/>
+        </node>
+        <node key="GDS">
+            <e key="D-Active" string=""/>
+            <e key="Active-Cut" string=""/>
+            <e key="Passivation" string=""/>
+            <e key="S-Active" string=""/>
+            <e key="Poly-Cut" string=""/>
+            <e key="Polysilicon" string=""/>
+            <e key="Metal-1" string=""/>
+            <e key="Metal-2" string=""/>
+            <e key="Via" string=""/>
+            <e key="Select" string=""/>
+            <e key="Contact-Cut" string=""/>
+            <e key="Well" string=""/>
+        </node>
+        <e key="MininumCapacitance" double="0.0"/>
+        <e key="Scale" double="2000.0"/>
+        <e key="Ground Net Inclusion" boolean="false"/>
+        <e key="Foundry" string="NONE"/>
+        <node key="LogicalEffort">
+            <e key="DiffAlpha" double="0.7"/>
+            <e key="GateCapacitance" double="0.4"/>
+            <e key="WireRatio" double="0.16"/>
+        </node>
+        <e key="MininumResistance" double="10.0"/>
+        <e key="NumMetalLayers" int="2"/>
+        <e key="GateLengthSubtraction" double="0.0"/>
+        <e key="MaxSeriesResistance" double="10.0"/>
+        <e key="Gate Inclusion" boolean="false"/>
+    </node>
+    <node key="pcb">
+        <node key="Resistance">
+            <e key="Signal3" double="0.0"/>
+            <e key="Signal4" double="0.0"/>
+            <e key="BottomSilk" double="0.0"/>
+            <e key="BottomSolder" double="0.0"/>
+            <e key="Power3" double="0.0"/>
+            <e key="Power2" double="0.0"/>
+            <e key="Signal1" double="0.0"/>
+            <e key="Power5" double="0.0"/>
+            <e key="Signal2" double="0.0"/>
+            <e key="TopSolder" double="0.0"/>
+            <e key="Power7" double="0.0"/>
+            <e key="TopSilk" double="0.0"/>
+            <e key="Signal5" double="0.0"/>
+            <e key="Signal7" double="0.0"/>
+            <e key="Power4" double="0.0"/>
+            <e key="DrillNonPlated" double="0.0"/>
+            <e key="Drawing" double="0.0"/>
+            <e key="Power8" double="0.0"/>
+            <e key="Power6" double="0.0"/>
+            <e key="Signal6" double="0.0"/>
+            <e key="Signal8" double="0.0"/>
+            <e key="Power1" double="0.0"/>
+            <e key="Drill" double="0.0"/>
+        </node>
+        <node key="Skill">
+            <e key="BottomSolder" string=""/>
+            <e key="Signal4" string=""/>
+            <e key="Power2" string=""/>
+            <e key="Drawing" string=""/>
+            <e key="Power7" string=""/>
+            <e key="Signal2" string=""/>
+            <e key="Signal3" string=""/>
+            <e key="Power6" string=""/>
+            <e key="TopSolder" string=""/>
+            <e key="Power1" string=""/>
+            <e key="Signal1" string=""/>
+            <e key="BottomSilk" string=""/>
+            <e key="Power3" string=""/>
+            <e key="Signal8" string=""/>
+            <e key="Power5" string=""/>
+            <e key="Power8" string=""/>
+            <e key="Power4" string=""/>
+            <e key="Signal7" string=""/>
+            <e key="DrillNonPlated" string=""/>
+            <e key="Drill" string=""/>
+            <e key="TopSilk" string=""/>
+            <e key="Signal5" string=""/>
+            <e key="Signal6" string=""/>
+        </node>
+        <node key="DXF">
+            <e key="DrillNonPlated" string=""/>
+            <e key="Power6" string=""/>
+            <e key="Signal3" string=""/>
+            <e key="Power4" string=""/>
+            <e key="Drawing" string=""/>
+            <e key="Signal2" string=""/>
+            <e key="Signal1" string=""/>
+            <e key="Signal6" string=""/>
+            <e key="Signal5" string=""/>
+            <e key="Power7" string=""/>
+            <e key="TopSilk" string=""/>
+            <e key="BottomSolder" string=""/>
+            <e key="Drill" string=""/>
+            <e key="Power3" string=""/>
+            <e key="Power5" string=""/>
+            <e key="Signal4" string=""/>
+            <e key="TopSolder" string=""/>
+            <e key="Signal7" string=""/>
+            <e key="Power8" string=""/>
+            <e key="BottomSilk" string=""/>
+            <e key="Signal8" string=""/>
+            <e key="Power2" string=""/>
+            <e key="Power1" string=""/>
+        </node>
+        <node key="EdgeCapacitance">
+            <e key="Power5" double="0.0"/>
+            <e key="TopSilk" double="0.0"/>
+            <e key="Signal1" double="0.0"/>
+            <e key="Drawing" double="0.0"/>
+            <e key="Signal4" double="0.0"/>
+            <e key="Power1" double="0.0"/>
+            <e key="Power6" double="0.0"/>
+            <e key="Signal5" double="0.0"/>
+            <e key="Power4" double="0.0"/>
+            <e key="Power7" double="0.0"/>
+            <e key="Signal8" double="0.0"/>
+            <e key="Power8" double="0.0"/>
+            <e key="Signal2" double="0.0"/>
+            <e key="BottomSilk" double="0.0"/>
+            <e key="TopSolder" double="0.0"/>
+            <e key="Drill" double="0.0"/>
+            <e key="Signal6" double="0.0"/>
+            <e key="Power2" double="0.0"/>
+            <e key="BottomSolder" double="0.0"/>
+            <e key="Signal3" double="0.0"/>
+            <e key="Signal7" double="0.0"/>
+            <e key="DrillNonPlated" double="0.0"/>
+            <e key="Power3" double="0.0"/>
+        </node>
+        <node key="Thickness">
+            <e key="Power6" double="0.0"/>
+            <e key="Signal8" double="0.0"/>
+            <e key="Drawing" double="0.0"/>
+            <e key="Signal1" double="0.0"/>
+            <e key="Power2" double="0.0"/>
+            <e key="Power7" double="0.0"/>
+            <e key="DrillNonPlated" double="0.0"/>
+            <e key="Signal3" double="0.0"/>
+            <e key="Signal2" double="0.0"/>
+            <e key="Drill" double="0.0"/>
+            <e key="Signal6" double="0.0"/>
+            <e key="Signal4" double="0.0"/>
+            <e key="Power3" double="0.0"/>
+            <e key="Power1" double="0.0"/>
+            <e key="TopSilk" double="0.0"/>
+            <e key="Power4" double="0.0"/>
+            <e key="BottomSolder" double="0.0"/>
+            <e key="TopSolder" double="0.0"/>
+            <e key="BottomSilk" double="0.0"/>
+            <e key="Power5" double="0.0"/>
+            <e key="Signal5" double="0.0"/>
+            <e key="Power8" double="0.0"/>
+            <e key="Signal7" double="0.0"/>
+        </node>
+        <node key="CIF">
+            <e key="Power3" string="PN3"/>
+            <e key="Power6" string="PN6"/>
+            <e key="Signal6" string="PC6"/>
+            <e key="BottomSolder" string="PSMS"/>
+            <e key="Signal2" string="PC2"/>
+            <e key="Signal1" string="PC1"/>
+            <e key="TopSilk" string="PSSC"/>
+            <e key="Power8" string="PN8"/>
+            <e key="Power7" string="PN7"/>
+            <e key="Signal7" string="PC7"/>
+            <e key="Power4" string="PN4"/>
+            <e key="Power5" string="PN5"/>
+            <e key="Power2" string="PN2"/>
+            <e key="Signal4" string="PC4"/>
+            <e key="BottomSilk" string="PSSS"/>
+            <e key="Drawing" string="PF"/>
+            <e key="DrillNonPlated" string="PDNP"/>
+            <e key="Signal5" string="PC5"/>
+            <e key="TopSolder" string="PSMC"/>
+            <e key="Power1" string="PN1"/>
+            <e key="Signal3" string="PC3"/>
+            <e key="Signal8" string="PC8"/>
+            <e key="Drill" string="PD"/>
+        </node>
+        <node key="Distance">
+            <e key="Power8" double="0.0"/>
+            <e key="DrillNonPlated" double="0.0"/>
+            <e key="TopSilk" double="0.0"/>
+            <e key="Power1" double="0.0"/>
+            <e key="Power2" double="0.0"/>
+            <e key="Signal1" double="0.0"/>
+            <e key="Power7" double="0.0"/>
+            <e key="Power4" double="0.0"/>
+            <e key="BottomSolder" double="0.0"/>
+            <e key="BottomSilk" double="0.0"/>
+            <e key="Signal5" double="0.0"/>
+            <e key="TopSolder" double="0.0"/>
+            <e key="Signal2" double="0.0"/>
+            <e key="Signal8" double="0.0"/>
+            <e key="Power6" double="0.0"/>
+            <e key="Drill" double="0.0"/>
+            <e key="Power3" double="0.0"/>
+            <e key="Drawing" double="0.0"/>
+            <e key="Signal6" double="0.0"/>
+            <e key="Signal3" double="0.0"/>
+            <e key="Signal4" double="0.0"/>
+            <e key="Power5" double="0.0"/>
+            <e key="Signal7" double="0.0"/>
+        </node>
+        <node key="LogicalEffort">
+            <e key="DiffAlpha" double="0.7"/>
+            <e key="WireRatio" double="0.16"/>
+            <e key="GateCapacitance" double="0.4"/>
+        </node>
+        <e key="Foundry" string="NONE"/>
+        <node key="GDS">
+            <e key="Power7" string=""/>
+            <e key="Power1" string=""/>
+            <e key="Signal3" string=""/>
+            <e key="Power2" string=""/>
+            <e key="BottomSilk" string=""/>
+            <e key="DrillNonPlated" string=""/>
+            <e key="Signal2" string=""/>
+            <e key="Power6" string=""/>
+            <e key="Power8" string=""/>
+            <e key="Power3" string=""/>
+            <e key="Signal6" string=""/>
+            <e key="Signal8" string=""/>
+            <e key="Drawing" string=""/>
+            <e key="TopSolder" string=""/>
+            <e key="Signal5" string=""/>
+            <e key="Signal4" string=""/>
+            <e key="Power4" string=""/>
+            <e key="Signal7" string=""/>
+            <e key="Signal1" string=""/>
+            <e key="BottomSolder" string=""/>
+            <e key="Drill" string=""/>
+            <e key="TopSilk" string=""/>
+            <e key="Power5" string=""/>
+        </node>
+        <e key="Ground Net Inclusion" boolean="false"/>
+        <node key="Capacitance">
+            <e key="Power5" double="0.0"/>
+            <e key="Signal5" double="0.0"/>
+            <e key="TopSilk" double="0.0"/>
+            <e key="TopSolder" double="0.0"/>
+            <e key="BottomSilk" double="0.0"/>
+            <e key="Power6" double="0.0"/>
+            <e key="Signal2" double="0.0"/>
+            <e key="Power3" double="0.0"/>
+            <e key="Power4" double="0.0"/>
+            <e key="Signal1" double="0.0"/>
+            <e key="Signal4" double="0.0"/>
+            <e key="Drill" double="0.0"/>
+            <e key="BottomSolder" double="0.0"/>
+            <e key="DrillNonPlated" double="0.0"/>
+            <e key="Signal8" double="0.0"/>
+            <e key="Power8" double="0.0"/>
+            <e key="Signal7" double="0.0"/>
+            <e key="Drawing" double="0.0"/>
+            <e key="Power7" double="0.0"/>
+            <e key="Signal3" double="0.0"/>
+            <e key="Power2" double="0.0"/>
+            <e key="Signal6" double="0.0"/>
+            <e key="Power1" double="0.0"/>
+        </node>
+        <e key="NumMetalLayers" int="8"/>
+        <e key="Scale" double="1270000.0"/>
+        <e key="Gate Inclusion" boolean="false"/>
+        <e key="MininumCapacitance" double="0.0"/>
+        <e key="GateLengthSubtraction" double="0.0"/>
+        <e key="MininumResistance" double="10.0"/>
+        <e key="MaxSeriesResistance" double="10.0"/>
+    </node>
+    <node key="generic">
+        <node key="Distance">
+            <e key="Route" double="0.0"/>
+            <e key="Sim-Probe" double="0.0"/>
+            <e key="AFG" double="0.0"/>
+            <e key="Unrouted" double="0.0"/>
+            <e key="Glyph" double="0.0"/>
+            <e key="DRC" double="0.0"/>
+            <e key="Invisible" double="0.0"/>
+            <e key="Universal" double="0.0"/>
+        </node>
+        <node key="LogicalEffort">
+            <e key="GateCapacitance" double="0.4"/>
+            <e key="WireRatio" double="0.16"/>
+            <e key="DiffAlpha" double="0.7"/>
+        </node>
+        <e key="GateLengthSubtraction" double="0.0"/>
+        <node key="GDS">
+            <e key="AFG" string=""/>
+            <e key="Unrouted" string=""/>
+            <e key="Invisible" string=""/>
+            <e key="Glyph" string=""/>
+            <e key="DRC" string=""/>
+            <e key="Sim-Probe" string=""/>
+            <e key="Route" string=""/>
+            <e key="Universal" string=""/>
+        </node>
+        <node key="CIF">
+            <e key="DRC" string=""/>
+            <e key="AFG" string=""/>
+            <e key="Unrouted" string=""/>
+            <e key="Invisible" string=""/>
+            <e key="Route" string=""/>
+            <e key="Universal" string=""/>
+            <e key="Glyph" string=""/>
+            <e key="Sim-Probe" string=""/>
+        </node>
+        <node key="Thickness">
+            <e key="Invisible" double="0.0"/>
+            <e key="DRC" double="0.0"/>
+            <e key="Universal" double="0.0"/>
+            <e key="Sim-Probe" double="0.0"/>
+            <e key="AFG" double="0.0"/>
+            <e key="Route" double="0.0"/>
+            <e key="Glyph" double="0.0"/>
+            <e key="Unrouted" double="0.0"/>
+        </node>
+        <node key="Capacitance">
+            <e key="Route" double="0.0"/>
+            <e key="Sim-Probe" double="0.0"/>
+            <e key="Glyph" double="0.0"/>
+            <e key="DRC" double="0.0"/>
+            <e key="Invisible" double="0.0"/>
+            <e key="Unrouted" double="0.0"/>
+            <e key="Universal" double="0.0"/>
+            <e key="AFG" double="0.0"/>
+        </node>
+        <e key="Ground Net Inclusion" boolean="false"/>
+        <node key="EdgeCapacitance">
+            <e key="Universal" double="0.0"/>
+            <e key="Unrouted" double="0.0"/>
+            <e key="Route" double="0.0"/>
+            <e key="Sim-Probe" double="0.0"/>
+            <e key="DRC" double="0.0"/>
+            <e key="Glyph" double="0.0"/>
+            <e key="Invisible" double="0.0"/>
+            <e key="AFG" double="0.0"/>
+        </node>
+        <node key="Skill">
+            <e key="Sim-Probe" string=""/>
+            <e key="Invisible" string=""/>
+            <e key="AFG" string=""/>
+            <e key="Route" string=""/>
+            <e key="Universal" string=""/>
+            <e key="DRC" string=""/>
+            <e key="Unrouted" string=""/>
+            <e key="Glyph" string=""/>
+        </node>
+        <node key="Resistance">
+            <e key="Universal" double="0.0"/>
+            <e key="DRC" double="0.0"/>
+            <e key="AFG" double="0.0"/>
+            <e key="Glyph" double="0.0"/>
+            <e key="Invisible" double="0.0"/>
+            <e key="Route" double="0.0"/>
+            <e key="Sim-Probe" double="0.0"/>
+            <e key="Unrouted" double="0.0"/>
+        </node>
+        <node key="DXF">
+            <e key="DRC" string=""/>
+            <e key="Unrouted" string=""/>
+            <e key="Universal" string=""/>
+            <e key="Sim-Probe" string=""/>
+            <e key="Route" string=""/>
+            <e key="Invisible" string=""/>
+            <e key="Glyph" string=""/>
+            <e key="AFG" string=""/>
+        </node>
+        <e key="Gate Inclusion" boolean="false"/>
+        <e key="Foundry" string="NONE"/>
+        <e key="MaxSeriesResistance" double="10.0"/>
+        <e key="MininumResistance" double="10.0"/>
+        <e key="MininumCapacitance" double="0.0"/>
+        <e key="Scale" double="1000.0"/>
+        <e key="NumMetalLayers" int="0"/>
+    </node>
+    <node key="mocmossub">
+        <node key="GDS">
+            <node key="MOSIS">
+                <e key="Active-Cut" string="25"/>
+                <e key="Poly-Cut" string="25"/>
+                <e key="Polysilicon-1" string="46"/>
+                <e key="Via1" string="50"/>
+                <e key="Polysilicon-2" string="56"/>
+                <e key="Transistor" string=""/>
+                <e key="Via5" string="39"/>
+                <e key="Metal-6" string="38"/>
+                <e key="Via4" string="32"/>
+                <e key="N-Select" string="45"/>
+                <e key="Metal-4" string="31"/>
+                <e key="P-Active" string="43"/>
+                <e key="Poly-Cap" string="28"/>
+                <e key="P-Select" string="44"/>
+                <e key="Metal-1" string="49"/>
+                <e key="Via3" string="30"/>
+                <e key="Metal-3" string="62"/>
+                <e key="N-Well" string="42"/>
+                <e key="Metal-5" string="33"/>
+                <e key="Metal-2" string="51"/>
+                <e key="Pad-Frame" string="19"/>
+                <e key="P-Active-Well" string="43"/>
+                <e key="N-Active" string="43"/>
+                <e key="P-Well" string="41"/>
+                <e key="Passivation" string="52"/>
+                <e key="Via2" string="61"/>
+            </node>
+        </node>
+        <node key="Thickness">
+            <e key="Metal-3" double="1.5"/>
+            <e key="P-Well" double="4.0"/>
+            <e key="Via3" double="0.5"/>
+            <e key="N-Active" double="2.0"/>
+            <e key="Via5" double="0.5"/>
+            <e key="P-Select" double="3.0"/>
+            <e key="Via2" double="0.5"/>
+            <e key="Metal-2" double="1.5"/>
+            <e key="Pad-Frame" double="0.0"/>
+            <e key="P-Active-Well" double="2.0"/>
+            <e key="N-Well" double="4.0"/>
+            <e key="Via4" double="0.5"/>
+            <e key="Poly-Cap" double="0.0"/>
+            <e key="Polysilicon-1" double="1.0"/>
+            <e key="Polysilicon-2" double="1.0"/>
+            <e key="Active-Cut" double="4.0"/>
+            <e key="P-Active" double="2.0"/>
+            <e key="Via1" double="0.5"/>
+            <e key="Metal-6" double="1.5"/>
+            <e key="N-Select" double="3.0"/>
+            <e key="Poly-Cut" double="1.0"/>
+            <e key="Transistor" double="0.0"/>
+            <e key="Passivation" double="1.0"/>
+            <e key="Metal-4" double="1.5"/>
+            <e key="Metal-1" double="1.5"/>
+            <e key="Metal-5" double="1.5"/>
+        </node>
+        <node key="Resistance">
+            <e key="Metal-1" double="0.06"/>
+            <e key="N-Select" double="0.0"/>
+            <e key="Metal-3" double="0.06"/>
+            <e key="Metal-5" double="0.03"/>
+            <e key="Via1" double="1.0"/>
+            <e key="Pad-Frame" double="0.0"/>
+            <e key="Via5" double="0.8"/>
+            <e key="Poly-Cap" double="0.0"/>
+            <e key="Metal-4" double="0.03"/>
+            <e key="Metal-6" double="0.03"/>
+            <e key="Polysilicon-1" double="2.5"/>
+            <e key="Via2" double="0.9"/>
+            <e key="Passivation" double="0.0"/>
+            <e key="Active-Cut" double="2.5"/>
+            <e key="N-Active" double="3.0"/>
+            <e key="N-Well" double="0.0"/>
+            <e key="Transistor" double="0.0"/>
+            <e key="Polysilicon-2" double="50.0"/>
+            <e key="P-Select" double="0.0"/>
+            <e key="P-Well" double="0.0"/>
+            <e key="P-Active-Well" double="0.0"/>
+            <e key="Metal-2" double="0.06"/>
+            <e key="Via4" double="0.8"/>
+            <e key="Via3" double="0.8"/>
+            <e key="Poly-Cut" double="2.2"/>
+            <e key="P-Active" double="2.5"/>
+        </node>
+        <node key="DXF">
+            <e key="Poly-Cap" string=""/>
+            <e key="Passivation" string=""/>
+            <e key="Metal-2" string=""/>
+            <e key="Via5" string=""/>
+            <e key="Metal-4" string=""/>
+            <e key="Transistor" string=""/>
+            <e key="Pad-Frame" string=""/>
+            <e key="Polysilicon-1" string=""/>
+            <e key="P-Active" string=""/>
+            <e key="P-Well" string=""/>
+            <e key="Active-Cut" string=""/>
+            <e key="Via3" string=""/>
+            <e key="P-Active-Well" string=""/>
+            <e key="Metal-5" string=""/>
+            <e key="Metal-3" string=""/>
+            <e key="Metal-6" string=""/>
+            <e key="Poly-Cut" string=""/>
+            <e key="Polysilicon-2" string=""/>
+            <e key="Metal-1" string=""/>
+            <e key="N-Active" string=""/>
+            <e key="Via4" string=""/>
+            <e key="Via1" string=""/>
+            <e key="N-Select" string=""/>
+            <e key="N-Well" string=""/>
+            <e key="Via2" string=""/>
+            <e key="P-Select" string=""/>
+        </node>
+        <node key="Capacitance">
+            <e key="N-Select" double="0.0"/>
+            <e key="Poly-Cut" double="0.0"/>
+            <e key="Via3" double="0.0"/>
+            <e key="Transistor" double="0.0"/>
+            <e key="Poly-Cap" double="0.0"/>
+            <e key="P-Well" double="0.0"/>
+            <e key="Metal-1" double="0.07"/>
+            <e key="P-Active-Well" double="0.0"/>
+            <e key="P-Active" double="0.9"/>
+            <e key="Metal-4" double="0.04"/>
+            <e key="N-Active" double="0.9"/>
+            <e key="P-Select" double="0.0"/>
+            <e key="Via4" double="0.0"/>
+            <e key="Metal-5" double="0.04"/>
+            <e key="N-Well" double="0.0"/>
+            <e key="Metal-3" double="0.04"/>
+            <e key="Via5" double="0.0"/>
+            <e key="Via2" double="0.0"/>
+            <e key="Metal-6" double="0.04"/>
+            <e key="Passivation" double="0.0"/>
+            <e key="Metal-2" double="0.04"/>
+            <e key="Pad-Frame" double="0.0"/>
+            <e key="Via1" double="0.0"/>
+            <e key="Polysilicon-1" double="0.09"/>
+            <e key="Polysilicon-2" double="1.0"/>
+            <e key="Active-Cut" double="0.0"/>
+        </node>
+        <node key="Distance">
+            <e key="Metal-5" double="25.0"/>
+            <e key="P-Active-Well" double="13.0"/>
+            <e key="P-Well" double="11.0"/>
+            <e key="Poly-Cut" double="16.0"/>
+            <e key="Active-Cut" double="13.0"/>
+            <e key="Passivation" double="30.0"/>
+            <e key="Via1" double="18.5"/>
+            <e key="N-Active" double="13.0"/>
+            <e key="Pad-Frame" double="33.0"/>
+            <e key="P-Active" double="13.0"/>
+            <e key="Polysilicon-1" double="15.0"/>
+            <e key="Via4" double="24.5"/>
+            <e key="Via5" double="26.5"/>
+            <e key="Polysilicon-2" double="15.0"/>
+            <e key="N-Well" double="11.0"/>
+            <e key="Transistor" double="31.0"/>
+            <e key="Metal-2" double="19.0"/>
+            <e key="Via3" double="22.5"/>
+            <e key="Poly-Cap" double="28.0"/>
+            <e key="Metal-4" double="23.0"/>
+            <e key="Metal-1" double="17.0"/>
+            <e key="Metal-3" double="21.0"/>
+            <e key="N-Select" double="12.0"/>
+            <e key="P-Select" double="12.0"/>
+            <e key="Metal-6" double="27.0"/>
+            <e key="Via2" double="20.5"/>
+        </node>
+        <node key="EdgeCapacitance">
+            <e key="Metal-1" double="0.0"/>
+            <e key="Via4" double="0.0"/>
+            <e key="Passivation" double="0.0"/>
+            <e key="P-Active-Well" double="0.0"/>
+            <e key="Poly-Cut" double="0.0"/>
+            <e key="Via5" double="0.0"/>
+            <e key="Polysilicon-1" double="0.0"/>
+            <e key="Metal-6" double="0.0"/>
+            <e key="Metal-5" double="0.0"/>
+            <e key="Metal-2" double="0.0"/>
+            <e key="N-Well" double="0.0"/>
+            <e key="Via1" double="0.0"/>
+            <e key="Pad-Frame" double="0.0"/>
+            <e key="Metal-3" double="0.0"/>
+            <e key="N-Active" double="0.0"/>
+            <e key="P-Select" double="0.0"/>
+            <e key="Active-Cut" double="0.0"/>
+            <e key="N-Select" double="0.0"/>
+            <e key="Metal-4" double="0.0"/>
+            <e key="Transistor" double="0.0"/>
+            <e key="Via2" double="0.0"/>
+            <e key="Polysilicon-2" double="0.0"/>
+            <e key="Via3" double="0.0"/>
+            <e key="P-Active" double="0.0"/>
+            <e key="Poly-Cap" double="0.0"/>
+            <e key="P-Well" double="0.0"/>
+        </node>
+        <node key="CIF">
+            <e key="Metal-5" string="CMP"/>
+            <e key="Metal-2" string="CMS"/>
+            <e key="Active-Cut" string="CCG"/>
+            <e key="P-Active" string="CAA"/>
+            <e key="Poly-Cap" string="CPC"/>
+            <e key="Via1" string="CVA"/>
+            <e key="Metal-6" string="CM6"/>
+            <e key="Poly-Cut" string="CCG"/>
+            <e key="Via5" string="CV5"/>
+            <e key="P-Active-Well" string="CAA"/>
+            <e key="Via4" string="CVQ"/>
+            <e key="N-Active" string="CAA"/>
+            <e key="Passivation" string="COG"/>
+            <e key="Metal-3" string="CMT"/>
+            <e key="Via3" string="CVT"/>
+            <e key="Metal-1" string="CMF"/>
+            <e key="P-Well" string="CWP"/>
+            <e key="Via2" string="CVS"/>
+            <e key="Polysilicon-1" string="CPG"/>
+            <e key="Pad-Frame" string="CX"/>
+            <e key="P-Select" string="CSP"/>
+            <e key="Transistor" string=""/>
+            <e key="Metal-4" string="CMQ"/>
+            <e key="N-Select" string="CSN"/>
+            <e key="N-Well" string="CWN"/>
+            <e key="Polysilicon-2" string="CEL"/>
+        </node>
+        <node key="Skill">
+            <e key="N-Active" string=""/>
+            <e key="Active-Cut" string=""/>
+            <e key="Via4" string=""/>
+            <e key="Transistor" string=""/>
+            <e key="Metal-3" string=""/>
+            <e key="P-Well" string=""/>
+            <e key="Passivation" string=""/>
+            <e key="Pad-Frame" string=""/>
+            <e key="Metal-1" string=""/>
+            <e key="Metal-2" string=""/>
+            <e key="P-Select" string=""/>
+            <e key="Poly-Cut" string=""/>
+            <e key="Via2" string=""/>
+            <e key="Polysilicon-1" string=""/>
+            <e key="Metal-6" string=""/>
+            <e key="Via5" string=""/>
+            <e key="N-Well" string=""/>
+            <e key="P-Active" string=""/>
+            <e key="Via3" string=""/>
+            <e key="N-Select" string=""/>
+            <e key="Via1" string=""/>
+            <e key="Metal-5" string=""/>
+            <e key="P-Active-Well" string=""/>
+            <e key="Polysilicon-2" string=""/>
+            <e key="Poly-Cap" string=""/>
+            <e key="Metal-4" string=""/>
+        </node>
+        <e key="MininumResistance" double="50.0"/>
+        <node key="LogicalEffort">
+            <e key="GateCapacitance" double="0.4"/>
+            <e key="WireRatio" double="0.16"/>
+            <e key="DiffAlpha" double="0.7"/>
+        </node>
+        <e key="Ground Net Inclusion" boolean="false"/>
+        <e key="GateLengthSubtraction" double="0.0"/>
+        <e key="Gate Inclusion" boolean="false"/>
+        <e key="Scale" double="200.0"/>
+        <e key="MininumCapacitance" double="50.0"/>
+        <e key="Foundry" string="MOSIS"/>
+        <e key="NumMetalLayers" int="6"/>
+        <e key="MaxSeriesResistance" double="10.0"/>
+    </node>
+    <node key="cmos">
+        <node key="DXF">
+            <e key="Overglass" string=""/>
+            <e key="Diffusion" string=""/>
+            <e key="P-Plus" string=""/>
+            <e key="Transistor" string=""/>
+            <e key="Metal" string=""/>
+            <e key="Polysilicon" string=""/>
+            <e key="Ohmic-Cut" string=""/>
+            <e key="P-Well" string=""/>
+            <e key="Contact-Cut" string=""/>
+        </node>
+        <e key="Ground Net Inclusion" boolean="false"/>
+        <e key="Foundry" string="NONE"/>
+        <node key="Thickness">
+            <e key="Contact-Cut" double="2.0"/>
+            <e key="P-Well" double="9.0"/>
+            <e key="Metal" double="0.5"/>
+            <e key="Transistor" double="0.0"/>
+            <e key="Ohmic-Cut" double="2.0"/>
+            <e key="P-Plus" double="5.0"/>
+            <e key="Diffusion" double="2.0"/>
+            <e key="Polysilicon" double="0.5"/>
+            <e key="Overglass" double="1.0"/>
+        </node>
+        <node key="Capacitance">
+            <e key="P-Well" double="0.0"/>
+            <e key="P-Plus" double="0.0"/>
+            <e key="Metal" double="0.0"/>
+            <e key="Polysilicon" double="0.0"/>
+            <e key="Transistor" double="0.0"/>
+            <e key="Contact-Cut" double="0.0"/>
+            <e key="Ohmic-Cut" double="0.0"/>
+            <e key="Diffusion" double="0.0"/>
+            <e key="Overglass" double="0.0"/>
+        </node>
+        <node key="EdgeCapacitance">
+            <e key="Transistor" double="0.0"/>
+            <e key="Contact-Cut" double="0.0"/>
+            <e key="Overglass" double="0.0"/>
+            <e key="P-Well" double="0.0"/>
+            <e key="Metal" double="0.0"/>
+            <e key="Polysilicon" double="0.0"/>
+            <e key="Ohmic-Cut" double="0.0"/>
+            <e key="Diffusion" double="0.0"/>
+            <e key="P-Plus" double="0.0"/>
+        </node>
+        <node key="GDS">
+            <e key="Contact-Cut" string=""/>
+            <e key="P-Plus" string=""/>
+            <e key="Diffusion" string=""/>
+            <e key="Ohmic-Cut" string=""/>
+            <e key="Overglass" string=""/>
+            <e key="Polysilicon" string=""/>
+            <e key="Transistor" string=""/>
+            <e key="P-Well" string=""/>
+            <e key="Metal" string=""/>
+        </node>
+        <node key="Skill">
+            <e key="Overglass" string=""/>
+            <e key="Contact-Cut" string=""/>
+            <e key="Transistor" string=""/>
+            <e key="Polysilicon" string=""/>
+            <e key="P-Plus" string=""/>
+            <e key="Diffusion" string=""/>
+            <e key="P-Well" string=""/>
+            <e key="Metal" string=""/>
+            <e key="Ohmic-Cut" string=""/>
+        </node>
+        <node key="Distance">
+            <e key="P-Plus" double="4.0"/>
+            <e key="Diffusion" double="7.0"/>
+            <e key="Metal" double="11.0"/>
+            <e key="Transistor" double="0.0"/>
+            <e key="P-Well" double="0.0"/>
+            <e key="Ohmic-Cut" double="9.0"/>
+            <e key="Overglass" double="13.0"/>
+            <e key="Polysilicon" double="9.0"/>
+            <e key="Contact-Cut" double="9.0"/>
+        </node>
+        <e key="Gate Inclusion" boolean="false"/>
+        <node key="CIF">
+            <e key="P-Well" string="CW"/>
+            <e key="Diffusion" string="CD"/>
+            <e key="Transistor" string=""/>
+            <e key="Contact-Cut" string="CC"/>
+            <e key="P-Plus" string="CS"/>
+            <e key="Overglass" string="CG"/>
+            <e key="Metal" string="CM"/>
+            <e key="Ohmic-Cut" string="CC"/>
+            <e key="Polysilicon" string="CP"/>
+        </node>
+        <node key="Resistance">
+            <e key="Diffusion" double="0.0"/>
+            <e key="P-Plus" double="0.0"/>
+            <e key="Overglass" double="0.0"/>
+            <e key="Metal" double="0.0"/>
+            <e key="Ohmic-Cut" double="0.0"/>
+            <e key="Contact-Cut" double="0.0"/>
+            <e key="P-Well" double="0.0"/>
+            <e key="Polysilicon" double="0.0"/>
+            <e key="Transistor" double="0.0"/>
+        </node>
+        <e key="Scale" double="2000.0"/>
+        <e key="MaxSeriesResistance" double="10.0"/>
+        <e key="MininumResistance" double="10.0"/>
+        <node key="LogicalEffort">
+            <e key="GateCapacitance" double="0.4"/>
+            <e key="DiffAlpha" double="0.7"/>
+            <e key="WireRatio" double="0.16"/>
+        </node>
+        <e key="NumMetalLayers" int="1"/>
+        <e key="GateLengthSubtraction" double="0.0"/>
+        <e key="MininumCapacitance" double="0.0"/>
+    </node>
+    <node key="photonics">
+        <node key="EdgeCapacitance">
+            <e key="transistor-poly" double="0.0"/>
+            <e key="m1" double="0.0"/>
+            <e key="photonics-waveguide" double="0.073"/>
+            <e key="m2" double="0.0"/>
+            <e key="active-cut" double="0.0"/>
+            <e key="n-active" double="0.0"/>
+            <e key="p-active" double="0.0"/>
+            <e key="passivation" double="0.0"/>
+            <e key="photonics-side" double="0.0"/>
+            <e key="photonics-top" double="0.0"/>
+            <e key="poly" double="0.0"/>
+            <e key="pwell" double="0.0"/>
+            <e key="via1" double="0.0"/>
+            <e key="photonics-bottom" double="0.0"/>
+            <e key="pplus" double="0.0"/>
+            <e key="nwell" double="0.0"/>
+            <e key="nplus" double="0.0"/>
+            <e key="poly-cut" double="0.0"/>
+        </node>
+        <node key="Thickness">
+            <e key="photonics-bottom" double="6.0"/>
+            <e key="poly" double="4.8"/>
+            <e key="photonics-side" double="1.0"/>
+            <e key="n-active" double="0.2"/>
+            <e key="active-cut" double="9.8"/>
+            <e key="via1" double="8.0"/>
+            <e key="pwell" double="1.0"/>
+            <e key="photonics-waveguide" double="1.0"/>
+            <e key="photonics-top" double="5.0"/>
+            <e key="transistor-poly" double="4.0"/>
+            <e key="p-active" double="0.2"/>
+            <e key="poly-cut" double="5.0"/>
+            <e key="passivation" double="5.0"/>
+            <e key="nplus" double="1.0"/>
+            <e key="pplus" double="1.0"/>
+            <e key="nwell" double="1.0"/>
+            <e key="m2" double="8.0"/>
+            <e key="m1" double="8.0"/>
+        </node>
+        <node key="LogicalEffort">
+            <e key="WireRatio" double="0.16"/>
+            <e key="DiffAlpha" double="0.7"/>
+            <e key="GateCapacitance" double="0.4"/>
+        </node>
+        <node key="Resistance">
+            <e key="photonics-waveguide" double="8.5"/>
+            <e key="nwell" double="0.0"/>
+            <e key="m2" double="0.0"/>
+            <e key="photonics-side" double="0.0"/>
+            <e key="m1" double="0.0"/>
+            <e key="p-active" double="0.0"/>
+            <e key="photonics-top" double="1.0"/>
+            <e key="n-active" double="0.0"/>
+            <e key="photonics-bottom" double="1.0"/>
+            <e key="pwell" double="0.0"/>
+            <e key="poly" double="0.0"/>
+            <e key="nplus" double="0.0"/>
+            <e key="pplus" double="0.0"/>
+            <e key="via1" double="0.0"/>
+            <e key="passivation" double="0.0"/>
+            <e key="poly-cut" double="0.0"/>
+            <e key="transistor-poly" double="0.0"/>
+            <e key="active-cut" double="0.0"/>
+        </node>
+        <node key="Capacitance">
+            <e key="m1" double="0.0"/>
+            <e key="passivation" double="0.0"/>
+            <e key="n-active" double="0.0"/>
+            <e key="photonics-side" double="0.0"/>
+            <e key="poly" double="0.0"/>
+            <e key="m2" double="0.0"/>
+            <e key="transistor-poly" double="0.0"/>
+            <e key="via1" double="0.0"/>
+            <e key="photonics-bottom" double="0.0"/>
+            <e key="poly-cut" double="0.0"/>
+            <e key="nplus" double="0.0"/>
+            <e key="nwell" double="0.0"/>
+            <e key="photonics-top" double="0.0"/>
+            <e key="active-cut" double="0.0"/>
+            <e key="photonics-waveguide" double="0.097"/>
+            <e key="pwell" double="0.0"/>
+            <e key="pplus" double="0.0"/>
+            <e key="p-active" double="0.0"/>
+        </node>
+        <node key="Skill">
+            <e key="photonics-waveguide" string=""/>
+            <e key="via1" string=""/>
+            <e key="photonics-side" string="photonics-side"/>
+            <e key="m1" string=""/>
+            <e key="active-cut" string=""/>
+            <e key="m2" string=""/>
+            <e key="p-active" string=""/>
+            <e key="pplus" string=""/>
+            <e key="transistor-poly" string=""/>
+            <e key="nplus" string=""/>
+            <e key="nwell" string=""/>
+            <e key="n-active" string=""/>
+            <e key="poly-cut" string=""/>
+            <e key="pwell" string=""/>
+            <e key="photonics-top" string="photonics-top"/>
+            <e key="passivation" string="glasscut"/>
+            <e key="poly" string=""/>
+            <e key="photonics-bottom" string="photonics-bottom"/>
+        </node>
+        <node key="Distance">
+            <e key="photonics-bottom" double="0.0"/>
+            <e key="poly" double="7.2"/>
+            <e key="p-active" double="7.0"/>
+            <e key="via1" double="25.0"/>
+            <e key="poly-cut" double="12.0"/>
+            <e key="m1" double="17.0"/>
+            <e key="m2" double="33.0"/>
+            <e key="pplus" double="6.0"/>
+            <e key="photonics-top" double="7.0"/>
+            <e key="nwell" double="10.0"/>
+            <e key="active-cut" double="7.2"/>
+            <e key="nplus" double="6.0"/>
+            <e key="photonics-waveguide" double="6.0"/>
+            <e key="pwell" double="10.0"/>
+            <e key="passivation" double="49.7"/>
+            <e key="n-active" double="7.0"/>
+            <e key="transistor-poly" double="15.4"/>
+            <e key="photonics-side" double="6.0"/>
+        </node>
+        <node key="DXF">
+            <e key="photonics-side" string=""/>
+            <e key="nplus" string=""/>
+            <e key="nwell" string=""/>
+            <e key="pwell" string=""/>
+            <e key="m1" string=""/>
+            <e key="passivation" string=""/>
+            <e key="p-active" string=""/>
+            <e key="via1" string=""/>
+            <e key="poly-cut" string=""/>
+            <e key="active-cut" string=""/>
+            <e key="n-active" string=""/>
+            <e key="photonics-waveguide" string=""/>
+            <e key="transistor-poly" string=""/>
+            <e key="pplus" string=""/>
+            <e key="photonics-bottom" string=""/>
+            <e key="poly" string=""/>
+            <e key="m2" string=""/>
+            <e key="photonics-top" string=""/>
+        </node>
+        <node key="GDS">
+            <node key="TSMC">
+                <e key="n-active" string=""/>
+                <e key="poly" string="5,123/63p"/>
+                <e key="photonics-side" string="121/33"/>
+                <e key="p-active" string=""/>
+                <e key="passivation" string=""/>
+                <e key="m2" string="10,123/8p"/>
+                <e key="via1" string="19"/>
+                <e key="m1" string="8,123/7p"/>
+                <e key="active-cut" string="30"/>
+                <e key="photonics-waveguide" string="100,123/46p"/>
+                <e key="poly-cut" string="30"/>
+                <e key="photonics-top" string="102"/>
+                <e key="nwell" string="31"/>
+                <e key="pplus" string="14"/>
+                <e key="photonics-bottom" string="2/1"/>
+                <e key="transistor-poly" string="17"/>
+                <e key="pwell" string=""/>
+                <e key="nplus" string="4"/>
+            </node>
+        </node>
+        <e key="Scale" double="130.0"/>
+        <node key="CIF">
+            <e key="transistor-poly" string=""/>
+            <e key="via1" string=""/>
+            <e key="nwell" string=""/>
+            <e key="photonics-waveguide" string=""/>
+            <e key="active-cut" string=""/>
+            <e key="m1" string=""/>
+            <e key="p-active" string=""/>
+            <e key="n-active" string=""/>
+            <e key="poly" string=""/>
+            <e key="photonics-side" string="Not set"/>
+            <e key="m2" string=""/>
+            <e key="passivation" string="COG"/>
+            <e key="nplus" string=""/>
+            <e key="photonics-top" string="Not set"/>
+            <e key="poly-cut" string=""/>
+            <e key="pwell" string=""/>
+            <e key="pplus" string=""/>
+            <e key="photonics-bottom" string="Not set"/>
+        </node>
+        <e key="MininumResistance" double="1.0"/>
+        <e key="MininumCapacitance" double="0.1"/>
+        <e key="NumMetalLayers" int="10"/>
+        <e key="GateLengthSubtraction" double="0.0"/>
+        <e key="Foundry" string="TSMC"/>
+        <e key="Ground Net Inclusion" boolean="false"/>
+        <e key="MaxSeriesResistance" double="10.0"/>
+        <e key="Gate Inclusion" boolean="false"/>
+    </node>
+    <node key="tft">
+        <node key="Skill">
+            <e key="Metal-2" string=""/>
+            <e key="Metal-1" string=""/>
+            <e key="Via1" string=""/>
+            <e key="lay3" string=""/>
+            <e key="Passivation" string=""/>
+            <e key="HiK" string=""/>
+            <e key="lay4" string=""/>
+            <e key="lay1" string=""/>
+            <e key="Pent" string=""/>
+            <e key="lay2" string=""/>
+        </node>
+        <e key="Foundry" string="NONE"/>
+        <node key="GDS">
+            <e key="lay1" string="1"/>
+            <e key="lay4" string="4"/>
+            <e key="Metal-2" string="51"/>
+            <e key="lay2" string="2"/>
+            <e key="Via1" string="50"/>
+            <e key="Passivation" string="52"/>
+            <e key="lay3" string="3"/>
+            <e key="Metal-1" string="49"/>
+            <e key="HiK" string="46"/>
+            <e key="Pent" string="44"/>
+        </node>
+        <e key="MaxSeriesResistance" double="10.0"/>
+        <node key="Capacitance">
+            <e key="Pent" double="0.0"/>
+            <e key="Metal-1" double="0.0"/>
+            <e key="Via1" double="0.0"/>
+            <e key="Metal-2" double="0.0"/>
+            <e key="lay3" double="0.0"/>
+            <e key="lay1" double="0.0"/>
+            <e key="lay2" double="0.0"/>
+            <e key="Passivation" double="0.0"/>
+            <e key="HiK" double="0.0"/>
+            <e key="lay4" double="0.0"/>
+        </node>
+        <node key="Distance">
+            <e key="Metal-1" double="0.0"/>
+            <e key="lay3" double="0.0"/>
+            <e key="Pent" double="0.0"/>
+            <e key="HiK" double="0.0"/>
+            <e key="lay4" double="0.0"/>
+            <e key="Via1" double="0.0"/>
+            <e key="lay1" double="0.0"/>
+            <e key="Metal-2" double="22.15"/>
+            <e key="Passivation" double="0.0"/>
+            <e key="lay2" double="0.0"/>
+        </node>
+        <node key="EdgeCapacitance">
+            <e key="Passivation" double="0.0"/>
+            <e key="lay1" double="0.0"/>
+            <e key="Metal-2" double="0.0"/>
+            <e key="Via1" double="0.0"/>
+            <e key="lay4" double="0.0"/>
+            <e key="Metal-1" double="0.0"/>
+            <e key="HiK" double="0.0"/>
+            <e key="Pent" double="0.0"/>
+            <e key="lay2" double="0.0"/>
+            <e key="lay3" double="0.0"/>
+        </node>
+        <e key="NumMetalLayers" int="2"/>
+        <node key="DXF">
+            <e key="lay1" string=""/>
+            <e key="Via1" string=""/>
+            <e key="Passivation" string=""/>
+            <e key="lay2" string=""/>
+            <e key="Metal-2" string=""/>
+            <e key="lay4" string=""/>
+            <e key="Metal-1" string=""/>
+            <e key="HiK" string=""/>
+            <e key="Pent" string=""/>
+            <e key="lay3" string=""/>
+        </node>
+        <node key="CIF">
+            <e key="HiK" string="CPG"/>
+            <e key="lay2" string="uk2"/>
+            <e key="Via1" string="CVA"/>
+            <e key="Metal-2" string="CMS"/>
+            <e key="Pent" string="CSP"/>
+            <e key="lay1" string="uk1"/>
+            <e key="lay3" string="uk3"/>
+            <e key="Metal-1" string="CMF"/>
+            <e key="Passivation" string="COG"/>
+            <e key="lay4" string="uk4"/>
+        </node>
+        <node key="Thickness">
+            <e key="lay4" double="0.0"/>
+            <e key="Passivation" double="0.0"/>
+            <e key="Via1" double="0.0"/>
+            <e key="lay3" double="0.0"/>
+            <e key="HiK" double="0.0"/>
+            <e key="lay1" double="0.0"/>
+            <e key="Metal-1" double="0.0"/>
+            <e key="lay2" double="0.0"/>
+            <e key="Pent" double="0.0"/>
+            <e key="Metal-2" double="2.65"/>
+        </node>
+        <node key="Resistance">
+            <e key="lay1" double="0.0"/>
+            <e key="Pent" double="0.0"/>
+            <e key="Passivation" double="0.0"/>
+            <e key="HiK" double="0.0"/>
+            <e key="lay4" double="0.0"/>
+            <e key="lay2" double="0.0"/>
+            <e key="Metal-1" double="0.0"/>
+            <e key="Via1" double="0.0"/>
+            <e key="lay3" double="0.0"/>
+            <e key="Metal-2" double="0.0"/>
+        </node>
+        <e key="MininumResistance" double="0.0"/>
+        <node key="LogicalEffort">
+            <e key="WireRatio" double="0.16"/>
+            <e key="GateCapacitance" double="0.4"/>
+            <e key="DiffAlpha" double="0.7"/>
+        </node>
+        <e key="Gate Inclusion" boolean="false"/>
+        <e key="Ground Net Inclusion" boolean="false"/>
+        <e key="MininumCapacitance" double="0.0"/>
+        <e key="GateLengthSubtraction" double="0.0"/>
+        <e key="Scale" double="5000.0"/>
+    </node>
+    <node key="mocmos-cn">
+        <node key="Thickness">
+            <e key="Transistor-Poly" double="1.0"/>
+            <e key="P-Active" double="4.0"/>
+            <e key="P-Active-Well" double="4.0"/>
+            <e key="N-Active-CN" double="4.0"/>
+            <e key="Via1" double="3.0"/>
+            <e key="N-Active" double="4.0"/>
+            <e key="Poly-Cap" double="1.0"/>
+            <e key="P-Well" double="13.0"/>
+            <e key="Metal-2" double="2.65"/>
+            <e key="N-Select" double="5.0"/>
+            <e key="N-Well" double="13.0"/>
+            <e key="Via2" double="3.0"/>
+            <e key="Metal-1" double="2.65"/>
+            <e key="Polysilicon-1" double="1.0"/>
+            <e key="P-Active-CN" double="4.0"/>
+            <e key="Poly-Cut" double="2.5"/>
+            <e key="P-Base" double="0.0"/>
+            <e key="Via3" double="3.0"/>
+            <e key="Metal-3" double="2.65"/>
+            <e key="P-Select" double="5.0"/>
+            <e key="Thick-Active" double="7.0"/>
+            <e key="Active-Cut" double="3.5"/>
+        </node>
+        <node key="Distance">
+            <e key="N-Active-CN" double="9.0"/>
+            <e key="P-Select" double="8.0"/>
+            <e key="N-Well" double="0.0"/>
+            <e key="P-Active-Well" double="9.0"/>
+            <e key="Poly-Cut" double="14.0"/>
+            <e key="P-Base" double="0.0"/>
+            <e key="N-Active" double="9.0"/>
+            <e key="Active-Cut" double="13.0"/>
+            <e key="Metal-3" double="27.8"/>
+            <e key="Thick-Active" double="6.0"/>
+            <e key="Via3" double="30.45"/>
+            <e key="Metal-1" double="16.5"/>
+            <e key="Poly-Cap" double="13.0"/>
+            <e key="N-Select" double="8.0"/>
+            <e key="Polysilicon-1" double="13.0"/>
+            <e key="P-Active" double="9.0"/>
+            <e key="Transistor-Poly" double="13.0"/>
+            <e key="Via1" double="19.15"/>
+            <e key="Via2" double="24.8"/>
+            <e key="Metal-2" double="22.15"/>
+            <e key="P-Active-CN" double="9.0"/>
+            <e key="P-Well" double="0.0"/>
+        </node>
+        <node key="EdgeCapacitance">
+            <e key="Via3" double="0.0"/>
+            <e key="N-Select" double="0.0"/>
+            <e key="Via2" double="0.0"/>
+            <e key="N-Well" double="0.0"/>
+            <e key="Poly-Cut" double="0.0"/>
+            <e key="P-Active" double="0.0"/>
+            <e key="Via1" double="0.0"/>
+            <e key="Metal-3" double="0.0974"/>
+            <e key="Metal-2" double="0.0974"/>
+            <e key="P-Active-CN" double="0.0"/>
+            <e key="Poly-Cap" double="0.0"/>
+            <e key="P-Base" double="0.0"/>
+            <e key="Active-Cut" double="0.0"/>
+            <e key="Polysilicon-1" double="0.0608"/>
+            <e key="Transistor-Poly" double="0.0"/>
+            <e key="N-Active-CN" double="0.0"/>
+            <e key="N-Active" double="0.0"/>
+            <e key="P-Well" double="0.0"/>
+            <e key="Metal-1" double="0.1104"/>
+            <e key="Thick-Active" double="0.0"/>
+            <e key="P-Active-Well" double="0.0"/>
+            <e key="P-Select" double="0.0"/>
+        </node>
+        <node key="GDS">
+            <node key="MOSIS">
+                <e key="P-Active" string="43"/>
+                <e key="N-Active-CN" string="43"/>
+                <e key="Transistor-Poly" string="46"/>
+                <e key="Metal-3" string="62,93p,93t"/>
+                <e key="P-Base" string="58"/>
+                <e key="Via3" string="30"/>
+                <e key="N-Select" string="45"/>
+                <e key="Poly-Cut" string="25"/>
+                <e key="P-Well" string="41"/>
+                <e key="Thick-Active" string="60"/>
+                <e key="Poly-Cap" string="28"/>
+                <e key="Via1" string="50"/>
+                <e key="Active-Cut" string="25"/>
+                <e key="P-Active-Well" string="43"/>
+                <e key="P-Active-CN" string="43"/>
+                <e key="Polysilicon-1" string="46,77p,77t"/>
+                <e key="P-Select" string="44"/>
+                <e key="Via2" string="61"/>
+                <e key="N-Well" string="42"/>
+                <e key="Metal-2" string="51,82p,82t"/>
+                <e key="Metal-1" string="49,80p,80t"/>
+                <e key="N-Active" string="43"/>
+            </node>
+        </node>
+        <node key="Resistance">
+            <e key="P-Select" double="0.0"/>
+            <e key="Poly-Cut" double="2.2"/>
+            <e key="P-Well" double="0.0"/>
+            <e key="N-Active" double="3.0"/>
+            <e key="Metal-3" double="0.078"/>
+            <e key="P-Active" double="2.5"/>
+            <e key="P-Base" double="0.0"/>
+            <e key="Via2" double="0.9"/>
+            <e key="Polysilicon-1" double="6.2"/>
+            <e key="Via1" double="1.0"/>
+            <e key="Via3" double="0.8"/>
+            <e key="P-Active-Well" double="0.0"/>
+            <e key="Active-Cut" double="2.5"/>
+            <e key="N-Select" double="0.0"/>
+            <e key="Poly-Cap" double="0.0"/>
+            <e key="Metal-1" double="0.078"/>
+            <e key="Thick-Active" double="0.0"/>
+            <e key="Metal-2" double="0.078"/>
+            <e key="N-Well" double="0.0"/>
+            <e key="P-Active-CN" double="3.0"/>
+            <e key="N-Active-CN" double="3.0"/>
+            <e key="Transistor-Poly" double="2.5"/>
+        </node>
+        <node key="Capacitance">
+            <e key="Metal-2" double="0.0843"/>
+            <e key="Metal-3" double="0.0843"/>
+            <e key="Active-Cut" double="0.0"/>
+            <e key="N-Well" double="0.0"/>
+            <e key="P-Active-CN" double="0.9"/>
+            <e key="Thick-Active" double="0.0"/>
+            <e key="P-Active" double="0.9"/>
+            <e key="N-Active-CN" double="0.9"/>
+            <e key="Transistor-Poly" double="0.09"/>
+            <e key="N-Select" double="0.0"/>
+            <e key="Via3" double="0.0"/>
+            <e key="Via1" double="0.0"/>
+            <e key="Via2" double="0.0"/>
+            <e key="Polysilicon-1" double="0.1467"/>
+            <e key="P-Well" double="0.0"/>
+            <e key="P-Select" double="0.0"/>
+            <e key="P-Active-Well" double="0.0"/>
+            <e key="Poly-Cut" double="0.0"/>
+            <e key="P-Base" double="0.0"/>
+            <e key="Metal-1" double="0.1209"/>
+            <e key="N-Active" double="0.9"/>
+            <e key="Poly-Cap" double="0.0"/>
+        </node>
+        <node key="Skill">
+            <e key="Transistor-Poly" string=""/>
+            <e key="P-Well" string=""/>
+            <e key="P-Select" string=""/>
+            <e key="Metal-3" string=""/>
+            <e key="P-Base" string=""/>
+            <e key="Thick-Active" string=""/>
+            <e key="Via2" string=""/>
+            <e key="Poly-Cap" string=""/>
+            <e key="Metal-1" string=""/>
+            <e key="Via3" string=""/>
+            <e key="Poly-Cut" string=""/>
+            <e key="N-Select" string=""/>
+            <e key="N-Well" string=""/>
+            <e key="N-Active" string=""/>
+            <e key="Active-Cut" string=""/>
+            <e key="Polysilicon-1" string=""/>
+            <e key="Metal-2" string=""/>
+            <e key="P-Active" string=""/>
+            <e key="N-Active-CN" string=""/>
+            <e key="Via1" string=""/>
+            <e key="P-Active-CN" string=""/>
+            <e key="P-Active-Well" string=""/>
+        </node>
+        <node key="CIF">
+            <e key="P-Select" string="CSP"/>
+            <e key="N-Active" string="CAA"/>
+            <e key="N-Well" string="CWN"/>
+            <e key="Metal-2" string="CMS"/>
+            <e key="P-Well" string="CWP"/>
+            <e key="Via3" string="CVT"/>
+            <e key="Transistor-Poly" string="CPG"/>
+            <e key="Metal-1" string="CMF"/>
+            <e key="Via2" string="CVS"/>
+            <e key="Active-Cut" string="CCC"/>
+            <e key="Polysilicon-1" string="CPG"/>
+            <e key="Poly-Cap" string="CPC"/>
+            <e key="Thick-Active" string="CTA"/>
+            <e key="P-Base" string="CBA"/>
+            <e key="Poly-Cut" string="CCC"/>
+            <e key="P-Active" string="CAA"/>
+            <e key="N-Active-CN" string="CAA"/>
+            <e key="Metal-3" string="CMT"/>
+            <e key="Via1" string="CVA"/>
+            <e key="P-Active-CN" string="CAA"/>
+            <e key="N-Select" string="CSN"/>
+            <e key="P-Active-Well" string="CAA"/>
+        </node>
+        <node key="DXF">
+            <e key="Metal-2" string=""/>
+            <e key="P-Active-Well" string=""/>
+            <e key="Transistor-Poly" string=""/>
+            <e key="Thick-Active" string=""/>
+            <e key="P-Active-CN" string=""/>
+            <e key="Metal-3" string=""/>
+            <e key="Metal-1" string=""/>
+            <e key="N-Active-CN" string=""/>
+            <e key="P-Active" string=""/>
+            <e key="Polysilicon-1" string=""/>
+            <e key="Poly-Cap" string=""/>
+            <e key="Poly-Cut" string=""/>
+            <e key="Via2" string=""/>
+            <e key="Via3" string=""/>
+            <e key="Active-Cut" string=""/>
+            <e key="P-Select" string=""/>
+            <e key="P-Base" string=""/>
+            <e key="N-Select" string=""/>
+            <e key="N-Well" string=""/>
+            <e key="N-Active" string=""/>
+            <e key="P-Well" string=""/>
+            <e key="Via1" string=""/>
+        </node>
+        <e key="MaxSeriesResistance" double="10.0"/>
+        <e key="Gate Inclusion" boolean="false"/>
+        <node key="LogicalEffort">
+            <e key="WireRatio" double="0.16"/>
+            <e key="GateCapacitance" double="0.4"/>
+            <e key="DiffAlpha" double="0.7"/>
+        </node>
+        <e key="Ground Net Inclusion" boolean="false"/>
+        <e key="NumMetalLayers" int="3"/>
+        <e key="Scale" double="200.0"/>
+        <e key="MininumCapacitance" double="0.1"/>
+        <e key="GateLengthSubtraction" double="0.0"/>
+        <e key="MininumResistance" double="4.0"/>
+        <e key="Foundry" string="MOSIS"/>
+    </node>
+    <node key="bipolar">
+        <node key="EdgeCapacitance">
+            <e key="PPImplant" double="0.0"/>
+            <e key="Isolation" double="0.0"/>
+            <e key="Scratch_Protection" double="0.0"/>
+            <e key="Metal1" double="0.0"/>
+            <e key="Sink_Implant" double="0.0"/>
+            <e key="Metal2" double="0.0"/>
+            <e key="Silicide_Exclusion" double="0.0"/>
+            <e key="N_Implant" double="0.0"/>
+            <e key="Buried" double="0.0"/>
+            <e key="Poly_Definition" double="0.0"/>
+            <e key="Via" double="0.0"/>
+            <e key="NPImplant" double="0.0"/>
+            <e key="Field_Implant" double="0.0"/>
+            <e key="Contact" double="0.0"/>
+        </node>
+        <node key="Thickness">
+            <e key="N_Implant" double="5.0"/>
+            <e key="NPImplant" double="5.0"/>
+            <e key="Contact" double="1.5"/>
+            <e key="Poly_Definition" double="0.5"/>
+            <e key="Sink_Implant" double="5.0"/>
+            <e key="Isolation" double="0.0"/>
+            <e key="Buried" double="2.0"/>
+            <e key="PPImplant" double="5.0"/>
+            <e key="Via" double="0.5"/>
+            <e key="Metal2" double="0.5"/>
+            <e key="Field_Implant" double="5.0"/>
+            <e key="Metal1" double="0.5"/>
+            <e key="Scratch_Protection" double="1.0"/>
+            <e key="Silicide_Exclusion" double="0.0"/>
+        </node>
+        <node key="DXF">
+            <e key="Silicide_Exclusion" string=""/>
+            <e key="Poly_Definition" string=""/>
+            <e key="Isolation" string=""/>
+            <e key="Buried" string=""/>
+            <e key="Metal1" string=""/>
+            <e key="Metal2" string=""/>
+            <e key="Field_Implant" string=""/>
+            <e key="NPImplant" string=""/>
+            <e key="N_Implant" string=""/>
+            <e key="Sink_Implant" string=""/>
+            <e key="PPImplant" string=""/>
+            <e key="Scratch_Protection" string=""/>
+            <e key="Contact" string=""/>
+            <e key="Via" string=""/>
+        </node>
+        <node key="Distance">
+            <e key="Poly_Definition" double="9.0"/>
+            <e key="Metal2" double="12.0"/>
+            <e key="Buried" double="7.0"/>
+            <e key="Silicide_Exclusion" double="0.0"/>
+            <e key="Via" double="11.5"/>
+            <e key="Contact" double="9.5"/>
+            <e key="Metal1" double="11.0"/>
+            <e key="N_Implant" double="4.0"/>
+            <e key="NPImplant" double="4.0"/>
+            <e key="PPImplant" double="4.0"/>
+            <e key="Scratch_Protection" double="13.0"/>
+            <e key="Field_Implant" double="4.0"/>
+            <e key="Isolation" double="0.0"/>
+            <e key="Sink_Implant" double="4.0"/>
+        </node>
+        <node key="Capacitance">
+            <e key="Via" double="0.0"/>
+            <e key="Isolation" double="0.0"/>
+            <e key="Metal1" double="0.0"/>
+            <e key="Metal2" double="0.0"/>
+            <e key="Buried" double="0.0"/>
+            <e key="N_Implant" double="0.0"/>
+            <e key="NPImplant" double="0.0"/>
+            <e key="Field_Implant" double="0.0"/>
+            <e key="Contact" double="0.0"/>
+            <e key="Silicide_Exclusion" double="0.0"/>
+            <e key="Poly_Definition" double="0.0"/>
+            <e key="PPImplant" double="0.0"/>
+            <e key="Scratch_Protection" double="0.0"/>
+            <e key="Sink_Implant" double="0.0"/>
+        </node>
+        <node key="Skill">
+            <e key="Poly_Definition" string=""/>
+            <e key="Scratch_Protection" string=""/>
+            <e key="NPImplant" string=""/>
+            <e key="Contact" string=""/>
+            <e key="PPImplant" string=""/>
+            <e key="Sink_Implant" string=""/>
+            <e key="Via" string=""/>
+            <e key="Metal1" string=""/>
+            <e key="Isolation" string=""/>
+            <e key="Field_Implant" string=""/>
+            <e key="Metal2" string=""/>
+            <e key="Silicide_Exclusion" string=""/>
+            <e key="N_Implant" string=""/>
+            <e key="Buried" string=""/>
+        </node>
+        <node key="GDS">
+            <node key="MOSIS">
+                <e key="Silicide_Exclusion" string="45"/>
+                <e key="Buried" string="1"/>
+                <e key="Via" string="81"/>
+                <e key="Contact" string="7"/>
+                <e key="N_Implant" string="51"/>
+                <e key="Sink_Implant" string="6"/>
+                <e key="PPImplant" string="53"/>
+                <e key="Metal1" string="8"/>
+                <e key="Field_Implant" string="2"/>
+                <e key="Scratch_Protection" string="10"/>
+                <e key="Poly_Definition" string="4"/>
+                <e key="NPImplant" string="52"/>
+                <e key="Isolation" string="3"/>
+                <e key="Metal2" string="9"/>
+            </node>
+        </node>
+        <node key="Resistance">
+            <e key="Silicide_Exclusion" double="0.0"/>
+            <e key="Via" double="0.0"/>
+            <e key="PPImplant" double="0.0"/>
+            <e key="N_Implant" double="0.0"/>
+            <e key="Metal2" double="0.0"/>
+            <e key="Isolation" double="0.0"/>
+            <e key="Contact" double="0.0"/>
+            <e key="Buried" double="0.0"/>
+            <e key="Field_Implant" double="0.0"/>
+            <e key="Metal1" double="0.0"/>
+            <e key="Poly_Definition" double="0.0"/>
+            <e key="Scratch_Protection" double="0.0"/>
+            <e key="Sink_Implant" double="0.0"/>
+            <e key="NPImplant" double="0.0"/>
+        </node>
+        <node key="CIF">
+            <e key="Scratch_Protection" string="ISP"/>
+            <e key="PPImplant" string="IPP"/>
+            <e key="Silicide_Exclusion" string="ISE"/>
+            <e key="Isolation" string="II"/>
+            <e key="Poly_Definition" string="IP"/>
+            <e key="Field_Implant" string="IF"/>
+            <e key="Sink_Implant" string="IS"/>
+            <e key="Contact" string="IC"/>
+            <e key="Metal1" string="IM1"/>
+            <e key="N_Implant" string="INM"/>
+            <e key="Metal2" string="IM2"/>
+            <e key="Via" string="IV"/>
+            <e key="Buried" string="IB"/>
+            <e key="NPImplant" string="INP"/>
+        </node>
+        <e key="Foundry" string="MOSIS"/>
+        <e key="MininumCapacitance" double="0.0"/>
+        <e key="GateLengthSubtraction" double="0.0"/>
+        <e key="Scale" double="2000.0"/>
+        <node key="LogicalEffort">
+            <e key="DiffAlpha" double="0.7"/>
+            <e key="WireRatio" double="0.16"/>
+            <e key="GateCapacitance" double="0.4"/>
+        </node>
+        <e key="NumMetalLayers" int="2"/>
+        <e key="MaxSeriesResistance" double="10.0"/>
+        <e key="MininumResistance" double="10.0"/>
+        <e key="Gate Inclusion" boolean="false"/>
+        <e key="Ground Net Inclusion" boolean="false"/>
+    </node>
+    <node key="nmos">
+        <e key="MaxSeriesResistance" double="10.0"/>
+        <node key="GDS">
+            <e key="Polysilicon" string=""/>
+            <e key="Diffusion" string=""/>
+            <e key="Light-Enhancement" string=""/>
+            <e key="Light-Implant" string=""/>
+            <e key="Contact-Cut" string=""/>
+            <e key="Metal" string=""/>
+            <e key="Implant" string=""/>
+            <e key="Hard-Enhancement" string=""/>
+            <e key="Oversize-Contact" string=""/>
+            <e key="Buried-Contact" string=""/>
+            <e key="Overglass" string=""/>
+            <e key="Transistor" string=""/>
+        </node>
+        <e key="MininumResistance" double="50.0"/>
+        <node key="Thickness">
+            <e key="Oversize-Contact" double="1.0"/>
+            <e key="Metal" double="0.5"/>
+            <e key="Diffusion" double="2.0"/>
+            <e key="Transistor" double="0.0"/>
+            <e key="Light-Implant" double="5.0"/>
+            <e key="Polysilicon" double="0.5"/>
+            <e key="Implant" double="5.0"/>
+            <e key="Hard-Enhancement" double="5.0"/>
+            <e key="Overglass" double="2.0"/>
+            <e key="Light-Enhancement" double="5.0"/>
+            <e key="Contact-Cut" double="2.0"/>
+            <e key="Buried-Contact" double="5.0"/>
+        </node>
+        <node key="Capacitance">
+            <e key="Metal" double="0.03"/>
+            <e key="Polysilicon" double="0.04"/>
+            <e key="Transistor" double="0.0"/>
+            <e key="Implant" double="0.0"/>
+            <e key="Oversize-Contact" double="0.0"/>
+            <e key="Hard-Enhancement" double="0.0"/>
+            <e key="Light-Implant" double="0.0"/>
+            <e key="Overglass" double="0.0"/>
+            <e key="Contact-Cut" double="0.0"/>
+            <e key="Diffusion" double="0.1"/>
+            <e key="Buried-Contact" double="0.0"/>
+            <e key="Light-Enhancement" double="0.0"/>
+        </node>
+        <e key="Gate Inclusion" boolean="false"/>
+        <node key="LogicalEffort">
+            <e key="DiffAlpha" double="0.7"/>
+            <e key="WireRatio" double="0.16"/>
+            <e key="GateCapacitance" double="0.4"/>
+        </node>
+        <node key="DXF">
+            <e key="Overglass" string=""/>
+            <e key="Contact-Cut" string=""/>
+            <e key="Transistor" string=""/>
+            <e key="Light-Enhancement" string=""/>
+            <e key="Hard-Enhancement" string=""/>
+            <e key="Buried-Contact" string=""/>
+            <e key="Metal" string=""/>
+            <e key="Polysilicon" string=""/>
+            <e key="Oversize-Contact" string=""/>
+            <e key="Implant" string=""/>
+            <e key="Light-Implant" string=""/>
+            <e key="Diffusion" string=""/>
+        </node>
+        <node key="CIF">
+            <e key="Buried-Contact" string="NB"/>
+            <e key="Overglass" string="NG"/>
+            <e key="Light-Enhancement" string="NF"/>
+            <e key="Contact-Cut" string="NC"/>
+            <e key="Polysilicon" string="NP"/>
+            <e key="Transistor" string=""/>
+            <e key="Oversize-Contact" string="NO"/>
+            <e key="Metal" string="NM"/>
+            <e key="Hard-Enhancement" string="NE"/>
+            <e key="Diffusion" string="ND"/>
+            <e key="Light-Implant" string="NJ"/>
+            <e key="Implant" string="NI"/>
+        </node>
+        <node key="Skill">
+            <e key="Buried-Contact" string=""/>
+            <e key="Contact-Cut" string=""/>
+            <e key="Transistor" string=""/>
+            <e key="Polysilicon" string=""/>
+            <e key="Light-Implant" string=""/>
+            <e key="Oversize-Contact" string=""/>
+            <e key="Diffusion" string=""/>
+            <e key="Hard-Enhancement" string=""/>
+            <e key="Metal" string=""/>
+            <e key="Overglass" string=""/>
+            <e key="Light-Enhancement" string=""/>
+            <e key="Implant" string=""/>
+        </node>
+        <node key="EdgeCapacitance">
+            <e key="Light-Enhancement" double="0.0"/>
+            <e key="Transistor" double="0.0"/>
+            <e key="Polysilicon" double="0.0"/>
+            <e key="Hard-Enhancement" double="0.0"/>
+            <e key="Diffusion" double="0.0"/>
+            <e key="Light-Implant" double="0.0"/>
+            <e key="Metal" double="0.0"/>
+            <e key="Contact-Cut" double="0.0"/>
+            <e key="Implant" double="0.0"/>
+            <e key="Buried-Contact" double="0.0"/>
+            <e key="Overglass" double="0.0"/>
+            <e key="Oversize-Contact" double="0.0"/>
+        </node>
+        <node key="Resistance">
+            <e key="Diffusion" double="10.0"/>
+            <e key="Overglass" double="0.0"/>
+            <e key="Transistor" double="0.0"/>
+            <e key="Contact-Cut" double="0.0"/>
+            <e key="Hard-Enhancement" double="0.0"/>
+            <e key="Polysilicon" double="50.0"/>
+            <e key="Buried-Contact" double="0.0"/>
+            <e key="Light-Implant" double="0.0"/>
+            <e key="Oversize-Contact" double="0.0"/>
+            <e key="Light-Enhancement" double="0.0"/>
+            <e key="Metal" double="0.03"/>
+            <e key="Implant" double="0.0"/>
+        </node>
+        <e key="NumMetalLayers" int="1"/>
+        <e key="Foundry" string="NONE"/>
+        <e key="Scale" double="2000.0"/>
+        <node key="Distance">
+            <e key="Overglass" double="13.0"/>
+            <e key="Polysilicon" double="9.0"/>
+            <e key="Light-Implant" double="4.0"/>
+            <e key="Transistor" double="0.0"/>
+            <e key="Metal" double="11.0"/>
+            <e key="Implant" double="4.0"/>
+            <e key="Contact-Cut" double="9.0"/>
+            <e key="Hard-Enhancement" double="4.0"/>
+            <e key="Buried-Contact" double="4.0"/>
+            <e key="Light-Enhancement" double="4.0"/>
+            <e key="Oversize-Contact" double="12.0"/>
+            <e key="Diffusion" double="7.0"/>
+        </node>
+        <e key="GateLengthSubtraction" double="0.0"/>
+        <e key="Ground Net Inclusion" boolean="false"/>
+        <e key="MininumCapacitance" double="50.0"/>
+    </node>
+    <node key="GateLayoutGenerator">
+        <e key="enableNCC" string="purpleFour"/>
+        <e key="maxmos" int="1000"/>
+        <e key="quantError" int="0"/>
+        <e key="pheight" int="84"/>
+        <e key="simpleName" boolean="true"/>
+        <e key="nheight" int="84"/>
+        <e key="gndy" int="-21"/>
+        <e key="foundry" string="MOCMOS"/>
+        <e key="vddy" int="21"/>
+    </node>
+    <node key="gem">
+        <node key="Resistance">
+            <e key="Temporal-arc" double="0.0"/>
+            <e key="Fork-arc" double="0.0"/>
+            <e key="General-arc" double="0.0"/>
+            <e key="Causal-arc" double="0.0"/>
+            <e key="Element" double="0.0"/>
+            <e key="Prereq-arc" double="0.0"/>
+            <e key="Nondet-arc" double="0.0"/>
+        </node>
+        <node key="Thickness">
+            <e key="Temporal-arc" double="0.0"/>
+            <e key="Nondet-arc" double="0.0"/>
+            <e key="Causal-arc" double="0.0"/>
+            <e key="General-arc" double="0.0"/>
+            <e key="Fork-arc" double="0.0"/>
+            <e key="Prereq-arc" double="0.0"/>
+            <e key="Element" double="0.0"/>
+        </node>
+        <node key="Distance">
+            <e key="Prereq-arc" double="0.0"/>
+            <e key="Nondet-arc" double="0.0"/>
+            <e key="Fork-arc" double="0.0"/>
+            <e key="Element" double="0.0"/>
+            <e key="General-arc" double="0.0"/>
+            <e key="Causal-arc" double="0.0"/>
+            <e key="Temporal-arc" double="0.0"/>
+        </node>
+        <node key="Skill">
+            <e key="Temporal-arc" string=""/>
+            <e key="Prereq-arc" string=""/>
+            <e key="Nondet-arc" string=""/>
+            <e key="Causal-arc" string=""/>
+            <e key="General-arc" string=""/>
+            <e key="Fork-arc" string=""/>
+            <e key="Element" string=""/>
+        </node>
+        <node key="EdgeCapacitance">
+            <e key="Fork-arc" double="0.0"/>
+            <e key="Prereq-arc" double="0.0"/>
+            <e key="Nondet-arc" double="0.0"/>
+            <e key="Element" double="0.0"/>
+            <e key="General-arc" double="0.0"/>
+            <e key="Causal-arc" double="0.0"/>
+            <e key="Temporal-arc" double="0.0"/>
+        </node>
+        <node key="Capacitance">
+            <e key="Element" double="0.0"/>
+            <e key="Prereq-arc" double="0.0"/>
+            <e key="Causal-arc" double="0.0"/>
+            <e key="Temporal-arc" double="0.0"/>
+            <e key="General-arc" double="0.0"/>
+            <e key="Fork-arc" double="0.0"/>
+            <e key="Nondet-arc" double="0.0"/>
+        </node>
+        <e key="NumMetalLayers" int="0"/>
+        <e key="GateLengthSubtraction" double="0.0"/>
+        <node key="CIF">
+            <e key="Fork-arc" string=""/>
+            <e key="Temporal-arc" string=""/>
+            <e key="Prereq-arc" string=""/>
+            <e key="Element" string=""/>
+            <e key="Nondet-arc" string=""/>
+            <e key="General-arc" string=""/>
+            <e key="Causal-arc" string=""/>
+        </node>
+        <node key="GDS">
+            <e key="Nondet-arc" string=""/>
+            <e key="Causal-arc" string=""/>
+            <e key="General-arc" string=""/>
+            <e key="Temporal-arc" string=""/>
+            <e key="Element" string=""/>
+            <e key="Prereq-arc" string=""/>
+            <e key="Fork-arc" string=""/>
+        </node>
+        <e key="MininumCapacitance" double="0.0"/>
+        <e key="MininumResistance" double="10.0"/>
+        <e key="Gate Inclusion" boolean="false"/>
+        <node key="DXF">
+            <e key="Temporal-arc" string=""/>
+            <e key="Prereq-arc" string=""/>
+            <e key="General-arc" string=""/>
+            <e key="Causal-arc" string=""/>
+            <e key="Element" string=""/>
+            <e key="Nondet-arc" string=""/>
+            <e key="Fork-arc" string=""/>
+        </node>
+        <e key="Foundry" string="NONE"/>
+        <e key="MaxSeriesResistance" double="10.0"/>
+        <e key="Scale" double="1000.0"/>
+        <node key="LogicalEffort">
+            <e key="DiffAlpha" double="0.7"/>
+            <e key="GateCapacitance" double="0.4"/>
+            <e key="WireRatio" double="0.16"/>
+        </node>
+        <e key="Ground Net Inclusion" boolean="false"/>
+    </node>
+    <node key="efido">
+        <e key="MininumResistance" double="10.0"/>
+        <node key="Capacitance">
+            <e key="Arc" double="0.0"/>
+            <e key="Node" double="0.0"/>
+            <e key="Outpad" double="0.0"/>
+        </node>
+        <e key="MininumCapacitance" double="0.0"/>
+        <node key="Thickness">
+            <e key="Outpad" double="0.0"/>
+            <e key="Arc" double="0.0"/>
+            <e key="Node" double="0.0"/>
+        </node>
+        <node key="Skill">
+            <e key="Node" string=""/>
+            <e key="Arc" string=""/>
+            <e key="Outpad" string=""/>
+        </node>
+        <node key="EdgeCapacitance">
+            <e key="Node" double="0.0"/>
+            <e key="Arc" double="0.0"/>
+            <e key="Outpad" double="0.0"/>
+        </node>
+        <node key="Distance">
+            <e key="Arc" double="0.0"/>
+            <e key="Node" double="0.0"/>
+            <e key="Outpad" double="0.0"/>
+        </node>
+        <node key="CIF">
+            <e key="Outpad" string=""/>
+            <e key="Arc" string=""/>
+            <e key="Node" string=""/>
+        </node>
+        <node key="GDS">
+            <e key="Arc" string=""/>
+            <e key="Node" string=""/>
+            <e key="Outpad" string=""/>
+        </node>
+        <node key="LogicalEffort">
+            <e key="DiffAlpha" double="0.7"/>
+            <e key="GateCapacitance" double="0.4"/>
+            <e key="WireRatio" double="0.16"/>
+        </node>
+        <node key="Resistance">
+            <e key="Node" double="0.0"/>
+            <e key="Arc" double="0.0"/>
+            <e key="Outpad" double="0.0"/>
+        </node>
+        <node key="DXF">
+            <e key="Arc" string=""/>
+            <e key="Node" string=""/>
+            <e key="Outpad" string=""/>
+        </node>
+        <e key="Foundry" string="NONE"/>
+        <e key="MaxSeriesResistance" double="10.0"/>
+        <e key="Ground Net Inclusion" boolean="false"/>
+        <e key="Gate Inclusion" boolean="false"/>
+        <e key="GateLengthSubtraction" double="0.0"/>
+        <e key="Scale" double="10000.0"/>
+        <e key="NumMetalLayers" int="0"/>
+    </node>
+    <node key="logeffortTool">
+        <e key="X1InverterLength" double="2.0"/>
+        <e key="X1InverterPWidth" double="6.0"/>
+        <e key="MaxIterations" int="30"/>
+        <e key="KeeperRatio" double="0.1"/>
+        <e key="UseLocalSettings" boolean="true"/>
+        <e key="GlobalFanout" double="4.7"/>
+        <e key="X1InverterNWidth" double="3.0"/>
+        <e key="ConvergenceEpsilon" double="0.001"/>
+    </node>
+    <node key="fpga">
+        <node key="Thickness">
+            <e key="Repeater" double="0.0"/>
+            <e key="Component" double="0.0"/>
+            <e key="Wire" double="0.0"/>
+            <e key="Pip" double="0.0"/>
+        </node>
+        <node key="Distance">
+            <e key="Pip" double="0.0"/>
+            <e key="Wire" double="0.0"/>
+            <e key="Component" double="0.0"/>
+            <e key="Repeater" double="0.0"/>
+        </node>
+        <node key="Resistance">
+            <e key="Wire" double="0.0"/>
+            <e key="Repeater" double="0.0"/>
+            <e key="Pip" double="0.0"/>
+            <e key="Component" double="0.0"/>
+        </node>
+        <e key="Gate Inclusion" boolean="false"/>
+        <node key="Skill">
+            <e key="Component" string=""/>
+            <e key="Wire" string=""/>
+            <e key="Pip" string=""/>
+            <e key="Repeater" string=""/>
+        </node>
+        <e key="MininumResistance" double="10.0"/>
+        <e key="GateLengthSubtraction" double="0.0"/>
+        <node key="DXF">
+            <e key="Component" string=""/>
+            <e key="Wire" string=""/>
+            <e key="Pip" string=""/>
+            <e key="Repeater" string=""/>
+        </node>
+        <e key="MaxSeriesResistance" double="10.0"/>
+        <node key="EdgeCapacitance">
+            <e key="Repeater" double="0.0"/>
+            <e key="Wire" double="0.0"/>
+            <e key="Component" double="0.0"/>
+            <e key="Pip" double="0.0"/>
+        </node>
+        <node key="Capacitance">
+            <e key="Repeater" double="0.0"/>
+            <e key="Pip" double="0.0"/>
+            <e key="Component" double="0.0"/>
+            <e key="Wire" double="0.0"/>
+        </node>
+        <node key="LogicalEffort">
+            <e key="DiffAlpha" double="0.7"/>
+            <e key="GateCapacitance" double="0.4"/>
+            <e key="WireRatio" double="0.16"/>
+        </node>
+        <node key="CIF">
+            <e key="Component" string=""/>
+            <e key="Pip" string=""/>
+            <e key="Wire" string=""/>
+            <e key="Repeater" string=""/>
+        </node>
+        <node key="GDS">
+            <e key="Pip" string=""/>
+            <e key="Wire" string=""/>
+            <e key="Repeater" string=""/>
+            <e key="Component" string=""/>
+        </node>
+        <e key="NumMetalLayers" int="1"/>
+        <e key="Ground Net Inclusion" boolean="false"/>
+        <e key="MininumCapacitance" double="0.0"/>
+        <e key="Scale" double="2000.0"/>
+        <e key="Foundry" string="NONE"/>
+    </node>
+    <node key="schematic">
+        <e key="GateLengthSubtraction" double="0.0"/>
+        <node key="LogicalEffort">
+            <e key="WireRatio" double="0.16"/>
+            <e key="GateCapacitance" double="0.4"/>
+            <e key="DiffAlpha" double="0.7"/>
+        </node>
+        <node key="GDS">
+            <e key="Node" string=""/>
+            <e key="Text" string=""/>
+            <e key="Arc" string=""/>
+            <e key="Bus" string=""/>
+        </node>
+        <node key="Thickness">
+            <e key="Node" double="0.0"/>
+            <e key="Bus" double="0.0"/>
+            <e key="Text" double="0.0"/>
+            <e key="Arc" double="0.0"/>
+        </node>
+        <node key="Capacitance">
+            <e key="Node" double="0.0"/>
+            <e key="Arc" double="0.0"/>
+            <e key="Text" double="0.0"/>
+            <e key="Bus" double="0.0"/>
+        </node>
+        <node key="EdgeCapacitance">
+            <e key="Text" double="0.0"/>
+            <e key="Bus" double="0.0"/>
+            <e key="Arc" double="0.0"/>
+            <e key="Node" double="0.0"/>
+        </node>
+        <node key="DXF">
+            <e key="Node" string=""/>
+            <e key="Bus" string=""/>
+            <e key="Arc" string=""/>
+            <e key="Text" string=""/>
+        </node>
+        <e key="Ground Net Inclusion" boolean="false"/>
+        <node key="Distance">
+            <e key="Text" double="0.0"/>
+            <e key="Arc" double="0.0"/>
+            <e key="Node" double="0.0"/>
+            <e key="Bus" double="0.0"/>
+        </node>
+        <e key="MaxSeriesResistance" double="10.0"/>
+        <node key="Skill">
+            <e key="Bus" string=""/>
+            <e key="Node" string=""/>
+            <e key="Arc" string=""/>
+            <e key="Text" string=""/>
+        </node>
+        <node key="CIF">
+            <e key="Arc" string=""/>
+            <e key="Text" string=""/>
+            <e key="Node" string=""/>
+            <e key="Bus" string=""/>
+        </node>
+        <e key="MininumCapacitance" double="0.0"/>
+        <e key="Gate Inclusion" boolean="false"/>
+        <e key="NumMetalLayers" int="1"/>
+        <e key="Foundry" string="NONE"/>
+        <e key="MininumResistance" double="10.0"/>
+        <node key="Resistance">
+            <e key="Bus" double="0.0"/>
+            <e key="Text" double="0.0"/>
+            <e key="Node" double="0.0"/>
+            <e key="Arc" double="0.0"/>
+        </node>
+        <e key="Scale" double="2000.0"/>
+    </node>
+    <node key="artwork">
+        <node key="Resistance">
+            <e key="Graphics" double="0.0"/>
+        </node>
+        <e key="MininumCapacitance" double="0.0"/>
+        <node key="Distance">
+            <e key="Graphics" double="0.0"/>
+        </node>
+        <node key="DXF">
+            <e key="Graphics" string="OBJECT"/>
+        </node>
+        <node key="EdgeCapacitance">
+            <e key="Graphics" double="0.0"/>
+        </node>
+        <e key="NumMetalLayers" int="0"/>
+        <node key="LogicalEffort">
+            <e key="WireRatio" double="0.16"/>
+            <e key="DiffAlpha" double="0.7"/>
+            <e key="GateCapacitance" double="0.4"/>
+        </node>
+        <e key="MaxSeriesResistance" double="10.0"/>
+        <e key="Foundry" string="NONE"/>
+        <e key="MininumResistance" double="10.0"/>
+        <e key="Gate Inclusion" boolean="false"/>
+        <e key="GateLengthSubtraction" double="0.0"/>
+        <node key="CIF">
+            <e key="Graphics" string=""/>
+        </node>
+        <node key="Skill">
+            <e key="Graphics" string=""/>
+        </node>
+        <node key="Thickness">
+            <e key="Graphics" double="0.0"/>
+        </node>
+        <node key="GDS">
+            <e key="Graphics" string="1"/>
+        </node>
+        <node key="Capacitance">
+            <e key="Graphics" double="0.0"/>
+        </node>
+        <e key="Ground Net Inclusion" boolean="false"/>
+        <e key="Scale" double="2000.0"/>
+    </node>
+    <node key="userTool">
+        <e key="SoftTechnologies" string=""/>
+        <e key="SchematicTechnology" string="mocmos"/>
+        <e key="PSubstrateProcess" boolean="true"/>
+        <e key="IncludeDateAndVersionInOutput" boolean="true"/>
+        <e key="DefaultTechnology" string="mocmos"/>
+    </node>
+    <node key="simulationTool">
+        <e key="VerilogUseAssign" boolean="false"/>
+        <e key="VerilogUseTrireg" boolean="false"/>
+    </node>
+    <node key="ioTool">
+        <e key="GDSOutputUnitsPerMeter" double="1.0E9"/>
+        <e key="DXFScale" int="2"/>
+        <e key="CIFMimicsDisplay" boolean="false"/>
+        <e key="GDSOutputScale" double="1.0"/>
+        <e key="CopyrightMessage" string="&#xA;ECE 429&#xA;Valparaiso University&#xA;&#xA;Project settings version ** 3 **&#xA;&#xA;"/>
+        <e key="GDSInputScale" double="1.0"/>
+        <e key="GDSOutputUpperCase" boolean="false"/>
+        <e key="CIFOutScaleFactor" int="1"/>
+        <e key="GDSWritesExportPins" boolean="false"/>
+        <e key="GDSOutputPrecision" double="1000.0"/>
+        <e key="GDSOutputWriteExportCharacteristics" boolean="true"/>
+        <e key="CIFMergesBoxes" boolean="false"/>
+        <e key="GDSMergesBoxes" boolean="false"/>
+        <e key="CIFInstantiatesTopLevel" boolean="true"/>
+        <e key="UseCopyrightMessage" boolean="true"/>
+        <e key="GDSDefaultTextLayer" int="230"/>
+        <e key="GDSOutputConvertsBracketsInExports" boolean="true"/>
+        <e key="GDSCellNameLenMax" int="32"/>
+    </node>
+    <node key="STATool">
+        <e key="NumWorstPaths" int="10"/>
+        <e key="GlobalSDCCommandsMIN" string=""/>
+        <e key="GlobalSDCCommands" string=""/>
+    </node>
+    <node key="networkTool">
+        <e key="IgnoreResistors" boolean="false"/>
+    </node>
+</node>

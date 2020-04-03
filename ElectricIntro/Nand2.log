@@ -1,2 +1,10 @@
 Circuit: *** SPICE deck for cell Nand2{lay} from library Leveille_myGates-2020-02-10
 
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+WARNING: Node A#0NMOS@2_POLY-LEFT##3 is floating.
+WARNING: Node B#0NMOS@3_POLY-LEFT##3 is floating.
+
+Fatal Error: R15: Resistance must not be zero.

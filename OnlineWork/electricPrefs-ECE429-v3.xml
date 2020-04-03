@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE preferences SYSTEM "http://java.sun.com/dtd/preferences.dtd">
+<preferences EXTERNAL_XML_VERSION="1.0">
+  <root type="user">
+    <map/>
+    <node name="com">
+      <map/>
+      <node name="sun">
+        <map/>
+        <node name="electric">
+          <map/>
+          <node name="database">
+            <map/>
+            <node name="hierarchy">
+              <map/>
+            </node>
+            <node name="network">
+              <map/>
+            </node>
+            <node name="variable">
+              <map/>
+            </node>
+          </node>
+          <node name="plugins">
+            <map/>
+            <node name="sctiming">
+              <map/>
+            </node>
+          </node>
+          <node name="technology">
+            <map/>
+            <node name="technologies">
+              <map>
+                <entry key="ScaleFORmocmos" value="300.0"/>
+                <entry key="mocmosAnalog" value="true"/>
+                <entry key="mocmosNumberOfMetalLayers" value="3"/>
+              </map>
+            </node>
+          </node>
+          <node name="tool">
+            <map/>
+            <node name="compaction">
+              <map/>
+            </node>
+            <node name="drc">
+              <map/>
+            </node>
+            <node name="erc">
+              <map/>
+            </node>
+            <node name="extract">
+              <map/>
+            </node>
+            <node name="generator">
+              <map/>
+              <node name="layout">
+                <map/>
+              </node>
+            </node>
+            <node name="io">
+              <map>
+                <entry key="CopyrightMessage" value="ECE 429&#xA;Valparaiso University"/>
+                <entry key="OutputBackupRedundancy" value="2"/>
+                <entry key="UseCopyrightMessage" value="true"/>
+              </map>
+            </node>
+            <node name="logicaleffort">
+              <map/>
+            </node>
+            <node name="ncc">
+              <map>
+                <entry key="CheckSizes" value="true"/>
+              </map>
+            </node>
+            <node name="placement">
+              <map/>
+            </node>
+            <node name="project">
+              <map/>
+            </node>
+            <node name="routing">
+              <map/>
+            </node>
+            <node name="sc">
+              <map>
+                <entry key="HorizRoutingArc" value="wire"/>
+                <entry key="MainPowerArc" value="wire"/>
+                <entry key="VertRoutingArc" value="wire"/>
+              </map>
+            </node>
+            <node name="simulation">
+              <map>
+                <entry key="SpiceEngine" value="1"/>
+                <entry key="SpiceHeaderCardInfo" value="N O N E "/>
+                <entry key="SpiceLevel" value="3"/>
+                <entry key="SpiceOverwriteOutputFile" value="true"/>
+                <entry key="SpiceParasiticsLevel" value="0"/>
+                <entry key="SpiceRunChoice" value="1"/>
+                <entry key="SpiceRunProbe" value="false"/>
+                <entry key="SpiceRunProgram" value="&quot;C:\Program Files\LTC\LTspiceXVII\XVIIx64.exe&quot;"/>
+                <entry key="SpiceRunProgramArgs" value="-i ${FILENAME} -r ${FILENAME_NO_EXT}.raw -o ${FILENAME_NO_EXT}.out"/>
+                <entry key="SpiceTrailerCardInfo" value="N O N E "/>
+              </map>
+            </node>
+            <node name="user">
+              <map>
+                <entry key="AlignmentToGridVector" value="(20.0 10.0 5.0 *1.0 0.5)"/>
+                <entry key="ColorBackground" value="-1"/>
+                <entry key="ColorHighlight" value="-13261"/>
+                <entry key="ColorMeasurement" value="-16724941"/>
+                <entry key="DefaultWindowTab" value="0"/>
+                <entry key="IconGenExportPlacementExact" value="false"/>
+                <entry key="MultipleLog" value="true"/>
+                <entry key="dockMessagesWindow" value="true"/>
+              </map>
+              <node name="dialogs">
+                <map/>
+              </node>
+              <node name="menus">
+                <map>
+                  <entry key="MenuKeyBinding-Tools | Simulation (Spice) | Write Spice Deck..." value="F4"/>
+                  <entry key="MenuKeyBinding-ools | NCC | Schematic and Layout Views of Cell in Current Window" value="F3"/>
+                </map>
+              </node>
+              <node name="ui">
+                <map/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </root>
+</preferences>

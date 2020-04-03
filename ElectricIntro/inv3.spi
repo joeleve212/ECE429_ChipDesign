@@ -1,0 +1,18 @@
+*** SPICE deck for cell inv3{sch} from library Leveille_hw5
+*** Created on Wed Feb 19, 2020 11:49:37
+*** Last revised on Thu Feb 20, 2020 19:09:57
+*** Written on Thu Feb 20, 2020 19:10:00 by Electric VLSI Design System, version 9.07
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+
+.global gnd vdd
+
+*** TOP LEVEL CELL: inv3{sch}
+Mnmos@0 y Vin gnd gnd NMOS L=0.6U W=28.8U
+Mpmos@0 vdd Vin y vdd PMOS L=0.6U W=57.6U
+
+* Spice Code nodes in cell cell 'inv3{sch}'
+Vdd vdd 0 5
+Vgd gnd 0 0
+.include c5.txt
+.END

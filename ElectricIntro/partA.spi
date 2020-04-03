@@ -1,0 +1,31 @@
+*** SPICE deck for cell partA{sch} from library Leveille_HW6
+*** Created on Fri Mar 20, 2020 19:51:41
+*** Last revised on Sun Mar 22, 2020 11:33:58
+*** Written on Sun Mar 22, 2020 11:34:06 by Electric VLSI Design System, version 9.07
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+
+.global gnd
+
+*** TOP LEVEL CELL: Leveille_HW6:partA{sch}
+Ccap@0 gnd OutB 4f
+Ccap@1 gnd V_2 4f
+Ccap@2 gnd V_1 4f
+Ccap@4 gnd OutA 4f
+Rres@0 V_2 V_1 5k
+Rres@1 OutB V_2 5k
+Rres@2 V_1 Vin 5k
+Rres@3 Vin OutA 5k
+VPulse@0 Vin gnd DC=0 pulse 0 5 0ns 1p 10p 0.5n 1n
+
+* Spice Code nodes in cell cell 'Leveille_HW6:partA{sch}'
+Vdd vdd 0 5
+Vgd gnd 0 0
+.include c5.txt
+.tran 2n
+.meas tran tpHL trig v(a1) val=2.5 rise=1 targ v(a2) val=2.5 fall=1
+.meas tran tpLH trig v(a1) val=2.5 fall=1 targ v(a2) val=2.5 rise=1
+.meas tran tpavg param (tpHL+tpLH)/2
+.meas tran trise trig v(a2) val='0.10*5' rise=1 targ v(a2) val='0.90*5' rise=1
+.meas tran tfall trig v(a2) val='0.90*5' fall=1 targ v(a2) val='0.10*5' fall=1
+.END

@@ -1,6 +1,10 @@
-Circuit: *** SPICE deck for cell Inv{lay} from library Leveille_myGates-2020-02-10
+Circuit: *** SPICE deck for cell And2{lay} from library Leveille_myGates-2020-02-10
 
 Vgd: both pins shorted together -- ignoring.
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
 Ignoring BSIM parameter XL
 Ignoring BSIM parameter XW
 Ignoring BSIM parameter XL

@@ -1,11 +1,11 @@
 *** SPICE deck for cell test_inv1{sch} from library White_inverters
 *** Created on Tue Feb 04, 2014 11:19:28
-*** Last revised on Sun Feb 02, 2020 23:52:52
-*** Written on Thu Feb 13, 2020 15:59:05 by Electric VLSI Design System, version 9.07
+*** Last revised on Thu Feb 13, 2020 21:43:21
+*** Written on Wed Feb 19, 2020 10:58:33 by Electric VLSI Design System, version 9.07
 *** Layout tech: mocmos, foundry MOSIS
 *** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
 
-*** SUBCIRCUIT White_inverters__inv1 FROM CELL inv1{sch}
+*** SUBCIRCUIT White_inverters__inv1 FROM CELL White_inverters:inv1{sch}
 .SUBCKT White_inverters__inv1 in out
 ** GLOBAL gnd
 ** GLOBAL vdd
@@ -15,13 +15,13 @@ Mpmos@0 vdd in out vdd P L=0.6U W=1.2U
 
 .global gnd vdd
 
-*** TOP LEVEL CELL: test_inv1{sch}
+*** TOP LEVEL CELL: White_inverters:test_inv1{sch}
 VPulse@1 a0 gnd DC=0 pulse 0 5 0ns 10p 10p 0.5n 1n
 Xinv1@0 a0 a1 White_inverters__inv1
 Xinv1@1 a1 a2 White_inverters__inv1
 Xinv1@2 a2 a3 White_inverters__inv1
 
-* Spice Code nodes in cell cell 'test_inv1{sch}'
+* Spice Code nodes in cell cell 'White_inverters:test_inv1{sch}'
 .tran 2n
 .meas tran tpHL trig v(a1) val=2.5 rise=1 targ v(a2) val=2.5 fall=1
 .meas tran tpLH trig v(a1) val=2.5 fall=1 targ v(a2) val=2.5 rise=1

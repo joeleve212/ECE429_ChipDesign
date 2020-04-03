@@ -1,7 +1,7 @@
-*** SPICE deck for cell Nand2{lay} from library Leveille_myGates-2020-02-10
-*** Created on Mon Feb 10, 2020 17:40:39
-*** Last revised on Wed Feb 19, 2020 11:15:13
-*** Written on Wed Feb 19, 2020 11:15:17 by Electric VLSI Design System, version 9.07
+*** SPICE deck for cell And2{lay} from library Leveille_myGates-2020-02-10
+*** Created on Wed Feb 12, 2020 09:06:25
+*** Last revised on Thu Feb 13, 2020 22:26:53
+*** Written on Fri Feb 14, 2020 09:03:34 by Electric VLSI Design System, version 9.07
 *** Layout tech: mocmos, foundry MOSIS
 *** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
 ***    P-Active:	areacap=0.9FF/um^2,	edgecap=0.0FF/um,	res=2.5ohms/sq
@@ -24,7 +24,37 @@
 ***    Metal-6:	areacap=0.0423FF/um^2,	edgecap=0.1273FF/um,	res=0.036ohms/sq
 ***    Hi-Res:	areacap=0.0FF/um^2,	edgecap=0.0FF/um,	res=1.0ohms/sq
 
-*** TOP LEVEL CELL: Nand2{lay}
+*** SUBCIRCUIT Leveille_myGates-2020-02-10__Inv FROM CELL Inv{lay}
+.SUBCKT Leveille_myGates-2020-02-10__Inv gnd in out vdd
+Mnmos@0 out in#2nmos@0_poly-right gnd gnd N L=0.6U W=1.8U AS=3.195P AD=5.108P PS=7.5U PD=9.3U
+Mpmos@0 out in#0pmos@0_poly-left vdd vdd P L=0.6U W=3.6U AS=7.02P AD=5.108P PS=11.1U PD=9.3U
+** Extracted Parasitic Capacitors ***
+C0 out 0 4.735fF
+C1 in 0 0.307fF
+C2 in#2nmos@0_poly-right 0 0.126fF
+C3 in#1pin@6_polysilicon-1 0 0.543fF
+C4 in#0pmos@0_poly-left 0 0.11fF
+** Extracted Parasitic Resistors ***
+R0 in#0pmos@0_poly-left in#0pmos@0_poly-left##0 7.233
+C5 in#0pmos@0_poly-left##0 0 0.11fF
+R1 in#0pmos@0_poly-left##0 in#0pmos@0_poly-left##1 7.233
+C6 in#0pmos@0_poly-left##1 0 0.11fF
+R2 in#0pmos@0_poly-left##1 in#1pin@6_polysilicon-1 7.233
+R3 in#1pin@6_polysilicon-1 in#1pin@6_polysilicon-1##0 8.267
+C7 in#1pin@6_polysilicon-1##0 0 0.126fF
+R4 in#1pin@6_polysilicon-1##0 in#1pin@6_polysilicon-1##1 8.267
+C8 in#1pin@6_polysilicon-1##1 0 0.126fF
+R5 in#1pin@6_polysilicon-1##1 in#2nmos@0_poly-right 8.267
+R6 in in#1pin@6_polysilicon-1 7.44
+
+* Spice Code nodes in cell cell 'Inv{lay}'
+Vdd vdd 0 5
+Vgd gnd 0 0
+.include c5.txt
+.ENDS Leveille_myGates-2020-02-10__Inv
+
+*** SUBCIRCUIT Leveille_myGates-2020-02-10__Nand2 FROM CELL Nand2{lay}
+.SUBCKT Leveille_myGates-2020-02-10__Nand2 a b gnd vdd y
 Mnmos@2 y#0contact@6_metal-1-n-act a#0nmos@2_poly-left net@6 gnd N L=0.6U W=3.6U AS=4.32P AD=5.58P PS=6U PD=7.9U
 Mnmos@3 net@6 b#0nmos@3_poly-left gnd gnd N L=0.6U W=3.6U AS=8.1P AD=4.32P PS=11.7U PD=6U
 Mpmos@0 y#2pmos@0_diff-bottom a#2pmos@0_poly-left vdd vdd P L=0.6U W=3.6U AS=7.02P AD=5.58P PS=11.1U PD=7.9U
@@ -67,10 +97,23 @@ R15 y#0contact@6_metal-1-n-act y 0
 
 * Spice Code nodes in cell cell 'Nand2{lay}'
 .include c5.txt
-.tran 2n
-.meas tran tpHL trig v(a1) val=2.5 rise=1 targ v(a2) val=2.5 fall=1
-.meas tran tpLH trig v(a1) val=2.5 fall=1 targ v(a2) val=2.5 rise=1
-.meas tran tpavg param (tpHL+tpLH)/2
-.meas tran trise trig v(a2) val='0.10*5' rise=1 targ v(a2) val='0.90*5' rise=1
-.meas tran tfall trig v(a2) val='0.90*5' fall=1 targ v(a2) val='0.10*5' fall=1
+.ENDS Leveille_myGates-2020-02-10__Nand2
+
+*** TOP LEVEL CELL: And2{lay}
+XInv@0 net@3 net@5 out net@1 Leveille_myGates-2020-02-10__Inv
+XNand2@0 a b net@3 net@1 net@5 Leveille_myGates-2020-02-10__Nand2
+** Extracted Parasitic Capacitors ***
+C0 net@1 0 4.054fF
+C1 net@3 0 2.868fF
+C2 net@5 0 3.732fF
+C3 out 0 0.988fF
+C4 a 0 2.373fF
+C5 b 0 2.941fF
+** Extracted Parasitic Resistors ***
+
+* Spice Code nodes in cell cell 'And2{lay}'
+Vdd vdd 0 5
+Vgd gnd 0 0
+.include c5.txt
+.include cmosedu_models.txt
 .END

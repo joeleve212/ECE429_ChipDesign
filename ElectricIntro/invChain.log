@@ -1,0 +1,66 @@
+Circuit: *** SPICE deck for cell invChain{sch} from library Leveille_hw5
+
+Vgd: both pins shorted together -- ignoring.
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Direct Newton iteration for .op point succeeded.
+
+
+Measurement "tphl" FAIL'ed
+
+Measurement "tplh" FAIL'ed
+
+Measurement "tpavg" FAIL'ed
+
+Measurement "trise" FAIL'ed
+
+Measurement "tfall" FAIL'ed
+
+
+Date: Mon Feb 24 10:34:49 2020
+Total elapsed time: 0.095 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 4156
+traniter = 4144
+tranpoints = 1894
+accept = 1656
+rejected = 238
+matrix size = 11
+fillins = 0
+solver = Normal
+Matrix Compiler1: 540 bytes object code size  0.1/0.1/[0.1]
+Matrix Compiler2: 981 bytes object code size  0.1/0.1/[0.1]
+

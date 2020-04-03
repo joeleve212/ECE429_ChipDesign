@@ -1,0 +1,53 @@
+# header information:
+HLeveille_HW6|9.07
+
+# Views:
+Vicon|ic
+Vschematic|sch
+
+# External Libraries:
+
+Lspiceparts|spiceparts
+
+# Technologies:
+Tmocmos|ScaleFORmocmos()D300.0|mocmosAnalog()BT|mocmosNumberOfMetalLayers()I3
+
+# Cell partA;1{sch}
+CpartA;1{sch}||schematic|1584751901429|1584894838856|
+Ispiceparts:Pulse;1{ic}|Pulse@0||-34|8|||D5G4;|ATTR_DCVoltage(D5G0.5;NPX5;Y-2;)S0|ATTR_DelayTime(D5G0.5;NPX5;Y0.5;)S0ns|ATTR_FallTime(D5G0.5;NPX5;Y-0.5;)S10p|ATTR_InitialVoltage(D5G0.5;NPX5;Y1.5;)I0|ATTR_Period(D5G0.5;NPX5;Y-1.5;)S1n|ATTR_PulseVoltage(D5G0.5;NPX5;Y1;)S5|ATTR_PulseWidth(D5G0.5;NPX5;Y-1;)S0.5n|ATTR_RiseTime(D5G0.5;NPX5;)S1p
+Ngeneric:Facet-Center|art@0||0|0||||AV
+NCapacitor|cap@0||2|8|||||SCHEM_capacitance(D5G1;)S4f
+NCapacitor|cap@1||-8|8|||||SCHEM_capacitance(D5G1;)S4f
+NCapacitor|cap@2||-18|8|||||SCHEM_capacitance(D5G1;)S4f
+NCapacitor|cap@4||-48|8|||||SCHEM_capacitance(D5G1;)S4f
+NGround|gnd@0||-15|0||||
+NWire_Pin|pin@0||-15|6||||
+Ngeneric:Invisible-Pin|pin@1||-30|0|||||SIM_spice_card(D9G1;)S[Vdd vdd 0 5,Vgd gnd 0 0,.include c5.txt]
+Ngeneric:Invisible-Pin|pin@2||-34|-7|||||SIM_spice_card(D9G1;)S[.tran 2n,.meas tran tpHL trig v(a1) val=2.5 rise=1 targ v(a2) val=2.5 fall=1,.meas tran tpLH trig v(a1) val=2.5 fall=1 targ v(a2) val=2.5 rise=1,.meas tran tpavg param (tpHL+tpLH)/2,.meas tran trise trig v(a2) val='0.10*5' rise=1 targ v(a2) val='0.90*5' rise=1,.meas tran tfall trig v(a2) val='0.90*5' fall=1 targ v(a2) val='0.10*5' fall=1]
+NWire_Pin|pin@3||-27|11||||
+NWire_Pin|pin@4||-15|5||||
+NWire_Pin|pin@5||-38|11||||
+NWire_Pin|pin@8||-48|5||||
+NResistor|res@0||-15|10|||||SCHEM_resistance(D5G1;)S5k
+NResistor|res@1||-5|10|||||SCHEM_resistance(D5G1;)S5k
+NResistor|res@2||-25|10|||||SCHEM_resistance(D5G1;)S5k
+NResistor|res@3||-40|10|||||SCHEM_resistance(D5G1;)S5k
+Awire|OutA|D5G1;||1800|cap@4|a|-48|10|res@3|a|-42|10
+Awire|OutB|D5G1;||0|cap@0|a|2|10|res@1|b|-3|10
+Awire|V_1|D5G1;||1800|res@2|b|-23|10|cap@2|a|-18|10
+Awire|V_2|D5G1;||1800|res@0|b|-13|10|cap@1|a|-8|10
+Awire|Vin|D5G1;||1800|Pulse@0|plus|-34|11|pin@3||-27|11
+Awire|gnd|D5G1;||2700|gnd@0||-15|2|pin@4||-15|5
+Awire|net@1|||1800|cap@1|b|-8|6|cap@0|b|2|6
+Awire|net@3|||0|res@1|a|-7|10|cap@1|a|-8|10
+Awire|net@5|||0|res@0|a|-17|10|cap@2|a|-18|10
+Awire|net@7|||1800|cap@2|b|-18|6|pin@0||-15|6
+Awire|net@8|||1800|pin@0||-15|6|cap@1|b|-8|6
+Awire|net@12|||2700|res@2|a|-27|10|pin@3||-27|11
+Awire|net@13|||2700|pin@4||-15|5|pin@0||-15|6
+Awire|net@14|||1800|Pulse@0|minus|-34|5|pin@4||-15|5
+Awire|net@15|||2700|res@3|b|-38|10|pin@5||-38|11
+Awire|net@16|||0|Pulse@0|plus|-34|11|pin@5||-38|11
+Awire|net@21|||0|Pulse@0|minus|-34|5|pin@8||-48|5
+Awire|net@22|||900|cap@4|b|-48|6|pin@8||-48|5
+X

@@ -1,0 +1,12 @@
+Circuit: *** SPICE deck for cell inv3{sch} from library Leveille_hw5
+
+Vgd: both pins shorted together -- ignoring.
+Error on line 9 : mnmos@0 y vin gnd gnd nmos l=0.6u w=28.8u
+	 Unable to find definition of model "w"
+	
+	* Error:  No unlabeled parameter permitted for MOSFET's
+Error on line 10 : mpmos@0 vdd vin y vdd pmos l=0.6u w=57.6u
+	 Unable to find definition of model "w"
+	
+	* Error:  No unlabeled parameter permitted for MOSFET's
+Fatal Error: No analysis request found.

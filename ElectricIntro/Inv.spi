@@ -1,13 +1,53 @@
-*** SPICE deck for cell Inv{sch} from library Leveille_myGates-2020-02-10
-*** Created on Wed Feb 12, 2020 09:37:29
-*** Last revised on Thu Feb 13, 2020 15:49:05
-*** Written on Thu Feb 13, 2020 15:49:12 by Electric VLSI Design System, version 9.07
+*** SPICE deck for cell Inv{lay} from library Leveille_myGates-2020-02-10
+*** Created on Wed Feb 12, 2020 09:36:42
+*** Last revised on Thu Feb 13, 2020 21:43:14
+*** Written on Thu Feb 13, 2020 21:44:12 by Electric VLSI Design System, version 9.07
 *** Layout tech: mocmos, foundry MOSIS
 *** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+***    P-Active:	areacap=0.9FF/um^2,	edgecap=0.0FF/um,	res=2.5ohms/sq
+***    N-Active:	areacap=0.9FF/um^2,	edgecap=0.0FF/um,	res=3.0ohms/sq
+***    Polysilicon-1:	areacap=0.1467FF/um^2,	edgecap=0.0608FF/um,	res=6.2ohms/sq
+***    Polysilicon-2:	areacap=1.0FF/um^2,	edgecap=0.0FF/um,	res=50.0ohms/sq
+***    Transistor-Poly:	areacap=0.09FF/um^2,	edgecap=0.0FF/um,	res=2.5ohms/sq
+***    Poly-Cut:	areacap=0.0FF/um^2,	edgecap=0.0FF/um,	res=2.2ohms/sq
+***    Active-Cut:	areacap=0.0FF/um^2,	edgecap=0.0FF/um,	res=2.5ohms/sq
+***    Metal-1:	areacap=0.1209FF/um^2,	edgecap=0.1104FF/um,	res=0.078ohms/sq
+***    Via1:	areacap=0.0FF/um^2,	edgecap=0.0FF/um,	res=1.0ohms/sq
+***    Metal-2:	areacap=0.0843FF/um^2,	edgecap=0.0974FF/um,	res=0.078ohms/sq
+***    Via2:	areacap=0.0FF/um^2,	edgecap=0.0FF/um,	res=0.9ohms/sq
+***    Metal-3:	areacap=0.0843FF/um^2,	edgecap=0.0974FF/um,	res=0.078ohms/sq
+***    Via3:	areacap=0.0FF/um^2,	edgecap=0.0FF/um,	res=0.8ohms/sq
+***    Metal-4:	areacap=0.0843FF/um^2,	edgecap=0.0974FF/um,	res=0.078ohms/sq
+***    Via4:	areacap=0.0FF/um^2,	edgecap=0.0FF/um,	res=0.8ohms/sq
+***    Metal-5:	areacap=0.0843FF/um^2,	edgecap=0.0974FF/um,	res=0.078ohms/sq
+***    Via5:	areacap=0.0FF/um^2,	edgecap=0.0FF/um,	res=0.8ohms/sq
+***    Metal-6:	areacap=0.0423FF/um^2,	edgecap=0.1273FF/um,	res=0.036ohms/sq
+***    Hi-Res:	areacap=0.0FF/um^2,	edgecap=0.0FF/um,	res=1.0ohms/sq
 
-.global gnd vdd
+*** TOP LEVEL CELL: Leveille_myGates-2020-02-10:Inv{lay}
+Mnmos@0 out in#2nmos@0_poly-right gnd gnd N L=0.6U W=1.8U AS=3.195P AD=5.108P PS=7.5U PD=9.3U
+Mpmos@0 out in#0pmos@0_poly-left vdd vdd P L=0.6U W=3.6U AS=7.02P AD=5.108P PS=11.1U PD=9.3U
+** Extracted Parasitic Capacitors ***
+C0 out 0 4.735fF
+C1 in 0 0.307fF
+C2 in#2nmos@0_poly-right 0 0.126fF
+C3 in#1pin@6_polysilicon-1 0 0.543fF
+C4 in#0pmos@0_poly-left 0 0.11fF
+** Extracted Parasitic Resistors ***
+R0 in#0pmos@0_poly-left in#0pmos@0_poly-left##0 7.233
+C5 in#0pmos@0_poly-left##0 0 0.11fF
+R1 in#0pmos@0_poly-left##0 in#0pmos@0_poly-left##1 7.233
+C6 in#0pmos@0_poly-left##1 0 0.11fF
+R2 in#0pmos@0_poly-left##1 in#1pin@6_polysilicon-1 7.233
+R3 in#1pin@6_polysilicon-1 in#1pin@6_polysilicon-1##0 8.267
+C7 in#1pin@6_polysilicon-1##0 0 0.126fF
+R4 in#1pin@6_polysilicon-1##0 in#1pin@6_polysilicon-1##1 8.267
+C8 in#1pin@6_polysilicon-1##1 0 0.126fF
+R5 in#1pin@6_polysilicon-1##1 in#2nmos@0_poly-right 8.267
+R6 in in#1pin@6_polysilicon-1 7.44
 
-*** TOP LEVEL CELL: Inv{sch}
-Mnmos@0 nmos@0_d x net@8 gnd NMOS L=0.6U W=1.8U
-Mpmos@0 pmos@0_d x net@0 vdd PMOS L=0.6U W=3.6U
+* Spice Code nodes in cell cell 'Leveille_myGates-2020-02-10:Inv{lay}'
+Vdd vdd 0 5
+Vgd gnd 0 0
+.include c5.txt
 .END

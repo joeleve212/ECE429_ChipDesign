@@ -1,0 +1,87 @@
+*** SPICE deck for cell invChain{sch} from library Leveille_hw5
+*** Created on Wed Feb 19, 2020 00:10:51
+*** Last revised on Mon Feb 24, 2020 10:33:20
+*** Written on Mon Feb 24, 2020 10:33:23 by Electric VLSI Design System, version 9.07
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+
+*** SUBCIRCUIT Leveille_hw5__baseInv FROM CELL baseInv{sch}
+.SUBCKT Leveille_hw5__baseInv Vin y
+** GLOBAL gnd
+** GLOBAL vdd
+Mnmos@0 y Vin gnd gnd N L=0.6U W=1.8U
+Mpmos@0 vdd Vin y vdd P L=0.6U W=3.6U
+.ENDS Leveille_hw5__baseInv
+
+*** SUBCIRCUIT Leveille_hw5__inv2 FROM CELL inv2{sch}
+.SUBCKT Leveille_hw5__inv2 Vin y
+** GLOBAL gnd
+** GLOBAL vdd
+Mnmos@0 y Vin gnd gnd N L=0.6U W=7.2U
+Mpmos@0 vdd Vin y vdd P L=0.6U W=14.4U
+.ENDS Leveille_hw5__inv2
+
+*** SUBCIRCUIT Leveille_hw5__inv3 FROM CELL inv3{sch}
+.SUBCKT Leveille_hw5__inv3 Vin y
+** GLOBAL gnd
+** GLOBAL vdd
+Mnmos@0 y Vin gnd gnd N L=0.6U W=28.8U
+Mpmos@0 vdd Vin y vdd P L=0.6U W=57.6U
+.ENDS Leveille_hw5__inv3
+
+*** SUBCIRCUIT Leveille_hw5__inv4 FROM CELL inv4{sch}
+.SUBCKT Leveille_hw5__inv4 Vin y
+** GLOBAL gnd
+** GLOBAL vdd
+Mnmos@0 y Vin gnd gnd N L=0.6U W=115.2U
+Mpmos@0 vdd Vin y vdd P L=0.6U W=230.4U
+.ENDS Leveille_hw5__inv4
+
+*** SUBCIRCUIT Leveille_hw5__inv5 FROM CELL inv5{sch}
+.SUBCKT Leveille_hw5__inv5 Vin y
+** GLOBAL gnd
+** GLOBAL vdd
+Mnmos@0 y Vin gnd gnd N L=0.6U W=460.8U
+Mpmos@0 vdd Vin y vdd P L=0.6U W=921.6U
+.ENDS Leveille_hw5__inv5
+
+*** SUBCIRCUIT Leveille_hw5__inv6 FROM CELL inv6{sch}
+.SUBCKT Leveille_hw5__inv6 Vin y
+** GLOBAL gnd
+** GLOBAL vdd
+Mnmos@0 y Vin gnd gnd N L=0.6U W=1843.2U
+Mpmos@0 vdd Vin y vdd P L=0.6U W=3686.4U
+.ENDS Leveille_hw5__inv6
+
+*** SUBCIRCUIT Leveille_hw5__inv7 FROM CELL inv7{sch}
+.SUBCKT Leveille_hw5__inv7 Vin y
+** GLOBAL gnd
+** GLOBAL vdd
+Mnmos@0 y Vin gnd gnd N L=0.6U W=7372.8U
+Mpmos@0 vdd Vin y vdd P L=0.6U W=14745.6U
+.ENDS Leveille_hw5__inv7
+
+.global gnd vdd
+
+*** TOP LEVEL CELL: invChain{sch}
+Ccap@0 gnd out 50p
+VPulse@0 in gnd DC=0 pulse 0 5 0ns 10p 10p 0.4u 0.8u
+XbaseInv@0 in a1 Leveille_hw5__baseInv
+Xinv2@0 a1 net@33 Leveille_hw5__inv2
+Xinv3@0 net@33 a3 Leveille_hw5__inv3
+Xinv4@0 a3 net@52 Leveille_hw5__inv4
+Xinv5@1 net@52 net@49 Leveille_hw5__inv5
+Xinv6@0 net@49 net@55 Leveille_hw5__inv6
+Xinv7@0 net@55 out Leveille_hw5__inv7
+
+* Spice Code nodes in cell cell 'invChain{sch}'
+Vdd vdd 0 5
+Vgd gnd 0 0
+.include c5.txt
+.tran 2u
+.meas tran tpHL trig v(a1) val=2.5 rise=1 targ v(a2) val=2.5 fall=1
+.meas tran tpLH trig v(a1) val=2.5 fall=1 targ v(a2) val=2.5 rise=1
+.meas tran tpavg param (tpHL+tpLH)/2
+.meas tran trise trig v(a2) val='0.10*5' rise=1 targ v(a2) val='0.90*5' rise=1
+.meas tran tfall trig v(a2) val='0.90*5' fall=1 targ v(a2) val='0.10*5' fall=1
+.END
