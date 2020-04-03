@@ -100,7 +100,7 @@ Einv_clk||D5G2;X-1;Y1;|pin@12||I
 X
 
 # Cell D_latch;1{lay}
-CD_latch;1{lay}||mocmos|1585894931610|1585941203885||DRC_last_good_drc_area_date()G1585941189092|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1585941189092
+CD_latch;1{lay}||mocmos|1585894931610|1585940845679||DRC_last_good_drc_area_date()G1585940801992
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-Polysilicon-1-Con|contact@9||0|84||||
 Iinv;1{lay}|inv@0||59|37|YR||D5G4;
@@ -138,14 +138,13 @@ APolysilicon-1|net@58||3|S2700|pin@22||14|39|pin@23||14|84
 APolysilicon-1|net@59||3|S0|pin@23||14|84|contact@9||0|84
 APolysilicon-1|net@64||4|S900|inv@0|gnd|69|39|pin@26||69|28
 APolysilicon-1|net@65||4|S900|inv@1|gnd|0|28|pin@27||0|25
+APolysilicon-1|net@66||4|S1800|pin@27||0|25|pin@28||69|25
 APolysilicon-1|net@67||4|S900|pin@26||69|28|pin@28||69|25
 AMetal-1|net@68||1|S900|inv@0|y|43|39|transGat@1|in|43|18
 AMetal-1|net@69|||S0|transGat@0|in|-58|68|pin@18||-65|68
-APolysilicon-1|net@73||4|S1800|pin@27||0|25|pin@28||69|25
 ED||D5G2;|pin@18||I
 ED_out||D5G2;|pin@2||O
 Eclk||D5G2;|pin@13||I
-Egnd||D5G2;|pin@28||G
 Einv_D||D5G2;|pin@17||O
 Einv_clk||D5G2;|pin@16||I
 Evdd||D5G2;|contact@9||P
@@ -366,7 +365,7 @@ Eout||D5G2;X-2;|pin@9||O
 X
 
 # Cell transGate;1{lay}
-CtransGate;1{lay}||mocmos|1585894155600|1585943384811||DRC_last_good_drc_area_date()G1585940835874|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1585940835874
+CtransGate;1{lay}||mocmos|1585894155600|1585940832062||DRC_last_good_drc_area_date()G1585940835874|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1585940835874
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-N-Active-Con|contact@0||-11|18||1||
 NMetal-1-N-Active-Con|contact@1||-3|18||1||
@@ -375,6 +374,8 @@ NMetal-1-P-Active-Con|contact@4||-3|-2||5||
 NMetal-1-Polysilicon-1-Con|contact@6||4|8||||
 NMetal-1-Polysilicon-1-Con|contact@7||-7|-12||||
 NMetal-1-Polysilicon-1-Con|contact@8||-7|26||||
+NMetal-1-Polysilicon-1-Con|contact@9||4|16||||
+NMetal-1-Polysilicon-1-Con|contact@10||-17|-11||||
 NN-Transistor|nmos@0||-7|18|3||R|
 NMetal-1-Pin|pin@2||-3|8||||
 NPolysilicon-1-Pin|pin@3||-7|-12||||
@@ -395,20 +396,24 @@ AMetal-1|net@20||1|S2700|contact@3||-11|-2|pin@4||-11|8
 AMetal-1|net@21||1|S2700|pin@4||-11|8|contact@0||-11|18
 AMetal-1|net@22||1|S0|pin@4||-11|8|pin@5||-19|8
 ECLK||D5G2;|contact@8||I
+Egnd||D5G2;|contact@10||G
 Ein||D5G2;|pin@5||I
 Einv_CLK||D5G2;|contact@7||I
 Eout||D5G2;|contact@6||O
+Evdd||D5G2;X-1;|contact@9||P
 X
 
 # Cell transGate;1{sch}
-CtransGate;1{sch}||schematic|1585171424199|1585943365678|
+CtransGate;1{sch}||schematic|1585171424199|1585250645308|
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NOff-Page|conn@0||-11|2||||
 NOff-Page|conn@1||-1|2||||
 NOff-Page|conn@2||-6|-4|||R|
 NOff-Page|conn@3||-6|9|||RRR|
+NGround|gnd@0||-25|-4||||
 NTransistor|nmos@0||-6|5|||||ATTR_length(D5G0.5;X-0.5;Y-1;)D2.0|ATTR_width(D5G1;X0.5;Y-1;)S6
 NTransistor|pmos@0||-6|0|||RR|2|ATTR_length(D5G0.5;X-0.5;Y-1;)D2.0|ATTR_width(D5G1;X0.5;Y-1;)S10
+NPower|pwr@0||-25|0||||
 Awire|net@0|||900|nmos@0|d|-4|3|pmos@0|s|-4|2
 Awire|net@1|||900|nmos@0|s|-8|3|pmos@0|d|-8|2
 Awire|net@2|||1800|conn@0|y|-9|2|pmos@0|d|-8|2
