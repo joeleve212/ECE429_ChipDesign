@@ -3,7 +3,6 @@ HLeveille_HW7|9.07
 
 # Views:
 Vicon|ic
-Vlayout|lay
 Vschematic|sch
 
 # Tools:
@@ -155,39 +154,6 @@ ASolid|net@0|||FS1800|art@1||3|0|pin@0||3|0
 ASolid|net@2|||FS450|art@2||3|0|pin@0||3|0
 Ex||D5G2;|pin@6||I
 Ey||D5G2;X-1;|pin@5||O
-X
-
-# Cell inv;1{lay}
-Cinv;1{lay}||mocmos|1585892423978|1585894009086||DRC_last_good_drc_area_date()G1585893982297|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1585893982297
-NP-Transistor|10|D5G1;|-2|30|7|||
-Ngeneric:Facet-Center|art@0||0|0||||AV
-NMetal-1-N-Active-Con|contact@4||-2|7.75|1|||
-NMetal-1-P-Active-Con|contact@6||-2|25|5|||
-NMetal-1-Polysilicon-1-Con|contact@7||15|16||||
-NMetal-1-Polysilicon-1-Con|contact@8||-2|-10|1|||
-NMetal-1-N-Active-Con|contact@9||-2|-2.25|1|||
-NMetal-1-P-Active-Con|contact@10||-2|35|5|||
-NMetal-1-Polysilicon-1-Con|contact@11||-2|42|5|||
-NMetal-1-Polysilicon-1-Con|contact@13||-14|30||||
-NN-Transistor|nmos@0||-2|3|3|||
-NMetal-1-Pin|pin@2||-2|16||||
-NPolysilicon-1-Pin|pin@5||-14|3||||
-AN-Active|net@8|||S2700|nmos@0|diff-top|-2|6.75|contact@4||-2|7.75
-AP-Active|net@11|||S900|10|diff-bottom|-2|26.25|contact@6||-2|25
-AMetal-1|net@18||2|S900|contact@6||-2|25|pin@2||-2|16
-AMetal-1|net@19||2|S900|pin@2||-2|16|contact@4||-2|7.75
-AMetal-1|net@20||1|S0|contact@7||15|16|pin@2||-2|16
-AN-Active|net@21|||S900|nmos@0|diff-bottom|-2|-0.75|contact@9||-2|-2.25
-AMetal-1|net@22||1|S900|contact@9||-2|-2.25|contact@8||-2|-10
-AP-Active|net@23|||S2700|10|diff-top|-2|33.75|contact@10||-2|35
-AMetal-1|net@24||6|IJS2700|contact@10||-2|35|contact@11||-2|42
-APolysilicon-1|net@26|||S0|10|poly-left|-9|30|contact@13||-14|30
-APolysilicon-1|net@27|||S0|nmos@0|poly-left|-7|3|pin@5||-14|3
-APolysilicon-1|net@28|||S2700|pin@5||-14|3|contact@13||-14|30
-Egnd||D5G2;Y-1;|contact@8||G
-Evdd||D5G2;|contact@11||P
-Ex||D5G2;|contact@13||I
-Ey||D5G2;|contact@7||O
 X
 
 # Cell inv;1{sch}

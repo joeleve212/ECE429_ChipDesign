@@ -158,7 +158,7 @@ Ey||D5G2;X-1;|pin@5||O
 X
 
 # Cell inv;1{lay}
-Cinv;1{lay}||mocmos|1585892423978|1585894009086||DRC_last_good_drc_area_date()G1585893982297|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1585893982297
+Cinv;1{lay}||mocmos|1585892423978|1585893978777||DRC_last_good_drc_area_date()G1585893968315|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1585893968315
 NP-Transistor|10|D5G1;|-2|30|7|||
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-N-Active-Con|contact@4||-2|7.75|1|||
@@ -185,7 +185,6 @@ APolysilicon-1|net@26|||S0|10|poly-left|-9|30|contact@13||-14|30
 APolysilicon-1|net@27|||S0|nmos@0|poly-left|-7|3|pin@5||-14|3
 APolysilicon-1|net@28|||S2700|pin@5||-14|3|contact@13||-14|30
 Egnd||D5G2;Y-1;|contact@8||G
-Evdd||D5G2;|contact@11||P
 Ex||D5G2;|contact@13||I
 Ey||D5G2;|contact@7||O
 X
