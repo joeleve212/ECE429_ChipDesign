@@ -5,9 +5,6 @@ HLeveille_NAND|9.07
 Vlayout|lay
 Vschematic|sch
 
-# Tools:
-Oio|CopyrightMessage()S"\nECE 429\nValparaiso University\n\nProject settings version ** 3 **\n\n"|UseCopyrightMessage()BT
-
 # Technologies:
 Tmocmos|ScaleFORmocmos()D300.0|mocmosAnalog()BT|mocmosNumberOfMetalLayers()I3
 
@@ -53,11 +50,4 @@ Awire|net@17|||0|pmos@1|g|-16|8|pin@7||-17|8
 Awire|net@18|||1800|A|y|-20|0|pin@8||-17|0
 Awire|net@19|||1800|pin@8||-17|0|nmos@1|g|-10|0
 Awire|net@20|||900|pin@7||-17|8|pin@8||-17|0
-X
-
-# Cell transGate;1{lay}
-CtransGate;1{lay}||mocmos|1585894155600|1585894182759|
-Ngeneric:Facet-Center|art@0||0|0||||AV
-NN-Transistor|nmos@0||-2|-5|3|||
-NP-Transistor|pmos@0||-4|16|7|||
 X
