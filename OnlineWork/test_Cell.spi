@@ -6,8 +6,8 @@
 *** Project settings version ** 3 **
 *** 
 *** Created on Wed Mar 25, 2020 17:41:12
-*** Last revised on Thu Mar 26, 2020 15:30:57
-*** Written on Thu Mar 26, 2020 15:31:02 by Electric VLSI Design System, version 9.07
+*** Last revised on Thu Apr 02, 2020 23:52:19
+*** Written on Thu Apr 02, 2020 23:52:26 by Electric VLSI Design System, version 9.07
 *** Layout tech: mocmos, foundry MOSIS
 *** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
 
@@ -69,7 +69,7 @@ Xinv@15 Q OUT Leveille_HW7__inv
 VGND GND 0 DC 0
 VVDD VDD 0 DC 5
 VCLK CLK 0 DC 0 PULSE 0 5 0 10p 10p 3n 6n
-VIN D 0 DC 0 PULSE 5 0 200p 10p 10p 6n 11.9n
+VIN D 0 DC 0 PULSE 5 0 200p 10p 10p 9n 18n
 .include c5.txt
 .tran 2000n UIC
 .save v(rd) v(ck) v(q) v(qbar) v(D_FF@2:D_latch@0:x) v(D_FF@2:outbar) v(D_FF@2:D_latch@1:x) v(D_FF@2:mid) dialogbox
