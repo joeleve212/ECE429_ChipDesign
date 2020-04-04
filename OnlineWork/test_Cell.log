@@ -1,36 +1,7 @@
-Circuit: *** SPICE deck for cell test_Cell{lay} from library Leveille_HW7
+Circuit: *** SPICE deck for cell test_Cell{sch} from library Leveille_HW7
 
 Vgnd: both pins shorted together -- ignoring.
 Ignoring BSIM parameter XL
 Ignoring BSIM parameter XW
 Ignoring BSIM parameter XL
 Ignoring BSIM parameter XW
-WARNING: Node D_FF@0:D_LATCH@0:TRANSGAT@0:VDD is floating.
-WARNING: Node D_FF@0:D_LATCH@0:TRANSGAT@1:VDD is floating.
-WARNING: Node D_FF@0:D_LATCH@1:TRANSGAT@0:VDD is floating.
-WARNING: Node D_FF@0:D_LATCH@1:TRANSGAT@1:VDD is floating.
-
-WARNING: Less than two connections to node D_FF@0:D_LATCH@0:TRANSGAT@0:VDD.  This node is used by M:D_FF@0:D_LATCH@0:TRANSGAT@0:PMOS@0.
-WARNING: Less than two connections to node D_FF@0:D_LATCH@0:TRANSGAT@1:VDD.  This node is used by M:D_FF@0:D_LATCH@0:TRANSGAT@1:PMOS@0.
-WARNING: Less than two connections to node D_FF@0:D_LATCH@1:TRANSGAT@0:VDD.  This node is used by M:D_FF@0:D_LATCH@1:TRANSGAT@0:PMOS@0.
-WARNING: Less than two connections to node D_FF@0:D_LATCH@1:TRANSGAT@1:VDD.  This node is used by M:D_FF@0:D_LATCH@1:TRANSGAT@1:PMOS@0.
-Per .tran options, skipping operating point for transient analysis.
-
-Date: Sat Apr  4 15:46:56 2020
-Total elapsed time: 24.900 seconds.
-
-tnom = 27
-temp = 27
-method = modified trap
-totiter = 180151
-traniter = 180151
-tranpoints = 70590
-accept = 52247
-rejected = 18343
-matrix size = 479
-fillins = 868
-solver = Normal
-Thread vector: 94.9/67.5[6] 68.9/24.7[6] 3.7/5.3[1] 5.8/8.6[1]  2592/500
-Matrix Compiler1: 63.01 KB object code size  50.2/30.3/[11.2]
-Matrix Compiler2: 51.18 KB object code size  11.3/25.0/[7.0]
-
