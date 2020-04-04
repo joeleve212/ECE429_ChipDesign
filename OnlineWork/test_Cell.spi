@@ -1,71 +1,63 @@
-*** SPICE deck for cell test_Cell{sch} from library Leveille_HW7
+*** SPICE deck for cell test_Cell{lay} from library Leveille_HW7
 *** 
 *** ECE 429
 *** Valparaiso University
 *** 
 *** Project settings version ** 3 **
 *** 
-*** Created on Wed Mar 25, 2020 17:41:12
-*** Last revised on Thu Apr 02, 2020 23:52:19
-*** Written on Thu Apr 02, 2020 23:52:26 by Electric VLSI Design System, version 9.07
+*** Created on Fri Apr 03, 2020 17:52:08
+*** Last revised on Sat Apr 04, 2020 15:22:11
+*** Written on Sat Apr 04, 2020 15:22:16 by Electric VLSI Design System, version 9.07
 *** Layout tech: mocmos, foundry MOSIS
 *** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
 
-*** SUBCIRCUIT Leveille_HW7__inv FROM CELL inv{sch}
-.SUBCKT Leveille_HW7__inv x y
-** GLOBAL gnd
-** GLOBAL vdd
-Mnmos@0 y x gnd gnd N L=0.6U W=1.8U
-Mpmos@0 vdd x y vdd P L=0.6U W=3U
+*** SUBCIRCUIT Leveille_HW7__inv FROM CELL inv{lay}
+.SUBCKT Leveille_HW7__inv gnd vdd x y
+M_10 y x vdd vdd P L=0.6U W=3U AS=5.85P AD=4.613P PS=9.9U PD=8.625U
+Mnmos@0 gnd x y gnd N L=0.6U W=1.8U AS=4.613P AD=3.645P PS=8.625U PD=7.65U
 .ENDS Leveille_HW7__inv
+*** WARNING: no power connection for P-transistor wells in cell 'transGate{lay}'
+*** WARNING: no ground connection for N-transistor wells in cell 'transGate{lay}'
 
-*** SUBCIRCUIT Leveille_HW7__transGate FROM CELL transGate{sch}
+*** SUBCIRCUIT Leveille_HW7__transGate FROM CELL transGate{lay}
 .SUBCKT Leveille_HW7__transGate CLK in inv_CLK out
-** GLOBAL gnd
-** GLOBAL vdd
-Mnmos@0 out CLK in gnd N L=0.6U W=1.8U
-Mpmos@0 in inv_CLK out vdd P L=0.6U W=3U
+Mnmos@0 out CLK in gnd N L=0.6U W=1.8U AS=3.96P AD=3.96P PS=8.1U PD=8.1U
+Mpmos@0 out inv_CLK in vdd P L=0.6U W=3U AS=3.96P AD=3.96P PS=8.1U PD=8.1U
 .ENDS Leveille_HW7__transGate
 
-*** SUBCIRCUIT Leveille_HW7__D_latch FROM CELL D_latch{sch}
-.SUBCKT Leveille_HW7__D_latch clk D D_out inv_clk inv_D
-** GLOBAL gnd
-** GLOBAL vdd
-Xinv@2 D_out inv_D Leveille_HW7__inv
-Xinv@3 inv_D net@41 Leveille_HW7__inv
-XtransGat@1 clk D inv_clk D_out Leveille_HW7__transGate
-XtransGat@2 inv_clk net@41 clk D_out Leveille_HW7__transGate
+*** SUBCIRCUIT Leveille_HW7__D_latch FROM CELL D_latch{lay}
+.SUBCKT Leveille_HW7__D_latch clk D D_out gnd inv_clk inv_D vdd
+Xinv@0 gnd vdd inv_D net@68 Leveille_HW7__inv
+Xinv@1 gnd vdd D_out inv_D Leveille_HW7__inv
+XtransGat@0 clk D inv_clk D_out Leveille_HW7__transGate
+XtransGat@1 inv_clk net@68 clk D_out Leveille_HW7__transGate
 .ENDS Leveille_HW7__D_latch
 
-*** SUBCIRCUIT Leveille_HW7__D_FF FROM CELL D_FF{sch}
-.SUBCKT Leveille_HW7__D_FF /clk /Q clk D Q
-** GLOBAL gnd
-** GLOBAL vdd
-XD_latch@0 /clk net@0 D_latch@0_D_out clk net@2 Leveille_HW7__D_latch
-XD_latch@1 clk net@2 net@27 /clk net@5 Leveille_HW7__D_latch
-Xinv@0 D net@0 Leveille_HW7__inv
-Xinv@1 net@27 /Q Leveille_HW7__inv
-Xinv@2 net@5 Q Leveille_HW7__inv
+*** SUBCIRCUIT Leveille_HW7__D_FF FROM CELL D_FF{lay}
+.SUBCKT Leveille_HW7__D_FF /clk /Q clk D gnd Q vdd
+XD_latch@0 clk net@3 net@6 gnd /clk net@24 vdd Leveille_HW7__D_latch
+XD_latch@1 /clk net@2 D_latch@1_D_out gnd clk net@3 vdd Leveille_HW7__D_latch
+Xinv@0 gnd vdd D net@2 Leveille_HW7__inv
+Xinv@1 gnd vdd net@6 /Q Leveille_HW7__inv
+Xinv@2 gnd vdd net@24 Q Leveille_HW7__inv
 .ENDS Leveille_HW7__D_FF
 
-.global gnd vdd
+*** TOP LEVEL CELL: test_Cell{lay}
+XD_FF@0 ckb Qbar ck rd gnd Q vdd Leveille_HW7__D_FF
+Xinv@0 gnd vdd Q OUT Leveille_HW7__inv
+Xinv@1 gnd vdd Q OUT Leveille_HW7__inv
+Xinv@2 gnd vdd Q OUT Leveille_HW7__inv
+Xinv@4 gnd vdd D net@0 Leveille_HW7__inv
+Xinv@5 gnd vdd net@0 rd Leveille_HW7__inv
+Xinv@6 gnd vdd CLK ckb Leveille_HW7__inv
+Xinv@7 gnd vdd ckb ck Leveille_HW7__inv
+Xinv@8 gnd vdd Q OUT Leveille_HW7__inv
+Xinv@10 gnd vdd Qbar OUT Leveille_HW7__inv
+Xinv@11 gnd vdd Qbar OUT Leveille_HW7__inv
+Xinv@12 gnd vdd Qbar OUT Leveille_HW7__inv
+Xinv@13 gnd vdd Qbar OUT Leveille_HW7__inv
 
-*** TOP LEVEL CELL: test_Cell{sch}
-XD_FF@0 ckb Qbar ck rd Q Leveille_HW7__D_FF
-Xinv@0 D net@9 Leveille_HW7__inv
-Xinv@1 CLK ckb Leveille_HW7__inv
-Xinv@2 ckb ck Leveille_HW7__inv
-Xinv@4 net@9 rd Leveille_HW7__inv
-Xinv@8 Qbar OUT Leveille_HW7__inv
-Xinv@9 Qbar OUT Leveille_HW7__inv
-Xinv@10 Qbar OUT Leveille_HW7__inv
-Xinv@11 Qbar OUT Leveille_HW7__inv
-Xinv@12 Q OUT Leveille_HW7__inv
-Xinv@13 Q OUT Leveille_HW7__inv
-Xinv@14 Q OUT Leveille_HW7__inv
-Xinv@15 Q OUT Leveille_HW7__inv
-
-* Spice Code nodes in cell cell 'test_Cell{sch}'
+* Spice Code nodes in cell cell 'test_Cell{lay}'
 VGND GND 0 DC 0
 VVDD VDD 0 DC 5
 VCLK CLK 0 DC 0 PULSE 0 5 0 10p 10p 3n 6n

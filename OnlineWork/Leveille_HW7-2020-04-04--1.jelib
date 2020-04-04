@@ -35,7 +35,7 @@ Eclk||D5G2;X-2;Y1;|pin@1||I
 X
 
 # Cell D_FF;1{lay}
-CD_FF;1{lay}||mocmos|1585947649322|1586031188443||DRC_last_good_drc_area_date()G1586031028980|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1586031257846
+CD_FF;1{lay}||mocmos|1585947649322|1586030443472||DRC_last_good_drc_area_date()G1585952908180|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1585952908180
 ID_latch;1{lay}|D_latch@0||62|-1|||D5G4;
 ID_latch;1{lay}|D_latch@1||-83|121|Y||D5G4;
 Ngeneric:Facet-Center|art@0||0|0||||AV
@@ -96,10 +96,8 @@ ED||D5G2;|pin@0||I
 EQ||D5G2;|pin@12||O
 Eclk||D5G2;|pin@1||I
 Egnd||D5G2;|contact@5||G
-Egnd_1||D5G2;|D_latch@0|gnd|G
 Evdd||D5G2;|pin@18||P
 Evdd_1||D5G2;|inv@0|vdd|P
-Evdd_2||D5G2;|D_latch@0|vdd|P
 X
 
 # Cell D_FF;1{sch}
@@ -330,7 +328,7 @@ Ey||D5G2;|y|y|O
 X
 
 # Cell test_Cell;1{lay}
-Ctest_Cell;1{lay}||mocmos|1585954328761|1586031731725||DRC_last_good_drc_area_date()G1586031702626|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1586031702626
+Ctest_Cell;1{lay}||mocmos|1585954328761|1586030363253||DRC_last_good_drc_area_date()G1586030290067|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1586030290067
 ID_FF;1{lay}|D_FF@0||-176|3|||D5G4;
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-Metal-2-Con|contact@0||-397|16||||
@@ -342,8 +340,6 @@ NMetal-1-Metal-2-Con|contact@6||-147|-72||||
 NMetal-1-Metal-2-Con|contact@7||-114|-72||||
 NMetal-1-Metal-2-Con|contact@8||-80|-72||||
 NMetal-1-Metal-2-Con|contact@9||-48|-72||||
-NMetal-1-Metal-2-Con|contact@10||-342|152||||
-NMetal-1-Metal-2-Con|contact@11||-113|186||||
 Iinv;1{lay}|inv@0||28|40|||D5G4;
 Iinv;1{lay}|inv@1||61|40|||D5G4;
 Iinv;1{lay}|inv@2||95|40|||D5G4;
@@ -364,25 +360,14 @@ NPolysilicon-1-Pin|pin@4||-278|-22||||
 NPolysilicon-1-Pin|pin@5||-367|192||||
 NPolysilicon-1-Pin|pin@6||-367|-22||||
 NPolysilicon-1-Pin|pin@7||-133|178||||
+NPolysilicon-1-Pin|pin@8||-400|-36||||
 NMetal-2-Pin|pin@9||-397|97||||
 NMetal-1-Pin|pin@10||-147|-49||||
 NMetal-1-Pin|pin@11||-38|-34||||
-NMetal-1-Pin|pin@12||26|203||||
-NMetal-1-Pin|pin@13||-381|203||||
-NMetal-1-Pin|pin@14||26|-112||||
-NMetal-1-Pin|pin@19||-342|-47||||
-NMetal-1-Pin|pin@20||-113|203||||
-NPolysilicon-1-Pin|pin@21||-45|30||||
-NMetal-1-Pin|pin@22||0|-86||||
-NMetal-1-Pin|pin@23||0|56||||
-NPolysilicon-1-Pin|pin@24||-404|-36||||
-Ngeneric:Invisible-Pin|pin@25||-538|-172|||||SIM_spice_card(D9G10;)S[VGND GND 0 DC 0,VVDD VDD 0 DC 5,VCLK CLK 0 DC 0 PULSE 0 5 0 10p 10p 3n 6n,VIN D 0 DC 0 PULSE 5 0 200p 10p 10p 9n 18n,.include c5.txt,.tran 2000n UIC,.save v(rd) v(ck) v(q) v(qbar) v(D_FF@2:D_latch@0:x) v(D_FF@2:outbar) v(D_FF@2:D_latch@1:x) v(D_FF@2:mid) dialogbox,*.options post]
-AMetal-1|OUT|D5G20;|1|S2700|pin@22||0|-86|pin@23||0|56
 AMetal-1|Q|D5G20;|1|S1800|D_FF@0|Q|-11|70|inv@0|x|16|70
 AMetal-1|Qbar|D5G20;|1|S2700|inv@10|x|-147|-72|pin@10||-147|-49
-APolysilicon-1|ck|D5G20;|3|S1800|inv@7|y|-205|178|pin@7||-133|178
-APolysilicon-1|ckb|D5G20;|3|S1800|pin@6||-367|-22|pin@4||-278|-22
 AMetal-1|net@0||1|S1800|inv@4|y|-412|56|inv@5|x|-391|56
+AMetal-1|net@1||1|S1800|inv@5|y|-381|42|D_FF@0|D|-362|42
 AMetal-1|net@2||1|S0|inv@4|x|-422|70|pin@0||-429|70
 AMetal-1|net@3||1|S900|inv@4|gnd|-412|30|pin@1||-412|16
 AMetal-1|net@5||1|S1800|inv@4|vdd|-412|81|pin@2||-381|81
@@ -392,10 +377,14 @@ AMetal-1|net@8||1|S0|inv@5|gnd|-381|16|pin@3||-382|16
 APolysilicon-1|net@10||3|S900|D_FF@0|/clk|-278|-12|pin@4||-278|-22
 APolysilicon-1|net@11||3|S0|inv@7|x|-215|192|pin@5||-367|192
 APolysilicon-1|net@12||3|S1800|inv@6|y|-382|-22|pin@6||-367|-22
+APolysilicon-1|net@13||3|S1800|pin@6||-367|-22|pin@4||-278|-22
 APolysilicon-1|net@14||3|S900|pin@5||-367|192|pin@6||-367|-22
+APolysilicon-1|net@15||3|S1800|inv@7|y|-205|178|pin@7||-133|178
 APolysilicon-1|net@16||3|S2700|D_FF@0|clk|-133|138|pin@7||-133|178
+APolysilicon-1|net@17||3|S0|inv@6|x|-392|-36|pin@8||-400|-36
 AMetal-2|net@18||1|S0|D_FF@0|gnd|-342|97|pin@9||-397|97
 AMetal-1|net@19||1|S0|inv@5|gnd|-381|16|contact@0||-397|16
+AMetal-1|net@20||1|S0|contact@0||-397|16|pin@1||-412|16
 AMetal-2|net@21||1|S900|pin@9||-397|97|contact@0||-397|16
 AMetal-1|net@22||1|S1800|contact@1||16|70|inv@0|x|16|70
 AMetal-1|net@25||1|S1800|contact@3||83|70|inv@2|x|83|70
@@ -426,33 +415,7 @@ AMetal-1|net@50||1|S1800|inv@12|vdd|-70|-61|inv@13|vdd|-38|-61
 AMetal-1|net@51||1|S1800|D_FF@0|/Q|-155|-49|pin@10||-147|-49
 AMetal-1|net@53||1|S0|D_FF@0|vdd|-25|-34|pin@11||-38|-34
 AMetal-1|net@54||1|S2700|inv@13|vdd|-38|-61|pin@11||-38|-34
-AMetal-1|net@55||1|S0|inv@7|gnd|-205|152|contact@10||-342|152
-AMetal-2|net@56||1|S2700|D_FF@0|gnd|-342|97|contact@10||-342|152
-AMetal-1|net@57||6|S2700|inv@0|vdd|26|81|pin@12||26|203
-AMetal-1|net@59||6|S2700|pin@2||-381|81|pin@13||-381|203
-AMetal-1|net@60||1|S0|inv@7|vdd|-205|203|pin@13||-381|203
-AMetal-1|net@61||1|S1800|inv@13|gnd|-38|-112|pin@14||26|-112
-AMetal-1|net@62||1|S900|inv@0|gnd|26|30|pin@14||26|-112
-AMetal-1|net@70||6|S900|D_FF@0|vdd_1|-342|31|pin@19||-342|-47
-AMetal-1|net@71||1|S1800|inv@6|vdd|-382|-47|pin@19||-342|-47
-AMetal-2|net@72||1|S2700|D_FF@0|vdd_2|-113|89|contact@11||-113|186
-AMetal-1|net@73||1|S1800|inv@7|vdd|-205|203|pin@20||-113|203
-AMetal-1|net@74||1|S1800|pin@20||-113|203|pin@12||26|203
-AMetal-1|net@75||1|S2700|contact@11||-113|186|pin@20||-113|203
-APolysilicon-1|net@76||3|S0|inv@0|gnd|26|30|pin@21||-45|30
-APolysilicon-1|net@77||3|S900|D_FF@0|gnd_1|-45|41|pin@21||-45|30
-AMetal-1|net@78||1|S0|contact@0||-397|16|pin@1||-412|16
-AMetal-1|net@79||1|S1800|inv@10|y|-137|-86|inv@11|y|-104|-86
-AMetal-1|net@80||1|S1800|inv@11|y|-104|-86|inv@12|y|-70|-86
-AMetal-1|net@81||1|S1800|inv@12|y|-70|-86|inv@13|y|-38|-86
-AMetal-1|net@82||1|S1800|inv@0|y|26|56|inv@1|y|59|56
-AMetal-1|net@83||1|S1800|inv@1|y|59|56|inv@2|y|93|56
-AMetal-1|net@84||1|S1800|inv@2|y|93|56|inv@8|y|125|56
-AMetal-1|net@85||1|S1800|inv@13|y|-38|-86|pin@22||0|-86
-AMetal-1|net@87||1|S1800|pin@23||0|56|inv@0|y|26|56
-APolysilicon-1|net@88||3|S0|inv@6|x|-392|-36|pin@24||-404|-36
-AMetal-1|rd|D5G20;|1|S1800|inv@5|y|-381|42|D_FF@0|D|-362|42
-ECLK||D5G2;|pin@24||I
+ECLK||D5G2;|pin@8||I
 ED||D5G2;|pin@0||I
 Egnd||D5G2;|pin@1||G
 Evdd||D5G2;|inv@4|vdd|P
