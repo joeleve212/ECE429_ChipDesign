@@ -6,62 +6,492 @@
 *** Project settings version ** 3 **
 *** 
 *** Created on Fri Apr 03, 2020 17:52:08
-*** Last revised on Sat Apr 04, 2020 15:22:11
-*** Written on Sat Apr 04, 2020 15:22:16 by Electric VLSI Design System, version 9.07
+*** Last revised on Sat Apr 04, 2020 15:46:27
+*** Written on Sat Apr 04, 2020 15:46:30 by Electric VLSI Design System, version 9.07
 *** Layout tech: mocmos, foundry MOSIS
 *** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+***    P-Active:	areacap=0.9FF/um^2,	edgecap=0.0FF/um,	res=2.5ohms/sq
+***    N-Active:	areacap=0.9FF/um^2,	edgecap=0.0FF/um,	res=3.0ohms/sq
+***    Polysilicon-1:	areacap=0.1467FF/um^2,	edgecap=0.0608FF/um,	res=6.2ohms/sq
+***    Polysilicon-2:	areacap=1.0FF/um^2,	edgecap=0.0FF/um,	res=50.0ohms/sq
+***    Transistor-Poly:	areacap=0.09FF/um^2,	edgecap=0.0FF/um,	res=2.5ohms/sq
+***    Poly-Cut:	areacap=0.0FF/um^2,	edgecap=0.0FF/um,	res=2.2ohms/sq
+***    Active-Cut:	areacap=0.0FF/um^2,	edgecap=0.0FF/um,	res=2.5ohms/sq
+***    Metal-1:	areacap=0.1209FF/um^2,	edgecap=0.1104FF/um,	res=0.078ohms/sq
+***    Via1:	areacap=0.0FF/um^2,	edgecap=0.0FF/um,	res=1.0ohms/sq
+***    Metal-2:	areacap=0.0843FF/um^2,	edgecap=0.0974FF/um,	res=0.078ohms/sq
+***    Via2:	areacap=0.0FF/um^2,	edgecap=0.0FF/um,	res=0.9ohms/sq
+***    Metal-3:	areacap=0.0843FF/um^2,	edgecap=0.0974FF/um,	res=0.078ohms/sq
+***    Via3:	areacap=0.0FF/um^2,	edgecap=0.0FF/um,	res=0.8ohms/sq
+***    Metal-4:	areacap=0.0843FF/um^2,	edgecap=0.0974FF/um,	res=0.078ohms/sq
+***    Via4:	areacap=0.0FF/um^2,	edgecap=0.0FF/um,	res=0.8ohms/sq
+***    Metal-5:	areacap=0.0843FF/um^2,	edgecap=0.0974FF/um,	res=0.078ohms/sq
+***    Via5:	areacap=0.0FF/um^2,	edgecap=0.0FF/um,	res=0.8ohms/sq
+***    Metal-6:	areacap=0.0423FF/um^2,	edgecap=0.1273FF/um,	res=0.036ohms/sq
+***    Hi-Res:	areacap=0.0FF/um^2,	edgecap=0.0FF/um,	res=1.0ohms/sq
 
 *** SUBCIRCUIT Leveille_HW7__inv FROM CELL inv{lay}
 .SUBCKT Leveille_HW7__inv gnd vdd x y
-M_10 y x vdd vdd P L=0.6U W=3U AS=5.85P AD=4.613P PS=9.9U PD=8.625U
-Mnmos@0 gnd x y gnd N L=0.6U W=1.8U AS=4.613P AD=3.645P PS=8.625U PD=7.65U
+M_10 y x#010_poly-left vdd vdd P L=0.6U W=3U AS=5.85P AD=4.613P PS=9.9U PD=8.625U
+Mnmos@0 gnd x#1nmos@0_poly-left y gnd N L=0.6U W=1.8U AS=4.613P AD=3.645P PS=8.625U PD=7.65U
+** Extracted Parasitic Capacitors ***
+C0 y 0 2.081fF
+C1 x 0 0.264fF
+C2 x#1nmos@0_poly-left 0 0.105fF
+C3 x#2pin@5_polysilicon-1 0 0.275fF
+** Extracted Parasitic Resistors ***
+R0 x#010_poly-left x 9.3
+R1 x#1nmos@0_poly-left x#1nmos@0_poly-left##0 7.75
+C4 x#1nmos@0_poly-left##0 0 0.105fF
+R2 x#1nmos@0_poly-left##0 x#2pin@5_polysilicon-1 7.75
+R3 x#2pin@5_polysilicon-1 x#2pin@5_polysilicon-1##0 9.3
+C5 x#2pin@5_polysilicon-1##0 0 0.17fF
+R4 x#2pin@5_polysilicon-1##0 x#2pin@5_polysilicon-1##1 9.3
+C6 x#2pin@5_polysilicon-1##1 0 0.17fF
+R5 x#2pin@5_polysilicon-1##1 x#2pin@5_polysilicon-1##2 9.3
+C7 x#2pin@5_polysilicon-1##2 0 0.17fF
+R6 x#2pin@5_polysilicon-1##2 x#2pin@5_polysilicon-1##3 9.3
+C8 x#2pin@5_polysilicon-1##3 0 0.17fF
+R7 x#2pin@5_polysilicon-1##3 x#2pin@5_polysilicon-1##4 9.3
+C9 x#2pin@5_polysilicon-1##4 0 0.17fF
+R8 x#2pin@5_polysilicon-1##4 x#2pin@5_polysilicon-1##5 9.3
+C10 x#2pin@5_polysilicon-1##5 0 0.17fF
+R9 x#2pin@5_polysilicon-1##5 x#2pin@5_polysilicon-1##6 9.3
+C11 x#2pin@5_polysilicon-1##6 0 0.17fF
+R10 x#2pin@5_polysilicon-1##6 x#2pin@5_polysilicon-1##7 9.3
+C12 x#2pin@5_polysilicon-1##7 0 0.17fF
+R11 x#2pin@5_polysilicon-1##7 x 9.3
 .ENDS Leveille_HW7__inv
 *** WARNING: no power connection for P-transistor wells in cell 'transGate{lay}'
 *** WARNING: no ground connection for N-transistor wells in cell 'transGate{lay}'
 
 *** SUBCIRCUIT Leveille_HW7__transGate FROM CELL transGate{lay}
 .SUBCKT Leveille_HW7__transGate CLK in inv_CLK out
-Mnmos@0 out CLK in gnd N L=0.6U W=1.8U AS=3.96P AD=3.96P PS=8.1U PD=8.1U
-Mpmos@0 out inv_CLK in vdd P L=0.6U W=3U AS=3.96P AD=3.96P PS=8.1U PD=8.1U
+Mnmos@0 out CLK#0nmos@0_poly-right in gnd N L=0.6U W=1.8U AS=3.96P AD=3.96P PS=8.1U PD=8.1U
+Mpmos@0 out inv_CLK#1pmos@0_poly-left in vdd P L=0.6U W=3U AS=3.96P AD=3.96P PS=8.1U PD=8.1U
+** Extracted Parasitic Capacitors ***
+C0 in 0 3.073fF
+C1 out 0 2.964fF
+** Extracted Parasitic Resistors ***
+R0 inv_CLK#1pmos@0_poly-left inv_CLK 9.3
+R1 CLK CLK#0nmos@0_poly-right 9.3
 .ENDS Leveille_HW7__transGate
 
 *** SUBCIRCUIT Leveille_HW7__D_latch FROM CELL D_latch{lay}
 .SUBCKT Leveille_HW7__D_latch clk D D_out gnd inv_clk inv_D vdd
 Xinv@0 gnd vdd inv_D net@68 Leveille_HW7__inv
 Xinv@1 gnd vdd D_out inv_D Leveille_HW7__inv
-XtransGat@0 clk D inv_clk D_out Leveille_HW7__transGate
-XtransGat@1 inv_clk net@68 clk D_out Leveille_HW7__transGate
+XtransGat@0 clk#0transGat@0_CLK D inv_clk#0transGat@0_inv_CLK D_out Leveille_HW7__transGate
+XtransGat@1 inv_clk#1transGat@1_CLK net@68 clk#2transGat@1_inv_CLK D_out Leveille_HW7__transGate
+** Extracted Parasitic Capacitors ***
+C0 inv_D 0 3.732fF
+C1 net@68 0 2.305fF
+C2 D_out 0 18.44fF
+C3 clk 0 1.299fF
+C4 clk#1pin@14_polysilicon-1 0 1.36fF
+C5 inv_clk 0 1.437fF
+C6 D 0 0.692fF
+C7 inv_clk#2pin@29_polysilicon-1 0 1.244fF
+C8 clk#0transGat@0_CLK 0 0.553fF
+C9 inv_clk#0transGat@0_inv_CLK 0 0.706fF
+C10 inv_clk#1transGat@1_CLK 0 0.512fF
+C11 clk#2transGat@1_inv_CLK 0 0.615fF
+** Extracted Parasitic Resistors ***
+R0 clk#0transGat@0_CLK clk#0transGat@0_CLK##0 8.37
+C12 clk#0transGat@0_CLK##0 0 0.553fF
+R1 clk#0transGat@0_CLK##0 clk#0transGat@0_CLK##1 8.37
+C13 clk#0transGat@0_CLK##1 0 0.553fF
+R2 clk#0transGat@0_CLK##1 clk#0transGat@0_CLK##2 8.37
+C14 clk#0transGat@0_CLK##2 0 0.553fF
+R3 clk#0transGat@0_CLK##2 clk 8.37
+R4 clk clk##0 9.92
+C15 clk##0 0 0.745fF
+R5 clk##0 clk##1 9.92
+C16 clk##1 0 0.745fF
+R6 clk##1 clk##2 9.92
+C17 clk##2 0 0.745fF
+R7 clk##2 clk##3 9.92
+C18 clk##3 0 0.745fF
+R8 clk##3 clk##4 9.92
+C19 clk##4 0 0.745fF
+R9 clk##4 clk##5 9.92
+C20 clk##5 0 0.745fF
+R10 clk##5 clk##6 9.92
+C21 clk##6 0 0.745fF
+R11 clk##6 clk##7 9.92
+C22 clk##7 0 0.745fF
+R12 clk##7 clk##8 9.92
+C23 clk##8 0 0.745fF
+R13 clk##8 clk#1pin@14_polysilicon-1 9.92
+R14 clk#2transGat@1_inv_CLK clk#2transGat@1_inv_CLK##0 8.68
+C24 clk#2transGat@1_inv_CLK##0 0 0.615fF
+R15 clk#2transGat@1_inv_CLK##0 clk#2transGat@1_inv_CLK##1 8.68
+C25 clk#2transGat@1_inv_CLK##1 0 0.615fF
+R16 clk#2transGat@1_inv_CLK##1 clk#2transGat@1_inv_CLK##2 8.68
+C26 clk#2transGat@1_inv_CLK##2 0 0.615fF
+R17 clk#2transGat@1_inv_CLK##2 clk#2transGat@1_inv_CLK##3 8.68
+C27 clk#2transGat@1_inv_CLK##3 0 0.615fF
+R18 clk#2transGat@1_inv_CLK##3 clk#2transGat@1_inv_CLK##4 8.68
+C28 clk#2transGat@1_inv_CLK##4 0 0.615fF
+R19 clk#2transGat@1_inv_CLK##4 clk#1pin@14_polysilicon-1 8.68
+R20 inv_clk#0transGat@0_inv_CLK inv_clk#0transGat@0_inv_CLK##0 9.61
+C29 inv_clk#0transGat@0_inv_CLK##0 0 0.706fF
+R21 inv_clk#0transGat@0_inv_CLK##0 inv_clk#0transGat@0_inv_CLK##1 9.61
+C30 inv_clk#0transGat@0_inv_CLK##1 0 0.706fF
+R22 inv_clk#0transGat@0_inv_CLK##1 inv_clk#0transGat@0_inv_CLK##2 9.61
+C31 inv_clk#0transGat@0_inv_CLK##2 0 0.706fF
+R23 inv_clk#0transGat@0_inv_CLK##2 inv_clk#0transGat@0_inv_CLK##3 9.61
+C32 inv_clk#0transGat@0_inv_CLK##3 0 0.706fF
+R24 inv_clk#0transGat@0_inv_CLK##3 inv_clk#0transGat@0_inv_CLK##4 9.61
+C33 inv_clk#0transGat@0_inv_CLK##4 0 0.706fF
+R25 inv_clk#0transGat@0_inv_CLK##4 inv_clk#0transGat@0_inv_CLK##5 9.61
+C34 inv_clk#0transGat@0_inv_CLK##5 0 0.706fF
+R26 inv_clk#0transGat@0_inv_CLK##5 inv_clk#0transGat@0_inv_CLK##6 9.61
+C35 inv_clk#0transGat@0_inv_CLK##6 0 0.706fF
+R27 inv_clk#0transGat@0_inv_CLK##6 inv_clk 9.61
+R28 inv_clk#1transGat@1_CLK inv_clk#1transGat@1_CLK##0 8.267
+C36 inv_clk#1transGat@1_CLK##0 0 0.512fF
+R29 inv_clk#1transGat@1_CLK##0 inv_clk#1transGat@1_CLK##1 8.267
+C37 inv_clk#1transGat@1_CLK##1 0 0.512fF
+R30 inv_clk#1transGat@1_CLK##1 inv_clk#2pin@29_polysilicon-1 8.267
+R31 inv_clk#2pin@29_polysilicon-1 inv_clk#2pin@29_polysilicon-1##0 9.477
+C38 inv_clk#2pin@29_polysilicon-1##0 0 0.731fF
+R32 inv_clk#2pin@29_polysilicon-1##0 inv_clk#2pin@29_polysilicon-1##1 9.477
+C39 inv_clk#2pin@29_polysilicon-1##1 0 0.731fF
+R33 inv_clk#2pin@29_polysilicon-1##1 inv_clk#2pin@29_polysilicon-1##2 9.477
+C40 inv_clk#2pin@29_polysilicon-1##2 0 0.731fF
+R34 inv_clk#2pin@29_polysilicon-1##2 inv_clk#2pin@29_polysilicon-1##3 9.477
+C41 inv_clk#2pin@29_polysilicon-1##3 0 0.731fF
+R35 inv_clk#2pin@29_polysilicon-1##3 inv_clk#2pin@29_polysilicon-1##4 9.477
+C42 inv_clk#2pin@29_polysilicon-1##4 0 0.731fF
+R36 inv_clk#2pin@29_polysilicon-1##4 inv_clk#2pin@29_polysilicon-1##5 9.477
+C43 inv_clk#2pin@29_polysilicon-1##5 0 0.731fF
+R37 inv_clk#2pin@29_polysilicon-1##5 inv_clk#2pin@29_polysilicon-1##6 9.477
+C44 inv_clk#2pin@29_polysilicon-1##6 0 0.731fF
+R38 inv_clk#2pin@29_polysilicon-1##6 inv_clk#2pin@29_polysilicon-1##7 9.477
+C45 inv_clk#2pin@29_polysilicon-1##7 0 0.731fF
+R39 inv_clk#2pin@29_polysilicon-1##7 inv_clk#2pin@29_polysilicon-1##8 9.477
+C46 inv_clk#2pin@29_polysilicon-1##8 0 0.731fF
+R40 inv_clk#2pin@29_polysilicon-1##8 inv_clk#2pin@29_polysilicon-1##9 9.477
+C47 inv_clk#2pin@29_polysilicon-1##9 0 0.731fF
+R41 inv_clk#2pin@29_polysilicon-1##9 inv_clk#2pin@29_polysilicon-1##10 9.477
+C48 inv_clk#2pin@29_polysilicon-1##10 0 0.731fF
+R42 inv_clk#2pin@29_polysilicon-1##10 inv_clk#2pin@29_polysilicon-1##11 9.477
+C49 inv_clk#2pin@29_polysilicon-1##11 0 0.731fF
+R43 inv_clk#2pin@29_polysilicon-1##11 inv_clk#2pin@29_polysilicon-1##12 9.477
+C50 inv_clk#2pin@29_polysilicon-1##12 0 0.731fF
+R44 inv_clk#2pin@29_polysilicon-1##12 inv_clk 9.477
 .ENDS Leveille_HW7__D_latch
 
 *** SUBCIRCUIT Leveille_HW7__D_FF FROM CELL D_FF{lay}
 .SUBCKT Leveille_HW7__D_FF /clk /Q clk D gnd Q vdd
-XD_latch@0 clk net@3 net@6 gnd /clk net@24 vdd Leveille_HW7__D_latch
-XD_latch@1 /clk net@2 D_latch@1_D_out gnd clk net@3 vdd Leveille_HW7__D_latch
+XD_latch@0 clk#0D_latch@0_clk net@3 net@6 gnd /clk#0D_latch@0_inv_clk net@24 vdd Leveille_HW7__D_latch
+XD_latch@1 /clk#1D_latch@1_clk net@2 D_latch@1_D_out gnd clk#1D_latch@1_inv_clk net@3 vdd Leveille_HW7__D_latch
 Xinv@0 gnd vdd D net@2 Leveille_HW7__inv
 Xinv@1 gnd vdd net@6 /Q Leveille_HW7__inv
 Xinv@2 gnd vdd net@24 Q Leveille_HW7__inv
+** Extracted Parasitic Capacitors ***
+C0 net@3 0 5.043fF
+C1 net@6 0 2.305fF
+C2 clk#0D_latch@0_clk 0 0.641fF
+C3 net@24 0 5.488fF
+C4 /clk#0D_latch@0_inv_clk 0 0.756fF
+C5 net@2 0 1.78fF
+C6 /clk#1D_latch@1_clk 0 0.641fF
+C7 clk#1D_latch@1_inv_clk 0 0.766fF
+C8 D 0 1.098fF
+C9 /Q 0 1.646fF
+C10 Q 0 1.537fF
+C11 clk 0 1.407fF
+C12 /clk 0 1.396fF
+** Extracted Parasitic Resistors ***
+R0 clk clk##0 8.857
+C13 clk##0 0 0.641fF
+R1 clk##0 clk##1 8.857
+C14 clk##1 0 0.641fF
+R2 clk##1 clk##2 8.857
+C15 clk##2 0 0.641fF
+R3 clk##2 clk##3 8.857
+C16 clk##3 0 0.641fF
+R4 clk##3 clk##4 8.857
+C17 clk##4 0 0.641fF
+R5 clk##4 clk##5 8.857
+C18 clk##5 0 0.641fF
+R6 clk##5 clk#0D_latch@0_clk 8.857
+R7 clk#1D_latch@1_inv_clk clk#1D_latch@1_inv_clk##0 9.695
+C19 clk#1D_latch@1_inv_clk##0 0 0.766fF
+R8 clk#1D_latch@1_inv_clk##0 clk#1D_latch@1_inv_clk##1 9.695
+C20 clk#1D_latch@1_inv_clk##1 0 0.766fF
+R9 clk#1D_latch@1_inv_clk##1 clk#1D_latch@1_inv_clk##2 9.695
+C21 clk#1D_latch@1_inv_clk##2 0 0.766fF
+R10 clk#1D_latch@1_inv_clk##2 clk#1D_latch@1_inv_clk##3 9.695
+C22 clk#1D_latch@1_inv_clk##3 0 0.766fF
+R11 clk#1D_latch@1_inv_clk##3 clk#1D_latch@1_inv_clk##4 9.695
+C23 clk#1D_latch@1_inv_clk##4 0 0.766fF
+R12 clk#1D_latch@1_inv_clk##4 clk#1D_latch@1_inv_clk##5 9.695
+C24 clk#1D_latch@1_inv_clk##5 0 0.766fF
+R13 clk#1D_latch@1_inv_clk##5 clk#1D_latch@1_inv_clk##6 9.695
+C25 clk#1D_latch@1_inv_clk##6 0 0.766fF
+R14 clk#1D_latch@1_inv_clk##6 clk#1D_latch@1_inv_clk##7 9.695
+C26 clk#1D_latch@1_inv_clk##7 0 0.766fF
+R15 clk#1D_latch@1_inv_clk##7 clk#1D_latch@1_inv_clk##8 9.695
+C27 clk#1D_latch@1_inv_clk##8 0 0.766fF
+R16 clk#1D_latch@1_inv_clk##8 clk#1D_latch@1_inv_clk##9 9.695
+C28 clk#1D_latch@1_inv_clk##9 0 0.766fF
+R17 clk#1D_latch@1_inv_clk##9 clk#1D_latch@1_inv_clk##10 9.695
+C29 clk#1D_latch@1_inv_clk##10 0 0.766fF
+R18 clk#1D_latch@1_inv_clk##10 clk#1D_latch@1_inv_clk##11 9.695
+C30 clk#1D_latch@1_inv_clk##11 0 0.766fF
+R19 clk#1D_latch@1_inv_clk##11 clk#1D_latch@1_inv_clk##12 9.695
+C31 clk#1D_latch@1_inv_clk##12 0 0.766fF
+R20 clk#1D_latch@1_inv_clk##12 clk#1D_latch@1_inv_clk##13 9.695
+C32 clk#1D_latch@1_inv_clk##13 0 0.766fF
+R21 clk#1D_latch@1_inv_clk##13 clk#1D_latch@1_inv_clk##14 9.695
+C33 clk#1D_latch@1_inv_clk##14 0 0.766fF
+R22 clk#1D_latch@1_inv_clk##14 clk#1D_latch@1_inv_clk##15 9.695
+C34 clk#1D_latch@1_inv_clk##15 0 0.766fF
+R23 clk#1D_latch@1_inv_clk##15 clk#1D_latch@1_inv_clk##16 9.695
+C35 clk#1D_latch@1_inv_clk##16 0 0.766fF
+R24 clk#1D_latch@1_inv_clk##16 clk#1D_latch@1_inv_clk##17 9.695
+C36 clk#1D_latch@1_inv_clk##17 0 0.766fF
+R25 clk#1D_latch@1_inv_clk##17 clk#1D_latch@1_inv_clk##18 9.695
+C37 clk#1D_latch@1_inv_clk##18 0 0.766fF
+R26 clk#1D_latch@1_inv_clk##18 clk#1D_latch@1_inv_clk##19 9.695
+C38 clk#1D_latch@1_inv_clk##19 0 0.766fF
+R27 clk#1D_latch@1_inv_clk##19 clk#1D_latch@1_inv_clk##20 9.695
+C39 clk#1D_latch@1_inv_clk##20 0 0.766fF
+R28 clk#1D_latch@1_inv_clk##20 clk 9.695
+R29 /clk#0D_latch@0_inv_clk /clk#0D_latch@0_inv_clk##0 9.755
+C40 /clk#0D_latch@0_inv_clk##0 0 0.756fF
+R30 /clk#0D_latch@0_inv_clk##0 /clk#0D_latch@0_inv_clk##1 9.755
+C41 /clk#0D_latch@0_inv_clk##1 0 0.756fF
+R31 /clk#0D_latch@0_inv_clk##1 /clk#0D_latch@0_inv_clk##2 9.755
+C42 /clk#0D_latch@0_inv_clk##2 0 0.756fF
+R32 /clk#0D_latch@0_inv_clk##2 /clk#0D_latch@0_inv_clk##3 9.755
+C43 /clk#0D_latch@0_inv_clk##3 0 0.756fF
+R33 /clk#0D_latch@0_inv_clk##3 /clk#0D_latch@0_inv_clk##4 9.755
+C44 /clk#0D_latch@0_inv_clk##4 0 0.756fF
+R34 /clk#0D_latch@0_inv_clk##4 /clk#0D_latch@0_inv_clk##5 9.755
+C45 /clk#0D_latch@0_inv_clk##5 0 0.756fF
+R35 /clk#0D_latch@0_inv_clk##5 /clk#0D_latch@0_inv_clk##6 9.755
+C46 /clk#0D_latch@0_inv_clk##6 0 0.756fF
+R36 /clk#0D_latch@0_inv_clk##6 /clk#0D_latch@0_inv_clk##7 9.755
+C47 /clk#0D_latch@0_inv_clk##7 0 0.756fF
+R37 /clk#0D_latch@0_inv_clk##7 /clk#0D_latch@0_inv_clk##8 9.755
+C48 /clk#0D_latch@0_inv_clk##8 0 0.756fF
+R38 /clk#0D_latch@0_inv_clk##8 /clk#0D_latch@0_inv_clk##9 9.755
+C49 /clk#0D_latch@0_inv_clk##9 0 0.756fF
+R39 /clk#0D_latch@0_inv_clk##9 /clk#0D_latch@0_inv_clk##10 9.755
+C50 /clk#0D_latch@0_inv_clk##10 0 0.756fF
+R40 /clk#0D_latch@0_inv_clk##10 /clk#0D_latch@0_inv_clk##11 9.755
+C51 /clk#0D_latch@0_inv_clk##11 0 0.756fF
+R41 /clk#0D_latch@0_inv_clk##11 /clk#0D_latch@0_inv_clk##12 9.755
+C52 /clk#0D_latch@0_inv_clk##12 0 0.756fF
+R42 /clk#0D_latch@0_inv_clk##12 /clk#0D_latch@0_inv_clk##13 9.755
+C53 /clk#0D_latch@0_inv_clk##13 0 0.756fF
+R43 /clk#0D_latch@0_inv_clk##13 /clk 9.755
+R44 /clk#1D_latch@1_clk /clk#1D_latch@1_clk##0 8.857
+C54 /clk#1D_latch@1_clk##0 0 0.641fF
+R45 /clk#1D_latch@1_clk##0 /clk#1D_latch@1_clk##1 8.857
+C55 /clk#1D_latch@1_clk##1 0 0.641fF
+R46 /clk#1D_latch@1_clk##1 /clk#1D_latch@1_clk##2 8.857
+C56 /clk#1D_latch@1_clk##2 0 0.641fF
+R47 /clk#1D_latch@1_clk##2 /clk#1D_latch@1_clk##3 8.857
+C57 /clk#1D_latch@1_clk##3 0 0.641fF
+R48 /clk#1D_latch@1_clk##3 /clk#1D_latch@1_clk##4 8.857
+C58 /clk#1D_latch@1_clk##4 0 0.641fF
+R49 /clk#1D_latch@1_clk##4 /clk#1D_latch@1_clk##5 8.857
+C59 /clk#1D_latch@1_clk##5 0 0.641fF
+R50 /clk#1D_latch@1_clk##5 /clk 8.857
 .ENDS Leveille_HW7__D_FF
 
 *** TOP LEVEL CELL: test_Cell{lay}
-XD_FF@0 ckb Qbar ck rd gnd Q vdd Leveille_HW7__D_FF
+XD_FF@0 ckb#2D_FF@0_/clk Qbar ck#2D_FF@0_clk rd gnd Q vdd Leveille_HW7__D_FF
 Xinv@0 gnd vdd Q OUT Leveille_HW7__inv
 Xinv@1 gnd vdd Q OUT Leveille_HW7__inv
 Xinv@2 gnd vdd Q OUT Leveille_HW7__inv
 Xinv@4 gnd vdd D net@0 Leveille_HW7__inv
 Xinv@5 gnd vdd net@0 rd Leveille_HW7__inv
-Xinv@6 gnd vdd CLK ckb Leveille_HW7__inv
-Xinv@7 gnd vdd ckb ck Leveille_HW7__inv
+Xinv@6 gnd vdd CLK#0inv@6_x ckb#5inv@6_y Leveille_HW7__inv
+Xinv@7 gnd vdd ckb#3inv@7_x ck Leveille_HW7__inv
 Xinv@8 gnd vdd Q OUT Leveille_HW7__inv
 Xinv@10 gnd vdd Qbar OUT Leveille_HW7__inv
 Xinv@11 gnd vdd Qbar OUT Leveille_HW7__inv
 Xinv@12 gnd vdd Qbar OUT Leveille_HW7__inv
 Xinv@13 gnd vdd Qbar OUT Leveille_HW7__inv
+** Extracted Parasitic Capacitors ***
+C0 Qbar 0 12.193fF
+C1 ckb#2D_FF@0_/clk 0 0.342fF
+C2 rd 0 2.086fF
+C3 Q 0 11.754fF
+C4 ck#2D_FF@0_clk 0 0.683fF
+C5 OUT 0 44.345fF
+C6 D 0 0.768fF
+C7 net@0 0 2.305fF
+C8 CLK#0inv@6_x 0 0.41fF
+C9 ckb#5inv@6_y 0 0.512fF
+C10 ckb#3inv@7_x 0 0.779fF
+C11 ck 0 0.738fF
+C12 ckb#1pin@4_polysilicon-1 0 1.043fF
+C13 ckb#4pin@5_polysilicon-1 0 1.562fF
+C14 ckb 0 1.998fF
+C15 ck#1pin@7_polysilicon-1 0 1.421fF
+C16 CLK 0 0.41fF
+** Extracted Parasitic Resistors ***
+R0 ck ck##0 9.92
+C17 ck##0 0 0.738fF
+R1 ck##0 ck##1 9.92
+C18 ck##1 0 0.738fF
+R2 ck##1 ck##2 9.92
+C19 ck##2 0 0.738fF
+R3 ck##2 ck##3 9.92
+C20 ck##3 0 0.738fF
+R4 ck##3 ck##4 9.92
+C21 ck##4 0 0.738fF
+R5 ck##4 ck##5 9.92
+C22 ck##5 0 0.738fF
+R6 ck##5 ck##6 9.92
+C23 ck##6 0 0.738fF
+R7 ck##6 ck##7 9.92
+C24 ck##7 0 0.738fF
+R8 ck##7 ck#1pin@7_polysilicon-1 9.92
+R9 ckb ckb##0 9.197
+C25 ckb##0 0 0.702fF
+R10 ckb##0 ckb##1 9.197
+C26 ckb##1 0 0.702fF
+R11 ckb##1 ckb##2 9.197
+C27 ckb##2 0 0.702fF
+R12 ckb##2 ckb##3 9.197
+C28 ckb##3 0 0.702fF
+R13 ckb##3 ckb##4 9.197
+C29 ckb##4 0 0.702fF
+R14 ckb##4 ckb##5 9.197
+C30 ckb##5 0 0.702fF
+R15 ckb##5 ckb##6 9.197
+C31 ckb##6 0 0.702fF
+R16 ckb##6 ckb##7 9.197
+C32 ckb##7 0 0.702fF
+R17 ckb##7 ckb##8 9.197
+C33 ckb##8 0 0.702fF
+R18 ckb##8 ckb##9 9.197
+C34 ckb##9 0 0.702fF
+R19 ckb##9 ckb##10 9.197
+C35 ckb##10 0 0.702fF
+R20 ckb##10 ckb#1pin@4_polysilicon-1 9.197
+R21 ckb#2D_FF@0_/clk ckb#2D_FF@0_/clk##0 6.2
+C36 ckb#2D_FF@0_/clk##0 0 0.342fF
+R22 ckb#2D_FF@0_/clk##0 ckb#1pin@4_polysilicon-1 6.2
+R23 ckb#3inv@7_x ckb#3inv@7_x##0 9.92
+C37 ckb#3inv@7_x##0 0 0.779fF
+R24 ckb#3inv@7_x##0 ckb#3inv@7_x##1 9.92
+C38 ckb#3inv@7_x##1 0 0.779fF
+R25 ckb#3inv@7_x##1 ckb#3inv@7_x##2 9.92
+C39 ckb#3inv@7_x##2 0 0.779fF
+R26 ckb#3inv@7_x##2 ckb#3inv@7_x##3 9.92
+C40 ckb#3inv@7_x##3 0 0.779fF
+R27 ckb#3inv@7_x##3 ckb#3inv@7_x##4 9.92
+C41 ckb#3inv@7_x##4 0 0.779fF
+R28 ckb#3inv@7_x##4 ckb#3inv@7_x##5 9.92
+C42 ckb#3inv@7_x##5 0 0.779fF
+R29 ckb#3inv@7_x##5 ckb#3inv@7_x##6 9.92
+C43 ckb#3inv@7_x##6 0 0.779fF
+R30 ckb#3inv@7_x##6 ckb#3inv@7_x##7 9.92
+C44 ckb#3inv@7_x##7 0 0.779fF
+R31 ckb#3inv@7_x##7 ckb#3inv@7_x##8 9.92
+C45 ckb#3inv@7_x##8 0 0.779fF
+R32 ckb#3inv@7_x##8 ckb#3inv@7_x##9 9.92
+C46 ckb#3inv@7_x##9 0 0.779fF
+R33 ckb#3inv@7_x##9 ckb#3inv@7_x##10 9.92
+C47 ckb#3inv@7_x##10 0 0.779fF
+R34 ckb#3inv@7_x##10 ckb#3inv@7_x##11 9.92
+C48 ckb#3inv@7_x##11 0 0.779fF
+R35 ckb#3inv@7_x##11 ckb#3inv@7_x##12 9.92
+C49 ckb#3inv@7_x##12 0 0.779fF
+R36 ckb#3inv@7_x##12 ckb#3inv@7_x##13 9.92
+C50 ckb#3inv@7_x##13 0 0.779fF
+R37 ckb#3inv@7_x##13 ckb#3inv@7_x##14 9.92
+C51 ckb#3inv@7_x##14 0 0.779fF
+R38 ckb#3inv@7_x##14 ckb#3inv@7_x##15 9.92
+C52 ckb#3inv@7_x##15 0 0.779fF
+R39 ckb#3inv@7_x##15 ckb#3inv@7_x##16 9.92
+C53 ckb#3inv@7_x##16 0 0.779fF
+R40 ckb#3inv@7_x##16 ckb#3inv@7_x##17 9.92
+C54 ckb#3inv@7_x##17 0 0.779fF
+R41 ckb#3inv@7_x##17 ckb#4pin@5_polysilicon-1 9.92
+R42 ckb#5inv@6_y ckb#5inv@6_y##0 9.3
+C55 ckb#5inv@6_y##0 0 0.512fF
+R43 ckb#5inv@6_y##0 ckb 9.3
+R44 ckb#4pin@5_polysilicon-1 ckb#4pin@5_polysilicon-1##0 9.828
+C56 ckb#4pin@5_polysilicon-1##0 0 0.783fF
+R45 ckb#4pin@5_polysilicon-1##0 ckb#4pin@5_polysilicon-1##1 9.828
+C57 ckb#4pin@5_polysilicon-1##1 0 0.783fF
+R46 ckb#4pin@5_polysilicon-1##1 ckb#4pin@5_polysilicon-1##2 9.828
+C58 ckb#4pin@5_polysilicon-1##2 0 0.783fF
+R47 ckb#4pin@5_polysilicon-1##2 ckb#4pin@5_polysilicon-1##3 9.828
+C59 ckb#4pin@5_polysilicon-1##3 0 0.783fF
+R48 ckb#4pin@5_polysilicon-1##3 ckb#4pin@5_polysilicon-1##4 9.828
+C60 ckb#4pin@5_polysilicon-1##4 0 0.783fF
+R49 ckb#4pin@5_polysilicon-1##4 ckb#4pin@5_polysilicon-1##5 9.828
+C61 ckb#4pin@5_polysilicon-1##5 0 0.783fF
+R50 ckb#4pin@5_polysilicon-1##5 ckb#4pin@5_polysilicon-1##6 9.828
+C62 ckb#4pin@5_polysilicon-1##6 0 0.783fF
+R51 ckb#4pin@5_polysilicon-1##6 ckb#4pin@5_polysilicon-1##7 9.828
+C63 ckb#4pin@5_polysilicon-1##7 0 0.783fF
+R52 ckb#4pin@5_polysilicon-1##7 ckb#4pin@5_polysilicon-1##8 9.828
+C64 ckb#4pin@5_polysilicon-1##8 0 0.783fF
+R53 ckb#4pin@5_polysilicon-1##8 ckb#4pin@5_polysilicon-1##9 9.828
+C65 ckb#4pin@5_polysilicon-1##9 0 0.783fF
+R54 ckb#4pin@5_polysilicon-1##9 ckb#4pin@5_polysilicon-1##10 9.828
+C66 ckb#4pin@5_polysilicon-1##10 0 0.783fF
+R55 ckb#4pin@5_polysilicon-1##10 ckb#4pin@5_polysilicon-1##11 9.828
+C67 ckb#4pin@5_polysilicon-1##11 0 0.783fF
+R56 ckb#4pin@5_polysilicon-1##11 ckb#4pin@5_polysilicon-1##12 9.828
+C68 ckb#4pin@5_polysilicon-1##12 0 0.783fF
+R57 ckb#4pin@5_polysilicon-1##12 ckb#4pin@5_polysilicon-1##13 9.828
+C69 ckb#4pin@5_polysilicon-1##13 0 0.783fF
+R58 ckb#4pin@5_polysilicon-1##13 ckb#4pin@5_polysilicon-1##14 9.828
+C70 ckb#4pin@5_polysilicon-1##14 0 0.783fF
+R59 ckb#4pin@5_polysilicon-1##14 ckb#4pin@5_polysilicon-1##15 9.828
+C71 ckb#4pin@5_polysilicon-1##15 0 0.783fF
+R60 ckb#4pin@5_polysilicon-1##15 ckb#4pin@5_polysilicon-1##16 9.828
+C72 ckb#4pin@5_polysilicon-1##16 0 0.783fF
+R61 ckb#4pin@5_polysilicon-1##16 ckb#4pin@5_polysilicon-1##17 9.828
+C73 ckb#4pin@5_polysilicon-1##17 0 0.783fF
+R62 ckb#4pin@5_polysilicon-1##17 ckb#4pin@5_polysilicon-1##18 9.828
+C74 ckb#4pin@5_polysilicon-1##18 0 0.783fF
+R63 ckb#4pin@5_polysilicon-1##18 ckb#4pin@5_polysilicon-1##19 9.828
+C75 ckb#4pin@5_polysilicon-1##19 0 0.783fF
+R64 ckb#4pin@5_polysilicon-1##19 ckb#4pin@5_polysilicon-1##20 9.828
+C76 ckb#4pin@5_polysilicon-1##20 0 0.783fF
+R65 ckb#4pin@5_polysilicon-1##20 ckb#4pin@5_polysilicon-1##21 9.828
+C77 ckb#4pin@5_polysilicon-1##21 0 0.783fF
+R66 ckb#4pin@5_polysilicon-1##21 ckb#4pin@5_polysilicon-1##22 9.828
+C78 ckb#4pin@5_polysilicon-1##22 0 0.783fF
+R67 ckb#4pin@5_polysilicon-1##22 ckb#4pin@5_polysilicon-1##23 9.828
+C79 ckb#4pin@5_polysilicon-1##23 0 0.783fF
+R68 ckb#4pin@5_polysilicon-1##23 ckb#4pin@5_polysilicon-1##24 9.828
+C80 ckb#4pin@5_polysilicon-1##24 0 0.783fF
+R69 ckb#4pin@5_polysilicon-1##24 ckb#4pin@5_polysilicon-1##25 9.828
+C81 ckb#4pin@5_polysilicon-1##25 0 0.783fF
+R70 ckb#4pin@5_polysilicon-1##25 ckb 9.828
+R71 ck#2D_FF@0_clk ck#2D_FF@0_clk##0 9.92
+C82 ck#2D_FF@0_clk##0 0 0.683fF
+R72 ck#2D_FF@0_clk##0 ck#2D_FF@0_clk##1 9.92
+C83 ck#2D_FF@0_clk##1 0 0.683fF
+R73 ck#2D_FF@0_clk##1 ck#2D_FF@0_clk##2 9.92
+C84 ck#2D_FF@0_clk##2 0 0.683fF
+R74 ck#2D_FF@0_clk##2 ck#2D_FF@0_clk##3 9.92
+C85 ck#2D_FF@0_clk##3 0 0.683fF
+R75 ck#2D_FF@0_clk##3 ck#1pin@7_polysilicon-1 9.92
+R76 CLK#0inv@6_x CLK#0inv@6_x##0 7.44
+C86 CLK#0inv@6_x##0 0 0.41fF
+R77 CLK#0inv@6_x##0 CLK 7.44
 
 * Spice Code nodes in cell cell 'test_Cell{lay}'
 VGND GND 0 DC 0
 VVDD VDD 0 DC 5
 VCLK CLK 0 DC 0 PULSE 0 5 0 10p 10p 3n 6n
-VIN D 0 DC 0 PULSE 5 0 200p 10p 10p 9n 18n
+VIN D 0 DC 0 PULSE 5 0 200p 10p 10p 6n 11.9n
 .include c5.txt
 .tran 2000n UIC
 .save v(rd) v(ck) v(q) v(qbar) v(D_FF@2:D_latch@0:x) v(D_FF@2:outbar) v(D_FF@2:D_latch@1:x) v(D_FF@2:mid) dialogbox

@@ -330,7 +330,7 @@ Ey||D5G2;|y|y|O
 X
 
 # Cell test_Cell;1{lay}
-Ctest_Cell;1{lay}||mocmos|1585954328761|1586033187760||DRC_last_good_drc_area_date()G1586033190325|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1586033190325
+Ctest_Cell;1{lay}||mocmos|1585954328761|1586031731725||DRC_last_good_drc_area_date()G1586031702626|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1586031702626
 ID_FF;1{lay}|D_FF@0||-176|3|||D5G4;
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-Metal-2-Con|contact@0||-397|16||||
@@ -376,7 +376,7 @@ NPolysilicon-1-Pin|pin@21||-45|30||||
 NMetal-1-Pin|pin@22||0|-86||||
 NMetal-1-Pin|pin@23||0|56||||
 NPolysilicon-1-Pin|pin@24||-404|-36||||
-Ngeneric:Invisible-Pin|pin@25||-538|-172|||||SIM_spice_card(D9G10;)S[VGND GND 0 DC 0,VVDD VDD 0 DC 5,VCLK CLK 0 DC 0 PULSE 0 5 0 10p 10p 3n 6n,VIN D 0 DC 0 PULSE 5 0 200p 10p 10p 6n 11.9n,.include c5.txt,.tran 2000n UIC,.save v(rd) v(ck) v(q) v(qbar) v(D_FF@2:D_latch@0:x) v(D_FF@2:outbar) v(D_FF@2:D_latch@1:x) v(D_FF@2:mid) dialogbox,*.options post]
+Ngeneric:Invisible-Pin|pin@25||-538|-172|||||SIM_spice_card(D9G10;)S[VGND GND 0 DC 0,VVDD VDD 0 DC 5,VCLK CLK 0 DC 0 PULSE 0 5 0 10p 10p 3n 6n,VIN D 0 DC 0 PULSE 5 0 200p 10p 10p 9n 18n,.include c5.txt,.tran 2000n UIC,.save v(rd) v(ck) v(q) v(qbar) v(D_FF@2:D_latch@0:x) v(D_FF@2:outbar) v(D_FF@2:D_latch@1:x) v(D_FF@2:mid) dialogbox,*.options post]
 AMetal-1|OUT|D5G20;|1|S2700|pin@22||0|-86|pin@23||0|56
 AMetal-1|Q|D5G20;|1|S1800|D_FF@0|Q|-11|70|inv@0|x|16|70
 AMetal-1|Qbar|D5G20;|1|S2700|inv@10|x|-147|-72|pin@10||-147|-49

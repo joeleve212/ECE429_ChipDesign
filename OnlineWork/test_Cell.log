@@ -16,21 +16,21 @@ WARNING: Less than two connections to node D_FF@0:D_LATCH@1:TRANSGAT@0:VDD.  Thi
 WARNING: Less than two connections to node D_FF@0:D_LATCH@1:TRANSGAT@1:VDD.  This node is used by M:D_FF@0:D_LATCH@1:TRANSGAT@1:PMOS@0.
 Per .tran options, skipping operating point for transient analysis.
 
-Date: Sat Apr  4 15:22:25 2020
-Total elapsed time: 7.725 seconds.
+Date: Sat Apr  4 15:46:56 2020
+Total elapsed time: 24.900 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 164075
-traniter = 164075
-tranpoints = 65561
-accept = 48959
-rejected = 16602
-matrix size = 24
-fillins = 4
+totiter = 180151
+traniter = 180151
+tranpoints = 70590
+accept = 52247
+rejected = 18343
+matrix size = 479
+fillins = 868
 solver = Normal
-Thread vector: 66.0/26.2[4] 23.9/11.6[4] 3.8/2.9[4] 0.5/2.3[1]  2592/500
-Matrix Compiler1:     191 opcodes  2.3/[1.4]/1.8
-Matrix Compiler2: 2.95 KB object code size  0.9/1.4/[0.4]
+Thread vector: 94.9/67.5[6] 68.9/24.7[6] 3.7/5.3[1] 5.8/8.6[1]  2592/500
+Matrix Compiler1: 63.01 KB object code size  50.2/30.3/[11.2]
+Matrix Compiler2: 51.18 KB object code size  11.3/25.0/[7.0]
 
