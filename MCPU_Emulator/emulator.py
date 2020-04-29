@@ -1,6 +1,6 @@
 import sys
 
-inFile = open("exInput.txt","r")
+inFile = open("exInput.txt","r")    #TODO: change file name to match with 
 lines = inFile.readlines()
 mem = []
 for i in range(len(lines)):     #scroll through each line of file
@@ -13,6 +13,9 @@ inFile.close()
 pc = 0
 acc = 0
 cf = 0
+
+##Possible TODO: add ways to output?
+##Possible TODO: allow for loops/more than 64 instructions?
 
 for i in range(64):
     instruction = mem[pc & 0x3F]
