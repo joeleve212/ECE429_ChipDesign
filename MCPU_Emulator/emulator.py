@@ -1,7 +1,7 @@
 import sys
-
-inFile = open("exInput.txt","r")    #TODO: change file name to match with 
-lines = inFile.readlines()
+inFileName = sys.argv[1]         #Use first command line arg as name of input file
+inFile = open(inFileName,"r")     
+lines = inFile.readlines()      #populate lines with strings from each line
 mem = []
 for i in range(len(lines)):     #scroll through each line of file
     if(i!=len(lines)-1):        #if not last line,
@@ -32,9 +32,7 @@ while pc <64:                   #keeps going until finished going through all in
     elif opcode == 2:       # STA/store operation
         mem[arg] = acc
         print('+', arg, hex(mem[arg]))
-    else:                   # JCC operation - jump to pc = arg if carry is 0, reset carry
-        if instruction == 0xFF:    #if jumping to last loc in mem, 
-            print(acc)             #show value of accumulator                                       ----------------------WHY IS THIS A THING
-        elif cf == 0:              #if carry is 0,
+    else:                   # JCC operation - jump to pc = arg if carry is 0, then reset carry
+        if cf == 0:              #if carry is 0,
             pc = arg               #move program counter to desired location
         cf = 0                     #reset carry
