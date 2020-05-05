@@ -14,9 +14,9 @@ pc = 0
 acc = 0
 cf = 0
 
-while pc <64:                   # 
+while pc <64:                   #keeps going until finished going through all instructions
     instruction = mem[pc & 0x3F]#using pc as the index, grab next instruction
-    pc += 1                     #increment program counter each instruction                 ----------------------------WAIT TO INCREMENT TILL AFTER PRINTING?
+    pc += 1                     #increment program counter each instruction         
     opcode = instruction >> 6   #take 2 MSBs as the op code
     arg = instruction & 0x3F    #take the 6 LSBs as the argument
     
